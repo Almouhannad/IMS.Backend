@@ -68,15 +68,13 @@ public static class ValidationDecorator
         TCommand command,
         IEnumerable<IValidator<TCommand>> validators)
     {
-        if (!validators.Any())
-        {
-            return [];
-        }
+        var validatorArray = validators as IValidator<TCommand>[] ?? [.. validators];
+        if (validatorArray.Length == 0) return [];
 
         var context = new ValidationContext<TCommand>(command);
 
         ValidationResult[] validationResults = await Task.WhenAll(
-            validators.Select(validator => validator.ValidateAsync(context)));
+            validatorArray.Select(v => v.ValidateAsync(context)));
 
         ValidationFailure[] validationFailures = [.. validationResults
             .Where(validationResult => !validationResult.IsValid)
