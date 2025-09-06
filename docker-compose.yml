@@ -1,0 +1,8 @@
+services:
+  ims.api:
+    image: ${DOCKER_REGISTRY-}imsapi
+    build:
+      context: .
+      dockerfile: IMS.API/Dockerfile
+    ports:
+      - "8000:8080"
