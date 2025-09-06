@@ -27,32 +27,26 @@ public enum ErrorType
     Conflict = 3,
 
     /// <summary>
-    /// Domain/business rule violation.
-    /// Typical HTTP: 409 or 422.
-    /// </summary>
-    BusinessRule = 4,
-
-    /// <summary>
     /// Authentication required or failed.
     /// Typical HTTP: 401.
     /// </summary>
-    Unauthorized = 5,
+    Unauthorized = 4,
 
     /// <summary>
     /// Authenticated but not allowed to perform the action.
     /// Typical HTTP: 403.
     /// </summary>
-    Forbidden = 6,
+    Forbidden = 5,
 
     /// <summary>
     /// Too many requests / throttling.
     /// Typical HTTP: 429.
     /// </summary>
-    RateLimited = 7,
+    RateLimited = 6,
 
     /// <summary>
     /// Infrastructure or persistence issue (e.g., DB unavailable).
     /// Typical HTTP: 500 or 503.
     /// </summary>
-    Infrastructure = 8
+    Infrastructure = 7
 }
