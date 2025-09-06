@@ -2,7 +2,6 @@
 using FluentValidation.Results;
 using IMS.SharedKernel.CQRS;
 using IMS.SharedKernel.ResultPattern;
-using IMS.SharedKernel.Validation;
 
 namespace IMS.SharedKernel.Decorators;
 

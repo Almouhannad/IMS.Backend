@@ -58,5 +58,42 @@ public record Error
         "General.Null",
         "Null value was provided.",
         ErrorType.Validation);
+}
 
+/// <summary>
+/// Specialized <see cref="Error"/> type that aggregates multiple validation errors
+/// into a single object. Useful for model validation scenarios where several fields
+/// may fail simultaneously.
+/// </summary>
+public sealed record ValidationError : Error
+{
+    /// <summary>
+    /// Collection of individual validation <see cref="Error"/>s.
+    /// Each represents a single validation failure (e.g., invalid field, missing value).
+    /// </summary>
+    public Error[] Errors { get; }
+
+    /// <summary>
+    /// Creates a new <see cref="ValidationError"/> from an array of <see cref="Error"/>s.
+    /// </summary>
+    /// <param name="errors">The individual validation errors to include.</param>
+    public ValidationError(Error[] errors)
+        : base(
+            "Validation.General",
+            "One or more validation errors occurred",
+            ErrorType.Validation)
+    {
+        Errors = errors;
+    }
+
+    /// <summary>
+    /// Builds a <see cref="ValidationError"/> by collecting all failed results
+    /// from a sequence of <see cref="Result"/> objects.
+    /// </summary>
+    /// <param name="results">A set of results that may contain validation failures.</param>
+    /// <returns>
+    /// A <see cref="ValidationError"/> containing the errors from all failed results.
+    /// </returns>
+    public static ValidationError FromResults(IEnumerable<Result> results) =>
+        new([.. results.Where(r => r.IsFailure).Select(r => r.Error)]);
 }
