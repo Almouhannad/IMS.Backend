@@ -21,6 +21,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.Config", "IMS.Config\IMS.Config.csproj", "{88BC33C5-120E-0A7E-BCDE-33C98FAACB20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.Tests", "IMS.Tests\IMS.Tests.csproj", "{0E903648-5A95-ADB8-9567-DC6F68458EF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{88BC33C5-120E-0A7E-BCDE-33C98FAACB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BC33C5-120E-0A7E-BCDE-33C98FAACB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BC33C5-120E-0A7E-BCDE-33C98FAACB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E903648-5A95-ADB8-9567-DC6F68458EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E903648-5A95-ADB8-9567-DC6F68458EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E903648-5A95-ADB8-9567-DC6F68458EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E903648-5A95-ADB8-9567-DC6F68458EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{2C36DF85-10EA-1211-6C24-0BC9AEE92461} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{38CC543A-4486-2789-7C48-D7C54712C580} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{88BC33C5-120E-0A7E-BCDE-33C98FAACB20} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0E903648-5A95-ADB8-9567-DC6F68458EF8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B910C8C8-213C-44A5-958C-964F439599E0}
