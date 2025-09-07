@@ -37,12 +37,12 @@ public sealed class Product
         string barcode,
         string? description,
         double weight,
+        ProductStatus status,
         Category category)
     {
         // Add business rules (Not validation ones) here if needed
         
-        return Result.Success(new Product(id, name, barcode, description, weight, ProductStatus.InStock, category));
-        // InStock as default
+        return Result.Success(new Product(id, name, barcode, description, weight, status, category));
     }
 
     public Result ChangeStatus(ProductStatus newStatus)

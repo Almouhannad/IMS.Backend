@@ -10,5 +10,14 @@
                 ErrorType.Validation
             );
         }
+
+        public static Error EntityNotFoundError(string entityName)
+        {
+            return new Error(
+                $"{entityName}.NotFound",
+                $"{entityName} was not found.",
+                ErrorType.Validation
+            );
+        }
     }
 }
