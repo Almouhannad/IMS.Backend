@@ -42,8 +42,8 @@ public static class CategoryMappings
         // Normalize: lowercase + trim + collapse multiple spaces
         return string.Join(
             " ",
-            name.Trim().ToLower().Split([' '], StringSplitOptions.RemoveEmptyEntries)
+            name.Trim().ToLower().Split(' ', StringSplitOptions.RemoveEmptyEntries)
         );
-        
+
     }
 }

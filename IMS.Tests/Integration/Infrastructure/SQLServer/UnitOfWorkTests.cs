@@ -10,6 +10,7 @@ public class UnitOfWorkTests
     [Fact]
     public async Task SaveChangesAsync_PersistsData()
     {
+        // Arrange
         var dbName = Guid.NewGuid().ToString();
         var options = new DbContextOptionsBuilder<IMSDBContext>()
             .UseInMemoryDatabase(dbName)
@@ -27,7 +28,10 @@ public class UnitOfWorkTests
         var product = Product.Create(Guid.NewGuid(), "Phone", "001", null, 0.5, ProductStatus.InStock, category).Value;
         await unitOfWork.Products.CreateAsync(product);
 
+        // Act
         var saveResult = await unitOfWork.SaveChangesAsync();
+
+        // Assert
         Assert.True(saveResult.IsSuccess);
 
         await using var verifyContext = new IMSDBContext(

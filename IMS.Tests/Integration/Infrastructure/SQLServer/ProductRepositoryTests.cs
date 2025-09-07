@@ -10,6 +10,7 @@ public class ProductRepositoryTests
     [Fact]
     public async Task CreateUpdateDeleteProduct_Workflow()
     {
+        // Arrange
         var options = new DbContextOptionsBuilder<IMSDBContext>()
             .UseInMemoryDatabase(Guid.NewGuid().ToString())
             .Options;
@@ -24,33 +25,39 @@ public class ProductRepositoryTests
 
         var repository = new ProductRepository(context, NullLogger<ProductRepository>.Instance);
         var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+
+        // Act
         var createResult = await repository.CreateAsync(product);
-        Assert.True(createResult.IsSuccess);
         await context.SaveChangesAsync();
         context.ChangeTracker.Clear();
 
         var getById = await repository.GetByIdAsync(product.Id);
-        Assert.True(getById.IsSuccess);
-        Assert.NotNull(getById.Value);
-        Assert.Equal("Car", getById.Value!.Name);
 
         product.ChangeStatus(ProductStatus.Sold);
         var updateResult = repository.Update(product);
-        Assert.True(updateResult.IsSuccess);
         await context.SaveChangesAsync();
         context.ChangeTracker.Clear();
 
         var soldProducts = await repository.GetAllAsync(ProductStatus.Sold);
-        Assert.True(soldProducts.IsSuccess);
-        Assert.Single(soldProducts.Value);
-        Assert.Equal(ProductStatus.Sold, soldProducts.Value.First().Status);
 
         var deleteResult = repository.Delete(product);
-        Assert.True(deleteResult.IsSuccess);
         await context.SaveChangesAsync();
         context.ChangeTracker.Clear();
 
         var afterDelete = await repository.GetByIdAsync(product.Id);
+
+        // Assert
+        Assert.True(createResult.IsSuccess);
+        Assert.True(getById.IsSuccess);
+        Assert.NotNull(getById.Value);
+        Assert.Equal("Car", getById.Value!.Name);
+
+        Assert.True(updateResult.IsSuccess);
+        Assert.True(soldProducts.IsSuccess);
+        Assert.Single(soldProducts.Value);
+        Assert.Equal(ProductStatus.Sold, soldProducts.Value.First().Status);
+
+        Assert.True(deleteResult.IsSuccess);
         Assert.True(afterDelete.IsSuccess);
         Assert.Null(afterDelete.Value);
     }
