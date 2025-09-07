@@ -9,7 +9,7 @@ public interface IProductRepository
     Task<Result> CreateAsync(Product product, CancellationToken cancellationToken = default);
 
     // Read
-    Task<Result<Product>> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+    Task<Result<Product?>> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
     Task<Result<IReadOnlyList<Product>>> GetAllAsync(ProductStatus? status = null, CancellationToken cancellationToken = default);
 
     Task<Result> UpdateAsync(Product product, CancellationToken cancellationToken = default);
