@@ -12,6 +12,6 @@ public interface IProductRepository
     Task<Result<Product?>> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
     Task<Result<IReadOnlyList<Product>>> GetAllAsync(ProductStatus? status = null, CancellationToken cancellationToken = default);
 
-    Task<Result> UpdateAsync(Product product, CancellationToken cancellationToken = default);
-    Task<Result> DeleteAsync(Product product, CancellationToken cancellationToken = default);
+    Result Update(Product product);
+    Result Delete(Product product);
 }
