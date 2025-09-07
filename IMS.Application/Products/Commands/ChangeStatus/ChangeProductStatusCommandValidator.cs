@@ -9,13 +9,12 @@ public sealed class ChangeProductStatusCommandValidator : AbstractValidator<Chan
     {
         RuleFor(c => c.NewStatus)
             .Must(BeValidStatus)
-            .When(c => !string.IsNullOrWhiteSpace(c.NewStatus))
             .WithMessage("NewStatus must be one of the allowed product statuses (InStock, Sold, Damaged).");
     }
     private static bool BeValidStatus(string? statusFilter)
     {
         if (string.IsNullOrWhiteSpace(statusFilter))
-            return true; // handled by When(...)
+            return false;
 
         return ProductStatuses.TryGetStatus(statusFilter, out _);
     }

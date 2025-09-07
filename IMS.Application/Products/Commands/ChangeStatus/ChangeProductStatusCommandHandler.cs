@@ -20,7 +20,7 @@ public sealed class ChangeProductStatusCommandHandler(IUnitOfWork unitOfWork) : 
         }
         if (getProductResult.Value is null)
         {
-            return Result.Success(ProductErrors.NotFound);
+            return Result.Failure(ProductErrors.NotFound);
         }
 
         var product = getProductResult.Value;
