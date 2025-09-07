@@ -54,19 +54,27 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
         query = query
             .Include(product => product.Category)
             .Include(product => product.Status);
+        List<ProductDao> daoList = [];
+        List<Product> domainList = [];
         try
         {
-            var daoList = await query.ToListAsync(cancellationToken);
-            return daoList
-                .Select(p => p.ToDomain().Value) // TODO: Handle mapping to domain errors when such logic appears
-                .ToList()
-                .AsReadOnly();
+            daoList = await query.ToListAsync(cancellationToken);
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Failed to get products");
             return Result.Failure<IReadOnlyList<Product>>(CommonErrors.OperationFailureError("Get", "Products"));
         }
+        foreach (var productDao in daoList)
+        {
+            var mapToProductDomainResult = productDao.ToDomain();
+            if (mapToProductDomainResult.IsFailure)
+            {
+                return Result.Failure<IReadOnlyList<Product>>(mapToProductDomainResult.Error);
+            }
+            domainList.Add(mapToProductDomainResult.Value);
+        }
+        return domainList.AsReadOnly();
 
     }
 
