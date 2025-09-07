@@ -12,4 +12,8 @@
     <ProjectReference Include="..\IMS.SharedKernel\IMS.SharedKernel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Products\Commands\" />
+  </ItemGroup>
+
 </Project>
