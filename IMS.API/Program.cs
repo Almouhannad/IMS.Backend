@@ -1,8 +1,11 @@
+using IMS.Application;
 using IMS.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.RegisterSQLServerPersistenceFromInfrastructure();
+builder.Services
+    .RegisterSQLServerPersistenceFromInfrastructure()
+    .RegisterCommandsAndQueriesFromApplication();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
