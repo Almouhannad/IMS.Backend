@@ -1,8 +1,40 @@
+version: '3.9'
+
 services:
   ims.api:
     image: ${DOCKER_REGISTRY-}imsapi
+    container_name: ims.api
     build:
       context: .
       dockerfile: IMS.API/Dockerfile
     ports:
       - "8000:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    environment:
+      SQL_SERVER_CONNECTION_STRING: "${SQL_SERVER_CONNECTION_STRING}"
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA:    "Y"
+      SA_PASSWORD:    "${SQL_SERVER_SA_PASSWORD}"
+      DB_NAME:        "${SQL_SERVER_DB_NAME}"
+      MSSQL_PID:      "Developer"
+      MSSQL_TCP_PORT: "1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ./.docker/mssql/init-db.sh:/usr/local/bin/init-db.sh:ro
+    command: ["/bin/bash","-lc","/usr/local/bin/init-db.sh"]
+    healthcheck:
+      test: [ "CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$SQL_SERVER_SA_PASSWORD\" -Q \"SELECT 1\"" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+
+volumes:
+  sql_data:
