@@ -10,6 +10,8 @@ public static class ProductErrors
 
     public static readonly Error InvalidWeight = CommonErrors.InvalidFieldError("Product", "Weight");
 
+    public static readonly Error InvalidCategory = CommonErrors.InvalidFieldError("Product", "Category");
+
     public static readonly Error NotFound = CommonErrors.EntityNotFoundError("Product");
 
     public static readonly Error NotInStock = new(

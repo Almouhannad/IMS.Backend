@@ -41,7 +41,10 @@ public sealed class Product
         Category category)
     {
         // Add business rules (Not validation ones) here if needed
-        
+        if (category is null)
+        {
+            return Result.Failure<Product>(ProductErrors.InvalidCategory);
+        }
         return Result.Success(new Product(id, name, barcode, description, weight, status, category));
     }
 
