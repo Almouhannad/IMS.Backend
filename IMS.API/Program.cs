@@ -1,4 +1,8 @@
+using IMS.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.RegisterSQLServerPersistenceFromInfrastructure();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -13,12 +17,15 @@ if (app.Environment.IsDevelopment())
     // TODO: Fill initial data in this case
 }
 
+// Update database in container
+app.ApplySQLServerMigrationsFromInfrastructure();
+
 app.MapGet("/health", () =>
 {
+    
     return TypedResults.Ok(new { status = "Healthy" });
 })
 .WithName("GetHealthStatus")
-//.WithOpenApi()
-;
+.WithOpenApi();
 
 app.Run();
