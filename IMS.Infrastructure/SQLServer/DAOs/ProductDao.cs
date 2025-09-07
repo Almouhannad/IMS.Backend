@@ -9,6 +9,7 @@ namespace IMS.Infrastructure.SQLServer.DAOs;
 [Table("Products")]
 [Index(nameof(Id), IsUnique = true)]
 [Index(nameof(Barcode), IsUnique = true)]
+[Index(nameof(StatusId))]
 public sealed class ProductDao
 {
     [Key]
