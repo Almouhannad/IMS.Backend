@@ -37,9 +37,8 @@ public sealed class CategoryRepository(IMSDBContext context) : ICategoryReposito
             }
             return queryResult.ToDomain()!;
         }
-        catch (Exception e)
+        catch (Exception)
         {
-            throw;
             return Result.Failure<Category?>(CommonErrors.OperationFailureError("Get", "Category"));
         }
 
