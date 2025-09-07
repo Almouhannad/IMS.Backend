@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IMS.Application\IMS.Application.csproj" />
+    <ProjectReference Include="..\IMS.Config\IMS.Config.csproj" />
     <ProjectReference Include="..\IMS.Domain\IMS.Domain.csproj" />
     <ProjectReference Include="..\IMS.SharedKernel\IMS.SharedKernel.csproj" />
   </ItemGroup>
