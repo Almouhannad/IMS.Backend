@@ -22,7 +22,7 @@ public static class ProductStatuses
         );
 
     // Helper method to normalize input and fetch enum value
-    public static bool TryGetStatus(string input, out ProductStatus status)
+    public static bool TryGetStatus(string? input, out ProductStatus status)
     {
         if (string.IsNullOrWhiteSpace(input))
         {
@@ -31,7 +31,7 @@ public static class ProductStatuses
         }
 
         // normalize: remove spaces, ignore case
-        string normalized = input.Replace(" ", string.Empty);
+        string normalized = string.Concat(input.Where(c => !char.IsWhiteSpace(c)));
 
         return Values.TryGetValue(normalized, out status);
     }

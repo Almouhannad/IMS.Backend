@@ -16,7 +16,9 @@ public sealed class GetAllProductsQueryHandler(IUnitOfWork unitOfWork)
         CancellationToken cancellationToken)
     {
         // Parse/normalie the incoming status (null if not valid/provided)
-        ProductStatus? statusFilter = ParseStatus(query.StatusFilter);
+        ProductStatus? statusFilter = ProductStatuses.TryGetStatus(query.StatusFilter, out var status)
+            ? status
+            : null;
 
         var getAllResult = await _unitOfWork.Products
             .GetAllAsync(statusFilter, cancellationToken)
@@ -29,11 +31,5 @@ public sealed class GetAllProductsQueryHandler(IUnitOfWork unitOfWork)
                     .Select(p => p.ToResponse())
                     .ToList()
                     .AsReadOnly();
-    }
-
-    private static ProductStatus? ParseStatus(string? raw)
-    {
-        if (string.IsNullOrWhiteSpace(raw)) return null;
-        return ProductStatuses.TryGetStatus(raw, out var status) ? status : null;
     }
 }
