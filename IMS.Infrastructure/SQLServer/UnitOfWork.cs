@@ -1,13 +1,15 @@
 ﻿using IMS.Domain.Interfaces;
 using IMS.SharedKernel.ResultPattern;
+using Microsoft.Extensions.Logging;
 
 namespace IMS.Infrastructure.SQLServer;
 
-public sealed class UnitOfWork(IMSDBContext context) : IUnitOfWork
+public sealed class UnitOfWork(IMSDBContext context, ILoggerFactory loggerFactory) : IUnitOfWork
 {
     private readonly IMSDBContext _context = context;
-    public IProductRepository Products { get; } = new ProductRepository(context);
-    public ICategoryRepository Categories { get; } = new CategoryRepository(context);
+    private readonly ILogger<UnitOfWork> _logger = loggerFactory.CreateLogger<UnitOfWork>();
+    public IProductRepository Products { get; } = new ProductRepository(context, loggerFactory.CreateLogger<ProductRepository>());
+    public ICategoryRepository Categories { get; } = new CategoryRepository(context, loggerFactory.CreateLogger<CategoryRepository>());
 
     public async Task<Result> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
@@ -15,8 +17,9 @@ public sealed class UnitOfWork(IMSDBContext context) : IUnitOfWork
         {
             await _context.SaveChangesAsync(cancellationToken);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to save changes");
             return Result.Failure(new Error("Persistence.Failure", "Unable to persist data", ErrorType.Failure));
         }
         

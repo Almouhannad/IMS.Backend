@@ -3,12 +3,14 @@ using IMS.Domain.Interfaces;
 using IMS.Infrastructure.SQLServer.DAOs;
 using IMS.SharedKernel.ResultPattern;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace IMS.Infrastructure.SQLServer;
 
-public sealed class ProductRepository(IMSDBContext context) : IProductRepository
+public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepository> logger) : IProductRepository
 {
     private readonly IMSDBContext _context = context;
+    private readonly ILogger<ProductRepository> _logger = logger;
 
     public async Task<Result> CreateAsync(Product product, CancellationToken cancellationToken = default)
     {
@@ -18,8 +20,9 @@ public sealed class ProductRepository(IMSDBContext context) : IProductRepository
             await _context.Products.AddAsync(productDao, cancellationToken);
             return Result.Success();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to create product {Product}", product);
             return Result.Failure(CommonErrors.OperationFailureError("Create", "Product"));
         }
     }
@@ -32,8 +35,9 @@ public sealed class ProductRepository(IMSDBContext context) : IProductRepository
             _context.Remove(productsDao);
             return Result.Success();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to delete product {Product}", product);
             return Result.Failure(CommonErrors.OperationFailureError("Delete", "Product"));
         }
     }
@@ -58,8 +62,9 @@ public sealed class ProductRepository(IMSDBContext context) : IProductRepository
                 .ToList()
                 .AsReadOnly();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to get products");
             return Result.Failure<IReadOnlyList<Product>>(CommonErrors.OperationFailureError("Get", "Products"));
         }
 
@@ -82,8 +87,9 @@ public sealed class ProductRepository(IMSDBContext context) : IProductRepository
             }
             return queryResult.ToDomain()!;
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to get product by id {Id}", id);
             return Result.Failure<Product?>(CommonErrors.OperationFailureError("Get", "Product"));
         }
 
@@ -97,8 +103,9 @@ public sealed class ProductRepository(IMSDBContext context) : IProductRepository
             _context.Update(productDao);
             return Result.Success();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to update product {Product}", product);
             return Result.Failure(CommonErrors.OperationFailureError("Update", "Product"));
         }
         

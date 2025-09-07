@@ -3,12 +3,14 @@ using IMS.Domain.Interfaces;
 using IMS.Infrastructure.SQLServer.DAOs;
 using IMS.SharedKernel.ResultPattern;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace IMS.Infrastructure.SQLServer;
 
-public sealed class CategoryRepository(IMSDBContext context) : ICategoryRepository
+public sealed class CategoryRepository(IMSDBContext context, ILogger<CategoryRepository> logger) : ICategoryRepository
 {
     private readonly IMSDBContext _context = context;
+    private readonly ILogger<CategoryRepository> _logger = logger;
 
     public async Task<Result> CreateAsync(Category category, CancellationToken cancellationToken = default)
     {
@@ -18,8 +20,10 @@ public sealed class CategoryRepository(IMSDBContext context) : ICategoryReposito
             await _context.Categories.AddAsync(categoryDao, cancellationToken);
             return Result.Success();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+
+            _logger.LogError(ex, "Failed to create category {Category}", category);
             return Result.Failure(CommonErrors.OperationFailureError("Create", "Category"));
         }
     }
@@ -37,8 +41,9 @@ public sealed class CategoryRepository(IMSDBContext context) : ICategoryReposito
             }
             return queryResult.ToDomain()!;
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to get category by name {Name}", name);
             return Result.Failure<Category?>(CommonErrors.OperationFailureError("Get", "Category"));
         }
 
