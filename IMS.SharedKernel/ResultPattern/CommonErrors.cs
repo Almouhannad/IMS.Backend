@@ -19,5 +19,14 @@
                 ErrorType.Validation
             );
         }
+
+        public static Error OperationFailureError(string operationName, string entityName)
+        {
+            return new Error(
+                $"{entityName}.{operationName}.Failure",
+                $"Unable to {operationName} {entityName}",
+                ErrorType.Failure
+            );
+        }
     }
 }
