@@ -48,7 +48,7 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
         if (status.HasValue)
         {
             var statusId = (int)status.Value;
-            query = _context.Products
+            query = query
                 .Where(product => product.StatusId == statusId);
         }
         query = query

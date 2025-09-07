@@ -16,6 +16,7 @@ public sealed class UnitOfWork(IMSDBContext context, ILoggerFactory loggerFactor
         try
         {
             await _context.SaveChangesAsync(cancellationToken);
+            await _context.DisposeAsync();
         }
         catch (Exception ex)
         {

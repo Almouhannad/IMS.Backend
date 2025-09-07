@@ -31,7 +31,8 @@ public sealed class CategoryRepository(IMSDBContext context, ILogger<CategoryRep
     public async Task<Result<Category?>> GetByNameAsync(string name, CancellationToken cancellationToken = default)
     {
         name = CategoryMappings.NormalizeName(name);
-        var query = _context.Categories.Where(category => category.Name == name);
+        var query = _context.Categories.AsNoTracking()
+            .Where(category => category.Name == name);
         try
         {
             var queryResult = await query.FirstOrDefaultAsync(cancellationToken);
