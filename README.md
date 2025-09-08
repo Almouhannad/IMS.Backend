@@ -59,6 +59,7 @@ to the Seq sink.
    docker compose up --build
    ```
 3. API will be available at `http://localhost:8000` (Swagger UI at `/swagger`).
+4. Seq logging server will be available at `http://localhost:5341`.
 
 ## Seed Data
 Startup applies migrations and seeds:
