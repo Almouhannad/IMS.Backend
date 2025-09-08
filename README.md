@@ -168,3 +168,6 @@ Response:
   ]
 }
 ```
+
+## Acknowledgements
+Thanks to [HasanKhadd0ur](https://github.com/HasanKhadd0ur) for their contribution and helping in organizing the solution via [PR #2](https://github.com/Almouhannad/IMS.Backend/pull/2).
