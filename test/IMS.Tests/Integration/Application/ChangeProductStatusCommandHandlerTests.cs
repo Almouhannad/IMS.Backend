@@ -69,9 +69,16 @@ public class ChangeProductStatusCommandHandlerTests
     {
         public FakeProductRepository ProductRepository { get; } = productRepository;
         public bool SaveChangesCalled { get; private set; }
+        public bool DisposeCalled { get; private set; }
 
         public IProductRepository Products => ProductRepository;
         public ICategoryRepository Categories { get; } = new FakeCategoryRepository();
+
+        public Task Dispose(CancellationToken cancellationToken = default)
+        {
+            DisposeCalled = true;
+            return Task.FromResult(Result.Success());
+        }
 
         public Task<Result> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
