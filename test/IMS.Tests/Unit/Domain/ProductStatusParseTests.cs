@@ -2,7 +2,7 @@
 
 namespace IMS.Tests.Unit.Domain;
 
-public class ProductStatusTests
+public class ProductStatusParseTests
 {
     [Theory]
     [InlineData(" InStock ", ProductStatus.InStock)]

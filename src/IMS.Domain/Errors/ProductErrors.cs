@@ -29,4 +29,9 @@ public static class ProductErrors
     "Product.AlreadyInStatus",
     $"Product is already {status}.",
     ErrorType.Conflict);
+
+    public static Error InvalidStatusTransition(ProductStatus from, ProductStatus to) => new(
+        "Product.InvalidStatusTransition",
+        $"Product status transition from {from} to {to} is invalid.",
+        ErrorType.Conflict);
 }

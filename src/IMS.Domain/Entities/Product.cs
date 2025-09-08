@@ -1,4 +1,5 @@
 ﻿using IMS.Domain.Errors;
+using IMS.Domain.Workflows;
 using IMS.SharedKernel.ResultPattern;
 
 namespace IMS.Domain.Entities;
@@ -50,20 +51,10 @@ public sealed class Product
 
     public Result ChangeStatus(ProductStatus newStatus)
     {
-        if (newStatus == ProductStatus.Sold)
+        var isTransitionValid = ProductWorkflow.Validate(Status, newStatus);
+        if (isTransitionValid.IsFailure)
         {
-            if (Status == ProductStatus.Sold)
-            {
-                return Result.Failure(ProductErrors.NotInStock);
-            }
-            if (Status == ProductStatus.Damaged)
-            {
-                return Result.Failure(ProductErrors.SellDamagedProduct);
-            }
-        }
-        if (newStatus == Status)
-        {
-            return Result.Failure(ProductErrors.AlreadyInStatus(newStatus));
+            return isTransitionValid;
         }
         // Other business logic here if needed
         Status = newStatus;

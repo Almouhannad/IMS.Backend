@@ -37,4 +37,20 @@ public class ProductWorkflowTests
         Assert.True(result.IsFailure);
         Assert.Equal(ProductErrors.SellDamagedProduct, result.Error);
     }
+
+    [Fact]
+    public void SoldProduct_CannotChangeToDamaged()
+    {
+        // Arrange
+        var category = Category.Create(Guid.NewGuid(), "Toys").Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        product.Sell();
+
+        // Act
+        var result = product.ChangeStatus(ProductStatus.Damaged);
+
+        // Assert
+        Assert.True(result.IsFailure);
+        Assert.Equal(ProductErrors.InvalidStatusTransition(ProductStatus.Sold, ProductStatus.Damaged), result.Error);
+    }
 }
