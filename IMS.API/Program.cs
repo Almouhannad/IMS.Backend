@@ -1,11 +1,13 @@
 using IMS.Application;
 using IMS.Infrastructure;
+using IMS.Presentation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .RegisterSQLServerPersistenceFromInfrastructure()
-    .RegisterCommandsAndQueriesFromApplication();
+    .RegisterCommandsAndQueriesFromApplication()
+    .RegisterEndpointsFromPresentation();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -22,13 +24,6 @@ if (app.Environment.IsDevelopment())
 
 // Update database in container
 app.ApplySQLServerMigrationsFromInfrastructure();
-
-app.MapGet("/health", () =>
-{
-    
-    return TypedResults.Ok(new { status = "Healthy" });
-})
-.WithName("GetHealthStatus")
-.WithOpenApi();
+app.MapEndpointsFromPresentation();
 
 app.Run();
