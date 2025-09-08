@@ -34,6 +34,7 @@ public static class DependencyInjection
         this WebApplication app,
         RouteGroupBuilder? routeGroupBuilder = null)
     {
+        app.UseExceptionHandler();
         IEnumerable<IEndpoint> endpoints = app.Services.GetRequiredService<IEnumerable<IEndpoint>>();
 
         IEndpointRouteBuilder builder = routeGroupBuilder is null ? app : routeGroupBuilder;

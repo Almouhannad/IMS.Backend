@@ -23,7 +23,7 @@ public sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logge
                 Type = "https://httpwg.org/specs/rfc9110.html#status.400",
                 Title = "Malformed JSON in request body",
                 Status = StatusCodes.Status400BadRequest,
-                Detail = jsonEx.Message,
+                //Detail = jsonEx.Message,
             };
             httpContext.Response.StatusCode = pd.Status.Value;
             await httpContext.Response.WriteAsJsonAsync(pd, cancellationToken);
@@ -39,7 +39,7 @@ public sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logge
                 Type = "https://httpwg.org/specs/rfc9110.html#status.400",
                 Title = "Invalid request body",
                 Status = StatusCodes.Status400BadRequest,
-                Detail = badReqEx.Message,
+                //Detail = badReqEx.Message,
             };
             httpContext.Response.StatusCode = pd.Status.Value;
             await httpContext.Response.WriteAsJsonAsync(pd, cancellationToken);
