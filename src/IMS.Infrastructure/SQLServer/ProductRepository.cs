@@ -30,10 +30,10 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
 
     public Result Delete(Product product)
     {
-        var productsDao = product.ToDao();
+        var productDao = product.ToDao();
         try
         {
-            _context.Remove(productsDao);
+            _context.Remove(productDao);
             return Result.Success();
         }
         catch (Exception ex)
