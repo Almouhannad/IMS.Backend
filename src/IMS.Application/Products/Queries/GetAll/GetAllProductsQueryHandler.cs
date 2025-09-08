@@ -29,7 +29,6 @@ public sealed class GetAllProductsQueryHandler(IUnitOfWork unitOfWork)
 
         return getAllResult.Value
                     .Select(p => p.ToResponse())
-                    .ToList()
-                    .AsReadOnly();
+                    .ToList();
     }
 }

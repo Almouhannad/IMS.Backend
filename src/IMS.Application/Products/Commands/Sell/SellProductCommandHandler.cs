@@ -14,6 +14,8 @@ public sealed class SellProductCommandHandler(
     public async Task<Result> Handle(SellProductCommand command, CancellationToken cancellationToken)
     {
         var changeStatusCommand = new ChangeProductStatusCommand(command.Id, "Sold");
-        return await _changeProductStatusCommandHandler.Handle(changeStatusCommand, cancellationToken);
+        return await _changeProductStatusCommandHandler
+            .Handle(changeStatusCommand, cancellationToken)
+            .ConfigureAwait(false);
     }
 }

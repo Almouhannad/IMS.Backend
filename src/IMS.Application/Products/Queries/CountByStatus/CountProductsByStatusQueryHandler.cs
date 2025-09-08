@@ -11,7 +11,9 @@ public sealed class CountProductsByStatusQueryHandler(IUnitOfWork unitOfWork) : 
 
     public async Task<Result<CountProductsByStatusQueryResponse>> Handle(CountProductsByStatusQuery query, CancellationToken cancellationToken)
     {
-        var countResult = await _unitOfWork.Products.CountByStatusAsync(cancellationToken);
+        var countResult = await _unitOfWork.Products
+            .CountByStatusAsync(cancellationToken)
+            .ConfigureAwait(false);
         if (countResult.IsFailure)
         {
             return Result.Failure<CountProductsByStatusQueryResponse>(countResult.Error);

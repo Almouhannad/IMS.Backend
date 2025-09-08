@@ -13,7 +13,8 @@ public sealed class ChangeProductStatusCommandHandler(IUnitOfWork unitOfWork) : 
     public async Task<Result> Handle(ChangeProductStatusCommand command, CancellationToken cancellationToken)
     {
         #region Get Product from Persistence
-        var getProductResult = await _unitOfWork.Products.GetByIdAsync(command.Id, cancellationToken);
+        var getProductResult = await _unitOfWork.Products.GetByIdAsync(command.Id, cancellationToken)
+            .ConfigureAwait(false);
         if (getProductResult.IsFailure)
         {
             return Result.Failure(getProductResult.Error);
@@ -45,7 +46,8 @@ public sealed class ChangeProductStatusCommandHandler(IUnitOfWork unitOfWork) : 
         #endregion
 
         #region Persist changes
-        var persistResult = await _unitOfWork.SaveChangesAsync(cancellationToken);
+        var persistResult = await _unitOfWork.SaveChangesAsync(cancellationToken)
+            .ConfigureAwait(false);
         return persistResult;
         #endregion
 
