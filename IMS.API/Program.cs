@@ -19,11 +19,10 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    // TODO: Fill initial data in this case
 }
 
-// Update database in container
-app.ApplySQLServerMigrationsFromInfrastructure();
+// Update database in container with optional seed
+await app.ApplySQLServerMigrationsFromInfrastructure(seed: true);
 app.MapEndpointsFromPresentation();
 
 app.Run();

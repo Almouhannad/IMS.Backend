@@ -1,6 +1,7 @@
 ﻿using IMS.Config;
 using IMS.Domain.Interfaces;
 using IMS.Infrastructure.SQLServer;
+using IMS.Infrastructure.SQLServer.Seeders;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,15 +17,23 @@ public static class DependencyInjection
             options.UseSqlServer(CONFIG.SqlServerConnectionString);
         });
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+        services.AddScoped<IDataSeeder, CSVSeeder>();
         return services;
     }
 
-    public static void ApplySQLServerMigrationsFromInfrastructure(this IApplicationBuilder app)
+    public static async Task ApplySQLServerMigrationsFromInfrastructure(this IApplicationBuilder app, bool seed = false)
     {
         using IServiceScope scope = app.ApplicationServices.CreateScope();
         using IMSDBContext context = scope.ServiceProvider.GetRequiredService<IMSDBContext>();
-
+        var pending = await context.Database.GetPendingMigrationsAsync();
         context.Database.Migrate();
+
+        // Seed only if initial migratoin is pending
+        if (pending.Any(m => m.EndsWith("Initial")) && seed)
+        {
+            var seeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
+            await seeder.SeedAsync();
+        }
     }
 
 }
