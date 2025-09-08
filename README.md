@@ -1,1 +1,116 @@
 # IMS.Backend
+
+## Overview
+Inventory Management System (IMS) backend built with **.NET 8** and minimal APIs. It follows Clean Architecture to keep business rules independent of frameworks and focuses on maintainability and testability.
+
+## Main Features
+- Retrieve paginated products and filter by status.
+- Get a single product by identifier.
+- Change or sell product status with domain validation.
+- Count products by status.
+- Automatic database migration and CSV-based seeding.
+
+## Clean Architecture
+| Layer | Project | Responsibility |
+|-------|---------|---------------|
+| **Domain** | `IMS.Domain` | Entities, value objects, domain errors and repository interfaces. |
+| **Application** | `IMS.Application` | Use cases, commands/queries, handlers and validators implementing CQRS. |
+| **Infrastructure** | `IMS.Infrastructure` | EF Core persistence, repositories, unit of work and data seeding strategies. |
+| **Presentation** | `IMS.Presentation` | Minimal API endpoints mapping requests to application layer handlers. |
+| **API** | `IMS.API` | Composition root that wires services and hosts the web application. |
+| **Shared Kernel** | `IMS.SharedKernel` | Result type, CQRS abstractions, decorators (logging & validation) and API helpers. |
+| **Config** | `IMS.Config` | Centralized environment variable access. |
+
+### Design Patterns
+- **Mediator & CQRS** – commands/queries dispatched through handlers (e.g. `SellProductCommandHandler`).
+- **Result pattern** – unified success/failure handling via `Result` and `Error` types.
+- **Strategy** – pluggable seeding through `IDataSeeder` with a `CSVSeeder` implementation.
+- **Decorator** – logging and validation decorators wrapping handlers.
+- **Repository & Unit of Work** – data access abstractions for SQL Server.
+
+### Performance Features
+- Uses EF Core `AsNoTracking` for read queries to avoid tracking overhead.
+- Bulk seeding persists changes with a single `SaveChanges` call.
+- Query endpoints support pagination and server-side filtering.
+
+## Running with Docker Compose
+1. Copy environment template and adjust as needed:
+   ```bash
+   cp .env.example .env
+   # edit .env to set SQL_SERVER_SA_PASSWORD etc.
+   ```
+2. Build and start services:
+   ```bash
+   docker compose up --build
+   ```
+3. API will be available at `http://localhost:8000` (Swagger UI at `/swagger`).
+
+## Seed Data
+Startup applies migrations and seeds:
+- **1500 products**
+- **10 categories**
+
+CSV seed source: `.docker/SeedData/products_seed.csv`.
+
+## Endpoints
+Base URL: `http://localhost:8000`
+
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `GET` | `/products` | List products (optional `statusFilter`, `page`, `pageSize`). |
+| `GET` | `/products/{id}` | Get product by identifier. |
+| `GET` | `/products/count` | Count products by status. |
+| `PATCH` | `/products/{id}` | Change product status. |
+| `PATCH` | `/products/{id}/sell` | Mark product as sold. |
+
+### Examples
+Retrieve paginated products:
+```http
+GET /products?page=1&pageSize=2 HTTP/1.1
+Host: localhost:8000
+```
+Response:
+```json
+[
+  {
+    "id": "<guid>",
+    "name": "Electronics Item 001",
+    "barcode": "2000000000008",
+    "description": "Electronics product 1 - generated seed data.",
+    "weight": 16.02,
+    "status": "InStock",
+    "category": "Electronics"
+  }
+]
+```
+
+Change product status:
+```http
+PATCH /products/<guid> HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+
+{ "newStatus": "Damaged" }
+```
+Response: `204 No Content`
+
+Count products by status:
+```http
+GET /products/count HTTP/1.1
+Host: localhost:8000
+```
+Response:
+```json
+{
+  "inStock": 500,
+  "sold": 500,
+  "damaged": 500
+}
+```
+
+Mark product as sold:
+```http
+PATCH /products/<guid>/sell HTTP/1.1
+Host: localhost:8000
+```
+Response: `204 No Content`
