@@ -37,14 +37,14 @@ public static class ProductWorkflow
     /// </summary>
     public static Result Validate(ProductStatus current, ProductStatus next)
     {
-        if (current == next)
-        {
-            return Result.Failure(ProductErrors.AlreadyInStatus(current));
-        }
-
         if (TransitionErrors.TryGetValue((current, next), out var specific))
         {
             return Result.Failure(specific);
+        }
+
+        if (current == next)
+        {
+            return Result.Failure(ProductErrors.AlreadyInStatus(current));
         }
 
         if (AllowedTransitions.TryGetValue(current, out var allowed) && allowed.Contains(next))
