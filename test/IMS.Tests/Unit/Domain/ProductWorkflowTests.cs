@@ -20,7 +20,7 @@ public class ProductWorkflowTests
         Assert.True(firstSell.IsSuccess);
         Assert.Equal(ProductStatus.Sold, product.Status);
         Assert.True(secondSell.IsFailure);
-        Assert.Equal(ProductErrors.NotInStock, secondSell.Error);
+        Assert.Equal(ProductErrors.AlreadyInStatus(ProductStatus.Sold), secondSell.Error);
     }
 
     [Fact]
