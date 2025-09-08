@@ -63,8 +63,7 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
             .Skip((page - 1) * pageSize)
             .Take(pageSize);
 
-        List<ProductDao> daoList = [];
-        List<Product> domainList = [];
+        List<ProductDao> daoList;
         try
         {
             daoList = await query.ToListAsync(cancellationToken);
@@ -74,6 +73,8 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
             _logger.LogError(ex, "Failed to get products");
             return Result.Failure<IReadOnlyList<Product>>(CommonErrors.OperationFailureError("Get", "Products"));
         }
+
+        var domainList = new List<Product>(daoList.Count);
         foreach (var productDao in daoList)
         {
             var mapToProductDomainResult = productDao.ToDomain();
