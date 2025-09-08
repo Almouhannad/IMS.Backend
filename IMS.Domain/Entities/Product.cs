@@ -50,9 +50,20 @@ public sealed class Product
 
     public Result ChangeStatus(ProductStatus newStatus)
     {
-        if (newStatus == ProductStatus.Sold && Status != ProductStatus.InStock)
+        if (newStatus == ProductStatus.Sold)
         {
-            return Result.Failure(ProductErrors.NotInStock);
+            if (Status == ProductStatus.Sold)
+            {
+                return Result.Failure(ProductErrors.NotInStock);
+            }
+            if (Status == ProductStatus.Damaged)
+            {
+                return Result.Failure(ProductErrors.SellDamagedProduct);
+            }
+        }
+        if (newStatus == Status)
+        {
+            return Result.Failure(ProductErrors.AlreadyInStatus(newStatus));
         }
         // Other business logic here if needed
         Status = newStatus;
