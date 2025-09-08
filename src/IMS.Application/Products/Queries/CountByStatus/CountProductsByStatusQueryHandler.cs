@@ -24,8 +24,6 @@ public sealed class CountProductsByStatusQueryHandler(IUnitOfWork unitOfWork) : 
         counts.TryGetValue(ProductStatus.Sold, out var sold);
         counts.TryGetValue(ProductStatus.Damaged, out var damaged);
 
-        await _unitOfWork.DisposeAsync();
-
         return new CountProductsByStatusQueryResponse
         {
             InStock = inStock,
