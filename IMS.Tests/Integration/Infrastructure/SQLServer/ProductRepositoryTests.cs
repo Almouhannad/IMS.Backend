@@ -61,4 +61,41 @@ public class ProductRepositoryTests
         Assert.True(afterDelete.IsSuccess);
         Assert.Null(afterDelete.Value);
     }
+
+    [Fact]
+    public async Task GetAllAsync_PaginatesResults()
+    {
+        // Arrange
+        var options = new DbContextOptionsBuilder<IMSDBContext>()
+            .UseInMemoryDatabase(Guid.NewGuid().ToString())
+            .Options;
+
+        await using var context = new IMSDBContext(options);
+        await context.Database.EnsureCreatedAsync();
+
+        var categoryRepo = new CategoryRepository(context, NullLogger<CategoryRepository>.Instance);
+        var category = Category.Create(Guid.NewGuid(), "Toys").Value;
+        await categoryRepo.CreateAsync(category);
+
+        var productRepo = new ProductRepository(context, NullLogger<ProductRepository>.Instance);
+        var product1 = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        var product2 = Product.Create(Guid.NewGuid(), "Ball", "456", null, 2.0, ProductStatus.InStock, category).Value;
+
+        await productRepo.CreateAsync(product1);
+        await productRepo.CreateAsync(product2);
+        await context.SaveChangesAsync();
+        context.ChangeTracker.Clear();
+
+        // Act
+        var firstPage = await productRepo.GetAllAsync(null, page: 1, pageSize: 1);
+        var secondPage = await productRepo.GetAllAsync(null, page: 2, pageSize: 1);
+
+        // Assert
+        Assert.True(firstPage.IsSuccess);
+        Assert.True(secondPage.IsSuccess);
+        Assert.Single(firstPage.Value);
+        Assert.Single(secondPage.Value);
+        Assert.NotEqual(firstPage.Value[0].Id, secondPage.Value[0].Id);
+    }
+
 }

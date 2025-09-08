@@ -10,7 +10,11 @@ public interface IProductRepository
 
     // Read
     Task<Result<Product?>> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
-    Task<Result<IReadOnlyList<Product>>> GetAllAsync(ProductStatus? status = null, CancellationToken cancellationToken = default);
+    Task<Result<IReadOnlyList<Product>>> GetAllAsync(
+        ProductStatus? status = null,
+        int page = 1,
+        int pageSize = 10,
+        CancellationToken cancellationToken = default);
 
     Result Update(Product product);
     Result Delete(Product product);

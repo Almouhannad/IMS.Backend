@@ -42,7 +42,11 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
         }
     }
 
-    public async Task<Result<IReadOnlyList<Product>>> GetAllAsync(ProductStatus? status = null, CancellationToken cancellationToken = default)
+    public async Task<Result<IReadOnlyList<Product>>> GetAllAsync(
+        ProductStatus? status = null,
+        int page = 1,
+        int pageSize = 10,
+        CancellationToken cancellationToken = default)
     {
         IQueryable<ProductDao> query = _context.Products.AsNoTracking();
         if (status.HasValue)
@@ -53,7 +57,9 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
         }
         query = query
             .Include(product => product.Category)
-            .Include(product => product.Status);
+            .Include(product => product.Status)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize);
         List<ProductDao> daoList = [];
         List<Product> domainList = [];
         try
