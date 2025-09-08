@@ -1,0 +1,1501 @@
+Name,Barcode,Description,Weight,Status,CategoryName
+Electronics Item 001,2000000000008,Electronics product 1 - generated seed data.,16.02,0,Electronics
+Electronics Item 002,2000000000015,Electronics product 2 - generated seed data.,0.72,1,Electronics
+Electronics Item 003,2000000000022,Electronics product 3 - generated seed data.,6.95,2,Electronics
+Electronics Item 004,2000000000039,Electronics product 4 - generated seed data.,5.66,0,Electronics
+Electronics Item 005,2000000000046,Electronics product 5 - generated seed data.,18.44,1,Electronics
+Electronics Item 006,2000000000053,Electronics product 6 - generated seed data.,16.95,2,Electronics
+Electronics Item 007,2000000000060,Electronics product 7 - generated seed data.,22.32,0,Electronics
+Electronics Item 008,2000000000077,Electronics product 8 - generated seed data.,2.26,1,Electronics
+Electronics Item 009,2000000000084,Electronics product 9 - generated seed data.,10.61,2,Electronics
+Electronics Item 010,2000000000091,Electronics product 10 - generated seed data.,0.84,0,Electronics
+Electronics Item 011,2000000000107,Electronics product 11 - generated seed data.,5.54,1,Electronics
+Electronics Item 012,2000000000114,Electronics product 12 - generated seed data.,12.68,2,Electronics
+Electronics Item 013,2000000000121,Electronics product 13 - generated seed data.,0.76,0,Electronics
+Electronics Item 014,2000000000138,Electronics product 14 - generated seed data.,5.05,1,Electronics
+Electronics Item 015,2000000000145,Electronics product 15 - generated seed data.,16.28,2,Electronics
+Electronics Item 016,2000000000152,Electronics product 16 - generated seed data.,13.67,0,Electronics
+Electronics Item 017,2000000000169,Electronics product 17 - generated seed data.,5.59,1,Electronics
+Electronics Item 018,2000000000176,Electronics product 18 - generated seed data.,14.77,2,Electronics
+Electronics Item 019,2000000000183,Electronics product 19 - generated seed data.,20.25,0,Electronics
+Electronics Item 020,2000000000190,Electronics product 20 - generated seed data.,0.26,1,Electronics
+Electronics Item 021,2000000000206,Electronics product 21 - generated seed data.,20.16,2,Electronics
+Electronics Item 022,2000000000213,Electronics product 22 - generated seed data.,17.48,0,Electronics
+Electronics Item 023,2000000000220,Electronics product 23 - generated seed data.,8.57,1,Electronics
+Electronics Item 024,2000000000237,Electronics product 24 - generated seed data.,3.97,2,Electronics
+Electronics Item 025,2000000000244,Electronics product 25 - generated seed data.,23.93,0,Electronics
+Electronics Item 026,2000000000251,Electronics product 26 - generated seed data.,8.48,1,Electronics
+Electronics Item 027,2000000000268,Electronics product 27 - generated seed data.,2.41,2,Electronics
+Electronics Item 028,2000000000275,Electronics product 28 - generated seed data.,2.51,0,Electronics
+Electronics Item 029,2000000000282,Electronics product 29 - generated seed data.,21.2,1,Electronics
+Electronics Item 030,2000000000299,Electronics product 30 - generated seed data.,15.13,2,Electronics
+Electronics Item 031,2000000000305,Electronics product 31 - generated seed data.,20.2,0,Electronics
+Electronics Item 032,2000000000312,Electronics product 32 - generated seed data.,18.27,1,Electronics
+Electronics Item 033,2000000000329,Electronics product 33 - generated seed data.,13.45,2,Electronics
+Electronics Item 034,2000000000336,Electronics product 34 - generated seed data.,24.33,0,Electronics
+Electronics Item 035,2000000000343,Electronics product 35 - generated seed data.,9.53,1,Electronics
+Electronics Item 036,2000000000350,Electronics product 36 - generated seed data.,13.85,2,Electronics
+Electronics Item 037,2000000000367,Electronics product 37 - generated seed data.,20.75,0,Electronics
+Electronics Item 038,2000000000374,Electronics product 38 - generated seed data.,15.5,1,Electronics
+Electronics Item 039,2000000000381,Electronics product 39 - generated seed data.,21.56,2,Electronics
+Electronics Item 040,2000000000398,Electronics product 40 - generated seed data.,14.48,0,Electronics
+Electronics Item 041,2000000000404,Electronics product 41 - generated seed data.,17.64,1,Electronics
+Electronics Item 042,2000000000411,Electronics product 42 - generated seed data.,1.24,2,Electronics
+Electronics Item 043,2000000000428,Electronics product 43 - generated seed data.,5.77,0,Electronics
+Electronics Item 044,2000000000435,Electronics product 44 - generated seed data.,7.31,1,Electronics
+Electronics Item 045,2000000000442,Electronics product 45 - generated seed data.,2.09,2,Electronics
+Electronics Item 046,2000000000459,Electronics product 46 - generated seed data.,5.9,0,Electronics
+Electronics Item 047,2000000000466,Electronics product 47 - generated seed data.,2.61,1,Electronics
+Electronics Item 048,2000000000473,Electronics product 48 - generated seed data.,7.02,2,Electronics
+Electronics Item 049,2000000000480,Electronics product 49 - generated seed data.,15.93,0,Electronics
+Electronics Item 050,2000000000497,Electronics product 50 - generated seed data.,9.18,1,Electronics
+Electronics Item 051,2000000000503,Electronics product 51 - generated seed data.,9.32,2,Electronics
+Electronics Item 052,2000000000510,Electronics product 52 - generated seed data.,5.32,0,Electronics
+Electronics Item 053,2000000000527,Electronics product 53 - generated seed data.,6.75,1,Electronics
+Electronics Item 054,2000000000534,Electronics product 54 - generated seed data.,23.42,2,Electronics
+Electronics Item 055,2000000000541,Electronics product 55 - generated seed data.,16.24,0,Electronics
+Electronics Item 056,2000000000558,Electronics product 56 - generated seed data.,15.27,1,Electronics
+Electronics Item 057,2000000000565,Electronics product 57 - generated seed data.,4.36,2,Electronics
+Electronics Item 058,2000000000572,Electronics product 58 - generated seed data.,18.26,0,Electronics
+Electronics Item 059,2000000000589,Electronics product 59 - generated seed data.,4.17,1,Electronics
+Electronics Item 060,2000000000596,Electronics product 60 - generated seed data.,9.55,2,Electronics
+Electronics Item 061,2000000000602,Electronics product 61 - generated seed data.,24.74,0,Electronics
+Electronics Item 062,2000000000619,Electronics product 62 - generated seed data.,16.04,1,Electronics
+Electronics Item 063,2000000000626,Electronics product 63 - generated seed data.,13.97,2,Electronics
+Electronics Item 064,2000000000633,Electronics product 64 - generated seed data.,17.15,0,Electronics
+Electronics Item 065,2000000000640,Electronics product 65 - generated seed data.,21.09,1,Electronics
+Electronics Item 066,2000000000657,Electronics product 66 - generated seed data.,19.42,2,Electronics
+Electronics Item 067,2000000000664,Electronics product 67 - generated seed data.,5.8,0,Electronics
+Electronics Item 068,2000000000671,Electronics product 68 - generated seed data.,0.9,1,Electronics
+Electronics Item 069,2000000000688,Electronics product 69 - generated seed data.,7.95,2,Electronics
+Electronics Item 070,2000000000695,Electronics product 70 - generated seed data.,6.77,0,Electronics
+Electronics Item 071,2000000000701,Electronics product 71 - generated seed data.,5.35,1,Electronics
+Electronics Item 072,2000000000718,Electronics product 72 - generated seed data.,23.58,2,Electronics
+Electronics Item 073,2000000000725,Electronics product 73 - generated seed data.,21.92,0,Electronics
+Electronics Item 074,2000000000732,Electronics product 74 - generated seed data.,7.94,1,Electronics
+Electronics Item 075,2000000000749,Electronics product 75 - generated seed data.,16.42,2,Electronics
+Electronics Item 076,2000000000756,Electronics product 76 - generated seed data.,9.95,0,Electronics
+Electronics Item 077,2000000000763,Electronics product 77 - generated seed data.,22.87,1,Electronics
+Electronics Item 078,2000000000770,Electronics product 78 - generated seed data.,11.53,2,Electronics
+Electronics Item 079,2000000000787,Electronics product 79 - generated seed data.,6.7,0,Electronics
+Electronics Item 080,2000000000794,Electronics product 80 - generated seed data.,6.24,1,Electronics
+Electronics Item 081,2000000000800,Electronics product 81 - generated seed data.,14.08,2,Electronics
+Electronics Item 082,2000000000817,Electronics product 82 - generated seed data.,6.64,0,Electronics
+Electronics Item 083,2000000000824,Electronics product 83 - generated seed data.,14.66,1,Electronics
+Electronics Item 084,2000000000831,Electronics product 84 - generated seed data.,22.46,2,Electronics
+Electronics Item 085,2000000000848,Electronics product 85 - generated seed data.,10.05,0,Electronics
+Electronics Item 086,2000000000855,Electronics product 86 - generated seed data.,5.56,1,Electronics
+Electronics Item 087,2000000000862,Electronics product 87 - generated seed data.,24.94,2,Electronics
+Electronics Item 088,2000000000879,Electronics product 88 - generated seed data.,12.79,0,Electronics
+Electronics Item 089,2000000000886,Electronics product 89 - generated seed data.,2.36,1,Electronics
+Electronics Item 090,2000000000893,Electronics product 90 - generated seed data.,1.27,2,Electronics
+Electronics Item 091,2000000000909,Electronics product 91 - generated seed data.,2.83,0,Electronics
+Electronics Item 092,2000000000916,Electronics product 92 - generated seed data.,15.72,1,Electronics
+Electronics Item 093,2000000000923,Electronics product 93 - generated seed data.,19.82,2,Electronics
+Electronics Item 094,2000000000930,Electronics product 94 - generated seed data.,10.61,0,Electronics
+Electronics Item 095,2000000000947,Electronics product 95 - generated seed data.,1.68,1,Electronics
+Electronics Item 096,2000000000954,Electronics product 96 - generated seed data.,9.6,2,Electronics
+Electronics Item 097,2000000000961,Electronics product 97 - generated seed data.,24.9,0,Electronics
+Electronics Item 098,2000000000978,Electronics product 98 - generated seed data.,13.27,1,Electronics
+Electronics Item 099,2000000000985,Electronics product 99 - generated seed data.,24.28,2,Electronics
+Electronics Item 100,2000000000992,Electronics product 100 - generated seed data.,21.53,0,Electronics
+Electronics Item 101,2000000001005,Electronics product 101 - generated seed data.,0.39,1,Electronics
+Electronics Item 102,2000000001012,Electronics product 102 - generated seed data.,18.05,2,Electronics
+Electronics Item 103,2000000001029,Electronics product 103 - generated seed data.,17.07,0,Electronics
+Electronics Item 104,2000000001036,Electronics product 104 - generated seed data.,13.47,1,Electronics
+Electronics Item 105,2000000001043,Electronics product 105 - generated seed data.,6.74,2,Electronics
+Electronics Item 106,2000000001050,Electronics product 106 - generated seed data.,16.06,0,Electronics
+Electronics Item 107,2000000001067,Electronics product 107 - generated seed data.,2.88,1,Electronics
+Electronics Item 108,2000000001074,Electronics product 108 - generated seed data.,10.93,2,Electronics
+Electronics Item 109,2000000001081,Electronics product 109 - generated seed data.,11.4,0,Electronics
+Electronics Item 110,2000000001098,Electronics product 110 - generated seed data.,23.85,1,Electronics
+Electronics Item 111,2000000001104,Electronics product 111 - generated seed data.,21.91,2,Electronics
+Electronics Item 112,2000000001111,Electronics product 112 - generated seed data.,6.66,0,Electronics
+Electronics Item 113,2000000001128,Electronics product 113 - generated seed data.,12.56,1,Electronics
+Electronics Item 114,2000000001135,Electronics product 114 - generated seed data.,4.55,2,Electronics
+Electronics Item 115,2000000001142,Electronics product 115 - generated seed data.,22.82,0,Electronics
+Electronics Item 116,2000000001159,Electronics product 116 - generated seed data.,21.78,1,Electronics
+Electronics Item 117,2000000001166,Electronics product 117 - generated seed data.,7.53,2,Electronics
+Electronics Item 118,2000000001173,Electronics product 118 - generated seed data.,16.01,0,Electronics
+Electronics Item 119,2000000001180,Electronics product 119 - generated seed data.,15.26,1,Electronics
+Electronics Item 120,2000000001197,Electronics product 120 - generated seed data.,3.91,2,Electronics
+Electronics Item 121,2000000001203,Electronics product 121 - generated seed data.,19.09,0,Electronics
+Electronics Item 122,2000000001210,Electronics product 122 - generated seed data.,13.53,1,Electronics
+Electronics Item 123,2000000001227,Electronics product 123 - generated seed data.,19.49,2,Electronics
+Electronics Item 124,2000000001234,Electronics product 124 - generated seed data.,13.31,0,Electronics
+Electronics Item 125,2000000001241,Electronics product 125 - generated seed data.,0.11,1,Electronics
+Electronics Item 126,2000000001258,Electronics product 126 - generated seed data.,8.17,2,Electronics
+Electronics Item 127,2000000001265,Electronics product 127 - generated seed data.,0.58,0,Electronics
+Electronics Item 128,2000000001272,Electronics product 128 - generated seed data.,23.23,1,Electronics
+Electronics Item 129,2000000001289,Electronics product 129 - generated seed data.,21.98,2,Electronics
+Electronics Item 130,2000000001296,Electronics product 130 - generated seed data.,20.81,0,Electronics
+Electronics Item 131,2000000001302,Electronics product 131 - generated seed data.,7.76,1,Electronics
+Electronics Item 132,2000000001319,Electronics product 132 - generated seed data.,1.54,2,Electronics
+Electronics Item 133,2000000001326,Electronics product 133 - generated seed data.,21.96,0,Electronics
+Electronics Item 134,2000000001333,Electronics product 134 - generated seed data.,23.68,1,Electronics
+Electronics Item 135,2000000001340,Electronics product 135 - generated seed data.,2.23,2,Electronics
+Electronics Item 136,2000000001357,Electronics product 136 - generated seed data.,12.2,0,Electronics
+Electronics Item 137,2000000001364,Electronics product 137 - generated seed data.,1.82,1,Electronics
+Electronics Item 138,2000000001371,Electronics product 138 - generated seed data.,19.04,2,Electronics
+Electronics Item 139,2000000001388,Electronics product 139 - generated seed data.,19.17,0,Electronics
+Electronics Item 140,2000000001395,Electronics product 140 - generated seed data.,3.3,1,Electronics
+Electronics Item 141,2000000001401,Electronics product 141 - generated seed data.,11.93,2,Electronics
+Electronics Item 142,2000000001418,Electronics product 142 - generated seed data.,13.79,0,Electronics
+Electronics Item 143,2000000001425,Electronics product 143 - generated seed data.,6.7,1,Electronics
+Electronics Item 144,2000000001432,Electronics product 144 - generated seed data.,21.82,2,Electronics
+Electronics Item 145,2000000001449,Electronics product 145 - generated seed data.,10.64,0,Electronics
+Electronics Item 146,2000000001456,Electronics product 146 - generated seed data.,5.37,1,Electronics
+Electronics Item 147,2000000001463,Electronics product 147 - generated seed data.,13.53,2,Electronics
+Electronics Item 148,2000000001470,Electronics product 148 - generated seed data.,18.28,0,Electronics
+Electronics Item 149,2000000001487,Electronics product 149 - generated seed data.,5.11,1,Electronics
+Electronics Item 150,2000000001494,Electronics product 150 - generated seed data.,7.86,2,Electronics
+Home & Kitchen Item 001,2000000001500,Home & Kitchen product 1 - generated seed data.,24.88,0,Home & Kitchen
+Home & Kitchen Item 002,2000000001517,Home & Kitchen product 2 - generated seed data.,16.28,1,Home & Kitchen
+Home & Kitchen Item 003,2000000001524,Home & Kitchen product 3 - generated seed data.,11.01,2,Home & Kitchen
+Home & Kitchen Item 004,2000000001531,Home & Kitchen product 4 - generated seed data.,12.99,0,Home & Kitchen
+Home & Kitchen Item 005,2000000001548,Home & Kitchen product 5 - generated seed data.,3.11,1,Home & Kitchen
+Home & Kitchen Item 006,2000000001555,Home & Kitchen product 6 - generated seed data.,5.69,2,Home & Kitchen
+Home & Kitchen Item 007,2000000001562,Home & Kitchen product 7 - generated seed data.,8.52,0,Home & Kitchen
+Home & Kitchen Item 008,2000000001579,Home & Kitchen product 8 - generated seed data.,14.75,1,Home & Kitchen
+Home & Kitchen Item 009,2000000001586,Home & Kitchen product 9 - generated seed data.,5.83,2,Home & Kitchen
+Home & Kitchen Item 010,2000000001593,Home & Kitchen product 10 - generated seed data.,5.58,0,Home & Kitchen
+Home & Kitchen Item 011,2000000001609,Home & Kitchen product 11 - generated seed data.,1.87,1,Home & Kitchen
+Home & Kitchen Item 012,2000000001616,Home & Kitchen product 12 - generated seed data.,15.81,2,Home & Kitchen
+Home & Kitchen Item 013,2000000001623,Home & Kitchen product 13 - generated seed data.,5.8,0,Home & Kitchen
+Home & Kitchen Item 014,2000000001630,Home & Kitchen product 14 - generated seed data.,22.64,1,Home & Kitchen
+Home & Kitchen Item 015,2000000001647,Home & Kitchen product 15 - generated seed data.,21.5,2,Home & Kitchen
+Home & Kitchen Item 016,2000000001654,Home & Kitchen product 16 - generated seed data.,1.86,0,Home & Kitchen
+Home & Kitchen Item 017,2000000001661,Home & Kitchen product 17 - generated seed data.,6.03,1,Home & Kitchen
+Home & Kitchen Item 018,2000000001678,Home & Kitchen product 18 - generated seed data.,16.76,2,Home & Kitchen
+Home & Kitchen Item 019,2000000001685,Home & Kitchen product 19 - generated seed data.,5.43,0,Home & Kitchen
+Home & Kitchen Item 020,2000000001692,Home & Kitchen product 20 - generated seed data.,3.39,1,Home & Kitchen
+Home & Kitchen Item 021,2000000001708,Home & Kitchen product 21 - generated seed data.,23.39,2,Home & Kitchen
+Home & Kitchen Item 022,2000000001715,Home & Kitchen product 22 - generated seed data.,14.32,0,Home & Kitchen
+Home & Kitchen Item 023,2000000001722,Home & Kitchen product 23 - generated seed data.,11.87,1,Home & Kitchen
+Home & Kitchen Item 024,2000000001739,Home & Kitchen product 24 - generated seed data.,19.64,2,Home & Kitchen
+Home & Kitchen Item 025,2000000001746,Home & Kitchen product 25 - generated seed data.,20.21,0,Home & Kitchen
+Home & Kitchen Item 026,2000000001753,Home & Kitchen product 26 - generated seed data.,4.84,1,Home & Kitchen
+Home & Kitchen Item 027,2000000001760,Home & Kitchen product 27 - generated seed data.,2.51,2,Home & Kitchen
+Home & Kitchen Item 028,2000000001777,Home & Kitchen product 28 - generated seed data.,10.83,0,Home & Kitchen
+Home & Kitchen Item 029,2000000001784,Home & Kitchen product 29 - generated seed data.,10.65,1,Home & Kitchen
+Home & Kitchen Item 030,2000000001791,Home & Kitchen product 30 - generated seed data.,11.73,2,Home & Kitchen
+Home & Kitchen Item 031,2000000001807,Home & Kitchen product 31 - generated seed data.,18.25,0,Home & Kitchen
+Home & Kitchen Item 032,2000000001814,Home & Kitchen product 32 - generated seed data.,16.87,1,Home & Kitchen
+Home & Kitchen Item 033,2000000001821,Home & Kitchen product 33 - generated seed data.,24.61,2,Home & Kitchen
+Home & Kitchen Item 034,2000000001838,Home & Kitchen product 34 - generated seed data.,2.55,0,Home & Kitchen
+Home & Kitchen Item 035,2000000001845,Home & Kitchen product 35 - generated seed data.,10.13,1,Home & Kitchen
+Home & Kitchen Item 036,2000000001852,Home & Kitchen product 36 - generated seed data.,8.55,2,Home & Kitchen
+Home & Kitchen Item 037,2000000001869,Home & Kitchen product 37 - generated seed data.,21.56,0,Home & Kitchen
+Home & Kitchen Item 038,2000000001876,Home & Kitchen product 38 - generated seed data.,6.29,1,Home & Kitchen
+Home & Kitchen Item 039,2000000001883,Home & Kitchen product 39 - generated seed data.,4.84,2,Home & Kitchen
+Home & Kitchen Item 040,2000000001890,Home & Kitchen product 40 - generated seed data.,11.27,0,Home & Kitchen
+Home & Kitchen Item 041,2000000001906,Home & Kitchen product 41 - generated seed data.,10.6,1,Home & Kitchen
+Home & Kitchen Item 042,2000000001913,Home & Kitchen product 42 - generated seed data.,7.04,2,Home & Kitchen
+Home & Kitchen Item 043,2000000001920,Home & Kitchen product 43 - generated seed data.,6.32,0,Home & Kitchen
+Home & Kitchen Item 044,2000000001937,Home & Kitchen product 44 - generated seed data.,23.09,1,Home & Kitchen
+Home & Kitchen Item 045,2000000001944,Home & Kitchen product 45 - generated seed data.,11.13,2,Home & Kitchen
+Home & Kitchen Item 046,2000000001951,Home & Kitchen product 46 - generated seed data.,21.55,0,Home & Kitchen
+Home & Kitchen Item 047,2000000001968,Home & Kitchen product 47 - generated seed data.,13.8,1,Home & Kitchen
+Home & Kitchen Item 048,2000000001975,Home & Kitchen product 48 - generated seed data.,1.36,2,Home & Kitchen
+Home & Kitchen Item 049,2000000001982,Home & Kitchen product 49 - generated seed data.,24.98,0,Home & Kitchen
+Home & Kitchen Item 050,2000000001999,Home & Kitchen product 50 - generated seed data.,20.92,1,Home & Kitchen
+Home & Kitchen Item 051,2000000002002,Home & Kitchen product 51 - generated seed data.,24.23,2,Home & Kitchen
+Home & Kitchen Item 052,2000000002019,Home & Kitchen product 52 - generated seed data.,23.17,0,Home & Kitchen
+Home & Kitchen Item 053,2000000002026,Home & Kitchen product 53 - generated seed data.,21.23,1,Home & Kitchen
+Home & Kitchen Item 054,2000000002033,Home & Kitchen product 54 - generated seed data.,4.24,2,Home & Kitchen
+Home & Kitchen Item 055,2000000002040,Home & Kitchen product 55 - generated seed data.,12.19,0,Home & Kitchen
+Home & Kitchen Item 056,2000000002057,Home & Kitchen product 56 - generated seed data.,5.42,1,Home & Kitchen
+Home & Kitchen Item 057,2000000002064,Home & Kitchen product 57 - generated seed data.,10.09,2,Home & Kitchen
+Home & Kitchen Item 058,2000000002071,Home & Kitchen product 58 - generated seed data.,1.56,0,Home & Kitchen
+Home & Kitchen Item 059,2000000002088,Home & Kitchen product 59 - generated seed data.,9.54,1,Home & Kitchen
+Home & Kitchen Item 060,2000000002095,Home & Kitchen product 60 - generated seed data.,24.63,2,Home & Kitchen
+Home & Kitchen Item 061,2000000002101,Home & Kitchen product 61 - generated seed data.,6.7,0,Home & Kitchen
+Home & Kitchen Item 062,2000000002118,Home & Kitchen product 62 - generated seed data.,19.62,1,Home & Kitchen
+Home & Kitchen Item 063,2000000002125,Home & Kitchen product 63 - generated seed data.,11.43,2,Home & Kitchen
+Home & Kitchen Item 064,2000000002132,Home & Kitchen product 64 - generated seed data.,10.63,0,Home & Kitchen
+Home & Kitchen Item 065,2000000002149,Home & Kitchen product 65 - generated seed data.,23.94,1,Home & Kitchen
+Home & Kitchen Item 066,2000000002156,Home & Kitchen product 66 - generated seed data.,24.89,2,Home & Kitchen
+Home & Kitchen Item 067,2000000002163,Home & Kitchen product 67 - generated seed data.,13.94,0,Home & Kitchen
+Home & Kitchen Item 068,2000000002170,Home & Kitchen product 68 - generated seed data.,17.99,1,Home & Kitchen
+Home & Kitchen Item 069,2000000002187,Home & Kitchen product 69 - generated seed data.,3.95,2,Home & Kitchen
+Home & Kitchen Item 070,2000000002194,Home & Kitchen product 70 - generated seed data.,7.49,0,Home & Kitchen
+Home & Kitchen Item 071,2000000002200,Home & Kitchen product 71 - generated seed data.,24.22,1,Home & Kitchen
+Home & Kitchen Item 072,2000000002217,Home & Kitchen product 72 - generated seed data.,14.52,2,Home & Kitchen
+Home & Kitchen Item 073,2000000002224,Home & Kitchen product 73 - generated seed data.,13.6,0,Home & Kitchen
+Home & Kitchen Item 074,2000000002231,Home & Kitchen product 74 - generated seed data.,18.72,1,Home & Kitchen
+Home & Kitchen Item 075,2000000002248,Home & Kitchen product 75 - generated seed data.,1.52,2,Home & Kitchen
+Home & Kitchen Item 076,2000000002255,Home & Kitchen product 76 - generated seed data.,14.65,0,Home & Kitchen
+Home & Kitchen Item 077,2000000002262,Home & Kitchen product 77 - generated seed data.,12.62,1,Home & Kitchen
+Home & Kitchen Item 078,2000000002279,Home & Kitchen product 78 - generated seed data.,21.33,2,Home & Kitchen
+Home & Kitchen Item 079,2000000002286,Home & Kitchen product 79 - generated seed data.,4.02,0,Home & Kitchen
+Home & Kitchen Item 080,2000000002293,Home & Kitchen product 80 - generated seed data.,24.02,1,Home & Kitchen
+Home & Kitchen Item 081,2000000002309,Home & Kitchen product 81 - generated seed data.,2.09,2,Home & Kitchen
+Home & Kitchen Item 082,2000000002316,Home & Kitchen product 82 - generated seed data.,4.73,0,Home & Kitchen
+Home & Kitchen Item 083,2000000002323,Home & Kitchen product 83 - generated seed data.,14.92,1,Home & Kitchen
+Home & Kitchen Item 084,2000000002330,Home & Kitchen product 84 - generated seed data.,16.91,2,Home & Kitchen
+Home & Kitchen Item 085,2000000002347,Home & Kitchen product 85 - generated seed data.,5.96,0,Home & Kitchen
+Home & Kitchen Item 086,2000000002354,Home & Kitchen product 86 - generated seed data.,3.09,1,Home & Kitchen
+Home & Kitchen Item 087,2000000002361,Home & Kitchen product 87 - generated seed data.,22.27,2,Home & Kitchen
+Home & Kitchen Item 088,2000000002378,Home & Kitchen product 88 - generated seed data.,6.23,0,Home & Kitchen
+Home & Kitchen Item 089,2000000002385,Home & Kitchen product 89 - generated seed data.,14.9,1,Home & Kitchen
+Home & Kitchen Item 090,2000000002392,Home & Kitchen product 90 - generated seed data.,15.52,2,Home & Kitchen
+Home & Kitchen Item 091,2000000002408,Home & Kitchen product 91 - generated seed data.,10.54,0,Home & Kitchen
+Home & Kitchen Item 092,2000000002415,Home & Kitchen product 92 - generated seed data.,14.63,1,Home & Kitchen
+Home & Kitchen Item 093,2000000002422,Home & Kitchen product 93 - generated seed data.,13.12,2,Home & Kitchen
+Home & Kitchen Item 094,2000000002439,Home & Kitchen product 94 - generated seed data.,23.37,0,Home & Kitchen
+Home & Kitchen Item 095,2000000002446,Home & Kitchen product 95 - generated seed data.,5.19,1,Home & Kitchen
+Home & Kitchen Item 096,2000000002453,Home & Kitchen product 96 - generated seed data.,17.93,2,Home & Kitchen
+Home & Kitchen Item 097,2000000002460,Home & Kitchen product 97 - generated seed data.,6.04,0,Home & Kitchen
+Home & Kitchen Item 098,2000000002477,Home & Kitchen product 98 - generated seed data.,9.96,1,Home & Kitchen
+Home & Kitchen Item 099,2000000002484,Home & Kitchen product 99 - generated seed data.,16.83,2,Home & Kitchen
+Home & Kitchen Item 100,2000000002491,Home & Kitchen product 100 - generated seed data.,7.57,0,Home & Kitchen
+Home & Kitchen Item 101,2000000002507,Home & Kitchen product 101 - generated seed data.,7.97,1,Home & Kitchen
+Home & Kitchen Item 102,2000000002514,Home & Kitchen product 102 - generated seed data.,18.82,2,Home & Kitchen
+Home & Kitchen Item 103,2000000002521,Home & Kitchen product 103 - generated seed data.,1.91,0,Home & Kitchen
+Home & Kitchen Item 104,2000000002538,Home & Kitchen product 104 - generated seed data.,11.51,1,Home & Kitchen
+Home & Kitchen Item 105,2000000002545,Home & Kitchen product 105 - generated seed data.,24.96,2,Home & Kitchen
+Home & Kitchen Item 106,2000000002552,Home & Kitchen product 106 - generated seed data.,24.9,0,Home & Kitchen
+Home & Kitchen Item 107,2000000002569,Home & Kitchen product 107 - generated seed data.,1.92,1,Home & Kitchen
+Home & Kitchen Item 108,2000000002576,Home & Kitchen product 108 - generated seed data.,5.41,2,Home & Kitchen
+Home & Kitchen Item 109,2000000002583,Home & Kitchen product 109 - generated seed data.,6.7,0,Home & Kitchen
+Home & Kitchen Item 110,2000000002590,Home & Kitchen product 110 - generated seed data.,23.34,1,Home & Kitchen
+Home & Kitchen Item 111,2000000002606,Home & Kitchen product 111 - generated seed data.,22.03,2,Home & Kitchen
+Home & Kitchen Item 112,2000000002613,Home & Kitchen product 112 - generated seed data.,21.99,0,Home & Kitchen
+Home & Kitchen Item 113,2000000002620,Home & Kitchen product 113 - generated seed data.,9.3,1,Home & Kitchen
+Home & Kitchen Item 114,2000000002637,Home & Kitchen product 114 - generated seed data.,4.03,2,Home & Kitchen
+Home & Kitchen Item 115,2000000002644,Home & Kitchen product 115 - generated seed data.,20.86,0,Home & Kitchen
+Home & Kitchen Item 116,2000000002651,Home & Kitchen product 116 - generated seed data.,17.62,1,Home & Kitchen
+Home & Kitchen Item 117,2000000002668,Home & Kitchen product 117 - generated seed data.,15.33,2,Home & Kitchen
+Home & Kitchen Item 118,2000000002675,Home & Kitchen product 118 - generated seed data.,24.68,0,Home & Kitchen
+Home & Kitchen Item 119,2000000002682,Home & Kitchen product 119 - generated seed data.,16.38,1,Home & Kitchen
+Home & Kitchen Item 120,2000000002699,Home & Kitchen product 120 - generated seed data.,0.29,2,Home & Kitchen
+Home & Kitchen Item 121,2000000002705,Home & Kitchen product 121 - generated seed data.,20.45,0,Home & Kitchen
+Home & Kitchen Item 122,2000000002712,Home & Kitchen product 122 - generated seed data.,7.55,1,Home & Kitchen
+Home & Kitchen Item 123,2000000002729,Home & Kitchen product 123 - generated seed data.,16.62,2,Home & Kitchen
+Home & Kitchen Item 124,2000000002736,Home & Kitchen product 124 - generated seed data.,23.48,0,Home & Kitchen
+Home & Kitchen Item 125,2000000002743,Home & Kitchen product 125 - generated seed data.,3.44,1,Home & Kitchen
+Home & Kitchen Item 126,2000000002750,Home & Kitchen product 126 - generated seed data.,2.97,2,Home & Kitchen
+Home & Kitchen Item 127,2000000002767,Home & Kitchen product 127 - generated seed data.,2.77,0,Home & Kitchen
+Home & Kitchen Item 128,2000000002774,Home & Kitchen product 128 - generated seed data.,13.88,1,Home & Kitchen
+Home & Kitchen Item 129,2000000002781,Home & Kitchen product 129 - generated seed data.,6.88,2,Home & Kitchen
+Home & Kitchen Item 130,2000000002798,Home & Kitchen product 130 - generated seed data.,15.16,0,Home & Kitchen
+Home & Kitchen Item 131,2000000002804,Home & Kitchen product 131 - generated seed data.,17.97,1,Home & Kitchen
+Home & Kitchen Item 132,2000000002811,Home & Kitchen product 132 - generated seed data.,5.17,2,Home & Kitchen
+Home & Kitchen Item 133,2000000002828,Home & Kitchen product 133 - generated seed data.,15.89,0,Home & Kitchen
+Home & Kitchen Item 134,2000000002835,Home & Kitchen product 134 - generated seed data.,6.67,1,Home & Kitchen
+Home & Kitchen Item 135,2000000002842,Home & Kitchen product 135 - generated seed data.,12.26,2,Home & Kitchen
+Home & Kitchen Item 136,2000000002859,Home & Kitchen product 136 - generated seed data.,22.64,0,Home & Kitchen
+Home & Kitchen Item 137,2000000002866,Home & Kitchen product 137 - generated seed data.,21.17,1,Home & Kitchen
+Home & Kitchen Item 138,2000000002873,Home & Kitchen product 138 - generated seed data.,2.4,2,Home & Kitchen
+Home & Kitchen Item 139,2000000002880,Home & Kitchen product 139 - generated seed data.,10.65,0,Home & Kitchen
+Home & Kitchen Item 140,2000000002897,Home & Kitchen product 140 - generated seed data.,6.99,1,Home & Kitchen
+Home & Kitchen Item 141,2000000002903,Home & Kitchen product 141 - generated seed data.,0.19,2,Home & Kitchen
+Home & Kitchen Item 142,2000000002910,Home & Kitchen product 142 - generated seed data.,19.3,0,Home & Kitchen
+Home & Kitchen Item 143,2000000002927,Home & Kitchen product 143 - generated seed data.,15.96,1,Home & Kitchen
+Home & Kitchen Item 144,2000000002934,Home & Kitchen product 144 - generated seed data.,6.62,2,Home & Kitchen
+Home & Kitchen Item 145,2000000002941,Home & Kitchen product 145 - generated seed data.,18.56,0,Home & Kitchen
+Home & Kitchen Item 146,2000000002958,Home & Kitchen product 146 - generated seed data.,13.84,1,Home & Kitchen
+Home & Kitchen Item 147,2000000002965,Home & Kitchen product 147 - generated seed data.,10.75,2,Home & Kitchen
+Home & Kitchen Item 148,2000000002972,Home & Kitchen product 148 - generated seed data.,0.34,0,Home & Kitchen
+Home & Kitchen Item 149,2000000002989,Home & Kitchen product 149 - generated seed data.,1.97,1,Home & Kitchen
+Home & Kitchen Item 150,2000000002996,Home & Kitchen product 150 - generated seed data.,22.09,2,Home & Kitchen
+Sports & Outdoors Item 001,2000000003009,Sports & Outdoors product 1 - generated seed data.,22.61,0,Sports & Outdoors
+Sports & Outdoors Item 002,2000000003016,Sports & Outdoors product 2 - generated seed data.,13.69,1,Sports & Outdoors
+Sports & Outdoors Item 003,2000000003023,Sports & Outdoors product 3 - generated seed data.,20.88,2,Sports & Outdoors
+Sports & Outdoors Item 004,2000000003030,Sports & Outdoors product 4 - generated seed data.,14.6,0,Sports & Outdoors
+Sports & Outdoors Item 005,2000000003047,Sports & Outdoors product 5 - generated seed data.,3.79,1,Sports & Outdoors
+Sports & Outdoors Item 006,2000000003054,Sports & Outdoors product 6 - generated seed data.,3.27,2,Sports & Outdoors
+Sports & Outdoors Item 007,2000000003061,Sports & Outdoors product 7 - generated seed data.,7.78,0,Sports & Outdoors
+Sports & Outdoors Item 008,2000000003078,Sports & Outdoors product 8 - generated seed data.,22.48,1,Sports & Outdoors
+Sports & Outdoors Item 009,2000000003085,Sports & Outdoors product 9 - generated seed data.,19.92,2,Sports & Outdoors
+Sports & Outdoors Item 010,2000000003092,Sports & Outdoors product 10 - generated seed data.,21.53,0,Sports & Outdoors
+Sports & Outdoors Item 011,2000000003108,Sports & Outdoors product 11 - generated seed data.,22.48,1,Sports & Outdoors
+Sports & Outdoors Item 012,2000000003115,Sports & Outdoors product 12 - generated seed data.,5.33,2,Sports & Outdoors
+Sports & Outdoors Item 013,2000000003122,Sports & Outdoors product 13 - generated seed data.,6.31,0,Sports & Outdoors
+Sports & Outdoors Item 014,2000000003139,Sports & Outdoors product 14 - generated seed data.,2.66,1,Sports & Outdoors
+Sports & Outdoors Item 015,2000000003146,Sports & Outdoors product 15 - generated seed data.,19.52,2,Sports & Outdoors
+Sports & Outdoors Item 016,2000000003153,Sports & Outdoors product 16 - generated seed data.,22.11,0,Sports & Outdoors
+Sports & Outdoors Item 017,2000000003160,Sports & Outdoors product 17 - generated seed data.,10.22,1,Sports & Outdoors
+Sports & Outdoors Item 018,2000000003177,Sports & Outdoors product 18 - generated seed data.,15.55,2,Sports & Outdoors
+Sports & Outdoors Item 019,2000000003184,Sports & Outdoors product 19 - generated seed data.,3.95,0,Sports & Outdoors
+Sports & Outdoors Item 020,2000000003191,Sports & Outdoors product 20 - generated seed data.,23.25,1,Sports & Outdoors
+Sports & Outdoors Item 021,2000000003207,Sports & Outdoors product 21 - generated seed data.,21.63,2,Sports & Outdoors
+Sports & Outdoors Item 022,2000000003214,Sports & Outdoors product 22 - generated seed data.,24.41,0,Sports & Outdoors
+Sports & Outdoors Item 023,2000000003221,Sports & Outdoors product 23 - generated seed data.,20.29,1,Sports & Outdoors
+Sports & Outdoors Item 024,2000000003238,Sports & Outdoors product 24 - generated seed data.,22.05,2,Sports & Outdoors
+Sports & Outdoors Item 025,2000000003245,Sports & Outdoors product 25 - generated seed data.,0.72,0,Sports & Outdoors
+Sports & Outdoors Item 026,2000000003252,Sports & Outdoors product 26 - generated seed data.,18.44,1,Sports & Outdoors
+Sports & Outdoors Item 027,2000000003269,Sports & Outdoors product 27 - generated seed data.,8.37,2,Sports & Outdoors
+Sports & Outdoors Item 028,2000000003276,Sports & Outdoors product 28 - generated seed data.,23.28,0,Sports & Outdoors
+Sports & Outdoors Item 029,2000000003283,Sports & Outdoors product 29 - generated seed data.,20.08,1,Sports & Outdoors
+Sports & Outdoors Item 030,2000000003290,Sports & Outdoors product 30 - generated seed data.,21.62,2,Sports & Outdoors
+Sports & Outdoors Item 031,2000000003306,Sports & Outdoors product 31 - generated seed data.,20.29,0,Sports & Outdoors
+Sports & Outdoors Item 032,2000000003313,Sports & Outdoors product 32 - generated seed data.,6.74,1,Sports & Outdoors
+Sports & Outdoors Item 033,2000000003320,Sports & Outdoors product 33 - generated seed data.,19.71,2,Sports & Outdoors
+Sports & Outdoors Item 034,2000000003337,Sports & Outdoors product 34 - generated seed data.,2.79,0,Sports & Outdoors
+Sports & Outdoors Item 035,2000000003344,Sports & Outdoors product 35 - generated seed data.,21.82,1,Sports & Outdoors
+Sports & Outdoors Item 036,2000000003351,Sports & Outdoors product 36 - generated seed data.,21.48,2,Sports & Outdoors
+Sports & Outdoors Item 037,2000000003368,Sports & Outdoors product 37 - generated seed data.,5.64,0,Sports & Outdoors
+Sports & Outdoors Item 038,2000000003375,Sports & Outdoors product 38 - generated seed data.,20.43,1,Sports & Outdoors
+Sports & Outdoors Item 039,2000000003382,Sports & Outdoors product 39 - generated seed data.,11.56,2,Sports & Outdoors
+Sports & Outdoors Item 040,2000000003399,Sports & Outdoors product 40 - generated seed data.,7.7,0,Sports & Outdoors
+Sports & Outdoors Item 041,2000000003405,Sports & Outdoors product 41 - generated seed data.,19.9,1,Sports & Outdoors
+Sports & Outdoors Item 042,2000000003412,Sports & Outdoors product 42 - generated seed data.,5.77,2,Sports & Outdoors
+Sports & Outdoors Item 043,2000000003429,Sports & Outdoors product 43 - generated seed data.,0.69,0,Sports & Outdoors
+Sports & Outdoors Item 044,2000000003436,Sports & Outdoors product 44 - generated seed data.,4.91,1,Sports & Outdoors
+Sports & Outdoors Item 045,2000000003443,Sports & Outdoors product 45 - generated seed data.,8.27,2,Sports & Outdoors
+Sports & Outdoors Item 046,2000000003450,Sports & Outdoors product 46 - generated seed data.,21.62,0,Sports & Outdoors
+Sports & Outdoors Item 047,2000000003467,Sports & Outdoors product 47 - generated seed data.,24.18,1,Sports & Outdoors
+Sports & Outdoors Item 048,2000000003474,Sports & Outdoors product 48 - generated seed data.,7.05,2,Sports & Outdoors
+Sports & Outdoors Item 049,2000000003481,Sports & Outdoors product 49 - generated seed data.,16.07,0,Sports & Outdoors
+Sports & Outdoors Item 050,2000000003498,Sports & Outdoors product 50 - generated seed data.,10.05,1,Sports & Outdoors
+Sports & Outdoors Item 051,2000000003504,Sports & Outdoors product 51 - generated seed data.,24.53,2,Sports & Outdoors
+Sports & Outdoors Item 052,2000000003511,Sports & Outdoors product 52 - generated seed data.,13.45,0,Sports & Outdoors
+Sports & Outdoors Item 053,2000000003528,Sports & Outdoors product 53 - generated seed data.,23.49,1,Sports & Outdoors
+Sports & Outdoors Item 054,2000000003535,Sports & Outdoors product 54 - generated seed data.,2.97,2,Sports & Outdoors
+Sports & Outdoors Item 055,2000000003542,Sports & Outdoors product 55 - generated seed data.,24.26,0,Sports & Outdoors
+Sports & Outdoors Item 056,2000000003559,Sports & Outdoors product 56 - generated seed data.,4.55,1,Sports & Outdoors
+Sports & Outdoors Item 057,2000000003566,Sports & Outdoors product 57 - generated seed data.,24.07,2,Sports & Outdoors
+Sports & Outdoors Item 058,2000000003573,Sports & Outdoors product 58 - generated seed data.,6.71,0,Sports & Outdoors
+Sports & Outdoors Item 059,2000000003580,Sports & Outdoors product 59 - generated seed data.,2.8,1,Sports & Outdoors
+Sports & Outdoors Item 060,2000000003597,Sports & Outdoors product 60 - generated seed data.,10.92,2,Sports & Outdoors
+Sports & Outdoors Item 061,2000000003603,Sports & Outdoors product 61 - generated seed data.,18.24,0,Sports & Outdoors
+Sports & Outdoors Item 062,2000000003610,Sports & Outdoors product 62 - generated seed data.,7.91,1,Sports & Outdoors
+Sports & Outdoors Item 063,2000000003627,Sports & Outdoors product 63 - generated seed data.,15.19,2,Sports & Outdoors
+Sports & Outdoors Item 064,2000000003634,Sports & Outdoors product 64 - generated seed data.,12.83,0,Sports & Outdoors
+Sports & Outdoors Item 065,2000000003641,Sports & Outdoors product 65 - generated seed data.,9.69,1,Sports & Outdoors
+Sports & Outdoors Item 066,2000000003658,Sports & Outdoors product 66 - generated seed data.,14.46,2,Sports & Outdoors
+Sports & Outdoors Item 067,2000000003665,Sports & Outdoors product 67 - generated seed data.,6.44,0,Sports & Outdoors
+Sports & Outdoors Item 068,2000000003672,Sports & Outdoors product 68 - generated seed data.,17.75,1,Sports & Outdoors
+Sports & Outdoors Item 069,2000000003689,Sports & Outdoors product 69 - generated seed data.,0.14,2,Sports & Outdoors
+Sports & Outdoors Item 070,2000000003696,Sports & Outdoors product 70 - generated seed data.,23.15,0,Sports & Outdoors
+Sports & Outdoors Item 071,2000000003702,Sports & Outdoors product 71 - generated seed data.,13.51,1,Sports & Outdoors
+Sports & Outdoors Item 072,2000000003719,Sports & Outdoors product 72 - generated seed data.,18.01,2,Sports & Outdoors
+Sports & Outdoors Item 073,2000000003726,Sports & Outdoors product 73 - generated seed data.,18.57,0,Sports & Outdoors
+Sports & Outdoors Item 074,2000000003733,Sports & Outdoors product 74 - generated seed data.,16.8,1,Sports & Outdoors
+Sports & Outdoors Item 075,2000000003740,Sports & Outdoors product 75 - generated seed data.,9.17,2,Sports & Outdoors
+Sports & Outdoors Item 076,2000000003757,Sports & Outdoors product 76 - generated seed data.,1.84,0,Sports & Outdoors
+Sports & Outdoors Item 077,2000000003764,Sports & Outdoors product 77 - generated seed data.,16.64,1,Sports & Outdoors
+Sports & Outdoors Item 078,2000000003771,Sports & Outdoors product 78 - generated seed data.,8.32,2,Sports & Outdoors
+Sports & Outdoors Item 079,2000000003788,Sports & Outdoors product 79 - generated seed data.,7.92,0,Sports & Outdoors
+Sports & Outdoors Item 080,2000000003795,Sports & Outdoors product 80 - generated seed data.,21.22,1,Sports & Outdoors
+Sports & Outdoors Item 081,2000000003801,Sports & Outdoors product 81 - generated seed data.,18.02,2,Sports & Outdoors
+Sports & Outdoors Item 082,2000000003818,Sports & Outdoors product 82 - generated seed data.,7.58,0,Sports & Outdoors
+Sports & Outdoors Item 083,2000000003825,Sports & Outdoors product 83 - generated seed data.,7.8,1,Sports & Outdoors
+Sports & Outdoors Item 084,2000000003832,Sports & Outdoors product 84 - generated seed data.,10.27,2,Sports & Outdoors
+Sports & Outdoors Item 085,2000000003849,Sports & Outdoors product 85 - generated seed data.,10.12,0,Sports & Outdoors
+Sports & Outdoors Item 086,2000000003856,Sports & Outdoors product 86 - generated seed data.,7.46,1,Sports & Outdoors
+Sports & Outdoors Item 087,2000000003863,Sports & Outdoors product 87 - generated seed data.,3.27,2,Sports & Outdoors
+Sports & Outdoors Item 088,2000000003870,Sports & Outdoors product 88 - generated seed data.,10.57,0,Sports & Outdoors
+Sports & Outdoors Item 089,2000000003887,Sports & Outdoors product 89 - generated seed data.,23.52,1,Sports & Outdoors
+Sports & Outdoors Item 090,2000000003894,Sports & Outdoors product 90 - generated seed data.,16.97,2,Sports & Outdoors
+Sports & Outdoors Item 091,2000000003900,Sports & Outdoors product 91 - generated seed data.,22.58,0,Sports & Outdoors
+Sports & Outdoors Item 092,2000000003917,Sports & Outdoors product 92 - generated seed data.,15.43,1,Sports & Outdoors
+Sports & Outdoors Item 093,2000000003924,Sports & Outdoors product 93 - generated seed data.,7.59,2,Sports & Outdoors
+Sports & Outdoors Item 094,2000000003931,Sports & Outdoors product 94 - generated seed data.,13.74,0,Sports & Outdoors
+Sports & Outdoors Item 095,2000000003948,Sports & Outdoors product 95 - generated seed data.,0.11,1,Sports & Outdoors
+Sports & Outdoors Item 096,2000000003955,Sports & Outdoors product 96 - generated seed data.,7.24,2,Sports & Outdoors
+Sports & Outdoors Item 097,2000000003962,Sports & Outdoors product 97 - generated seed data.,10.8,0,Sports & Outdoors
+Sports & Outdoors Item 098,2000000003979,Sports & Outdoors product 98 - generated seed data.,14.54,1,Sports & Outdoors
+Sports & Outdoors Item 099,2000000003986,Sports & Outdoors product 99 - generated seed data.,16.4,2,Sports & Outdoors
+Sports & Outdoors Item 100,2000000003993,Sports & Outdoors product 100 - generated seed data.,11.68,0,Sports & Outdoors
+Sports & Outdoors Item 101,2000000004006,Sports & Outdoors product 101 - generated seed data.,11.11,1,Sports & Outdoors
+Sports & Outdoors Item 102,2000000004013,Sports & Outdoors product 102 - generated seed data.,5.42,2,Sports & Outdoors
+Sports & Outdoors Item 103,2000000004020,Sports & Outdoors product 103 - generated seed data.,11.88,0,Sports & Outdoors
+Sports & Outdoors Item 104,2000000004037,Sports & Outdoors product 104 - generated seed data.,22.54,1,Sports & Outdoors
+Sports & Outdoors Item 105,2000000004044,Sports & Outdoors product 105 - generated seed data.,19.92,2,Sports & Outdoors
+Sports & Outdoors Item 106,2000000004051,Sports & Outdoors product 106 - generated seed data.,4.33,0,Sports & Outdoors
+Sports & Outdoors Item 107,2000000004068,Sports & Outdoors product 107 - generated seed data.,2.21,1,Sports & Outdoors
+Sports & Outdoors Item 108,2000000004075,Sports & Outdoors product 108 - generated seed data.,12.93,2,Sports & Outdoors
+Sports & Outdoors Item 109,2000000004082,Sports & Outdoors product 109 - generated seed data.,15.86,0,Sports & Outdoors
+Sports & Outdoors Item 110,2000000004099,Sports & Outdoors product 110 - generated seed data.,8.45,1,Sports & Outdoors
+Sports & Outdoors Item 111,2000000004105,Sports & Outdoors product 111 - generated seed data.,20.48,2,Sports & Outdoors
+Sports & Outdoors Item 112,2000000004112,Sports & Outdoors product 112 - generated seed data.,18.8,0,Sports & Outdoors
+Sports & Outdoors Item 113,2000000004129,Sports & Outdoors product 113 - generated seed data.,16.85,1,Sports & Outdoors
+Sports & Outdoors Item 114,2000000004136,Sports & Outdoors product 114 - generated seed data.,5.69,2,Sports & Outdoors
+Sports & Outdoors Item 115,2000000004143,Sports & Outdoors product 115 - generated seed data.,5.06,0,Sports & Outdoors
+Sports & Outdoors Item 116,2000000004150,Sports & Outdoors product 116 - generated seed data.,0.71,1,Sports & Outdoors
+Sports & Outdoors Item 117,2000000004167,Sports & Outdoors product 117 - generated seed data.,6.2,2,Sports & Outdoors
+Sports & Outdoors Item 118,2000000004174,Sports & Outdoors product 118 - generated seed data.,11.93,0,Sports & Outdoors
+Sports & Outdoors Item 119,2000000004181,Sports & Outdoors product 119 - generated seed data.,21.26,1,Sports & Outdoors
+Sports & Outdoors Item 120,2000000004198,Sports & Outdoors product 120 - generated seed data.,1.91,2,Sports & Outdoors
+Sports & Outdoors Item 121,2000000004204,Sports & Outdoors product 121 - generated seed data.,10.42,0,Sports & Outdoors
+Sports & Outdoors Item 122,2000000004211,Sports & Outdoors product 122 - generated seed data.,15.78,1,Sports & Outdoors
+Sports & Outdoors Item 123,2000000004228,Sports & Outdoors product 123 - generated seed data.,4.94,2,Sports & Outdoors
+Sports & Outdoors Item 124,2000000004235,Sports & Outdoors product 124 - generated seed data.,17.44,0,Sports & Outdoors
+Sports & Outdoors Item 125,2000000004242,Sports & Outdoors product 125 - generated seed data.,12.41,1,Sports & Outdoors
+Sports & Outdoors Item 126,2000000004259,Sports & Outdoors product 126 - generated seed data.,6.18,2,Sports & Outdoors
+Sports & Outdoors Item 127,2000000004266,Sports & Outdoors product 127 - generated seed data.,16.44,0,Sports & Outdoors
+Sports & Outdoors Item 128,2000000004273,Sports & Outdoors product 128 - generated seed data.,0.24,1,Sports & Outdoors
+Sports & Outdoors Item 129,2000000004280,Sports & Outdoors product 129 - generated seed data.,18.8,2,Sports & Outdoors
+Sports & Outdoors Item 130,2000000004297,Sports & Outdoors product 130 - generated seed data.,19.27,0,Sports & Outdoors
+Sports & Outdoors Item 131,2000000004303,Sports & Outdoors product 131 - generated seed data.,2.75,1,Sports & Outdoors
+Sports & Outdoors Item 132,2000000004310,Sports & Outdoors product 132 - generated seed data.,10.69,2,Sports & Outdoors
+Sports & Outdoors Item 133,2000000004327,Sports & Outdoors product 133 - generated seed data.,4.48,0,Sports & Outdoors
+Sports & Outdoors Item 134,2000000004334,Sports & Outdoors product 134 - generated seed data.,23.95,1,Sports & Outdoors
+Sports & Outdoors Item 135,2000000004341,Sports & Outdoors product 135 - generated seed data.,13.0,2,Sports & Outdoors
+Sports & Outdoors Item 136,2000000004358,Sports & Outdoors product 136 - generated seed data.,1.35,0,Sports & Outdoors
+Sports & Outdoors Item 137,2000000004365,Sports & Outdoors product 137 - generated seed data.,6.31,1,Sports & Outdoors
+Sports & Outdoors Item 138,2000000004372,Sports & Outdoors product 138 - generated seed data.,21.22,2,Sports & Outdoors
+Sports & Outdoors Item 139,2000000004389,Sports & Outdoors product 139 - generated seed data.,11.47,0,Sports & Outdoors
+Sports & Outdoors Item 140,2000000004396,Sports & Outdoors product 140 - generated seed data.,20.06,1,Sports & Outdoors
+Sports & Outdoors Item 141,2000000004402,Sports & Outdoors product 141 - generated seed data.,16.72,2,Sports & Outdoors
+Sports & Outdoors Item 142,2000000004419,Sports & Outdoors product 142 - generated seed data.,24.7,0,Sports & Outdoors
+Sports & Outdoors Item 143,2000000004426,Sports & Outdoors product 143 - generated seed data.,14.93,1,Sports & Outdoors
+Sports & Outdoors Item 144,2000000004433,Sports & Outdoors product 144 - generated seed data.,23.76,2,Sports & Outdoors
+Sports & Outdoors Item 145,2000000004440,Sports & Outdoors product 145 - generated seed data.,22.3,0,Sports & Outdoors
+Sports & Outdoors Item 146,2000000004457,Sports & Outdoors product 146 - generated seed data.,15.36,1,Sports & Outdoors
+Sports & Outdoors Item 147,2000000004464,Sports & Outdoors product 147 - generated seed data.,18.01,2,Sports & Outdoors
+Sports & Outdoors Item 148,2000000004471,Sports & Outdoors product 148 - generated seed data.,12.67,0,Sports & Outdoors
+Sports & Outdoors Item 149,2000000004488,Sports & Outdoors product 149 - generated seed data.,20.78,1,Sports & Outdoors
+Sports & Outdoors Item 150,2000000004495,Sports & Outdoors product 150 - generated seed data.,13.74,2,Sports & Outdoors
+Health & Beauty Item 001,2000000004501,Health & Beauty product 1 - generated seed data.,22.44,0,Health & Beauty
+Health & Beauty Item 002,2000000004518,Health & Beauty product 2 - generated seed data.,18.62,1,Health & Beauty
+Health & Beauty Item 003,2000000004525,Health & Beauty product 3 - generated seed data.,11.92,2,Health & Beauty
+Health & Beauty Item 004,2000000004532,Health & Beauty product 4 - generated seed data.,6.55,0,Health & Beauty
+Health & Beauty Item 005,2000000004549,Health & Beauty product 5 - generated seed data.,6.26,1,Health & Beauty
+Health & Beauty Item 006,2000000004556,Health & Beauty product 6 - generated seed data.,15.98,2,Health & Beauty
+Health & Beauty Item 007,2000000004563,Health & Beauty product 7 - generated seed data.,19.17,0,Health & Beauty
+Health & Beauty Item 008,2000000004570,Health & Beauty product 8 - generated seed data.,13.08,1,Health & Beauty
+Health & Beauty Item 009,2000000004587,Health & Beauty product 9 - generated seed data.,15.71,2,Health & Beauty
+Health & Beauty Item 010,2000000004594,Health & Beauty product 10 - generated seed data.,6.94,0,Health & Beauty
+Health & Beauty Item 011,2000000004600,Health & Beauty product 11 - generated seed data.,2.03,1,Health & Beauty
+Health & Beauty Item 012,2000000004617,Health & Beauty product 12 - generated seed data.,7.21,2,Health & Beauty
+Health & Beauty Item 013,2000000004624,Health & Beauty product 13 - generated seed data.,6.87,0,Health & Beauty
+Health & Beauty Item 014,2000000004631,Health & Beauty product 14 - generated seed data.,8.06,1,Health & Beauty
+Health & Beauty Item 015,2000000004648,Health & Beauty product 15 - generated seed data.,13.55,2,Health & Beauty
+Health & Beauty Item 016,2000000004655,Health & Beauty product 16 - generated seed data.,3.55,0,Health & Beauty
+Health & Beauty Item 017,2000000004662,Health & Beauty product 17 - generated seed data.,5.86,1,Health & Beauty
+Health & Beauty Item 018,2000000004679,Health & Beauty product 18 - generated seed data.,17.38,2,Health & Beauty
+Health & Beauty Item 019,2000000004686,Health & Beauty product 19 - generated seed data.,17.69,0,Health & Beauty
+Health & Beauty Item 020,2000000004693,Health & Beauty product 20 - generated seed data.,1.7,1,Health & Beauty
+Health & Beauty Item 021,2000000004709,Health & Beauty product 21 - generated seed data.,10.25,2,Health & Beauty
+Health & Beauty Item 022,2000000004716,Health & Beauty product 22 - generated seed data.,13.61,0,Health & Beauty
+Health & Beauty Item 023,2000000004723,Health & Beauty product 23 - generated seed data.,10.45,1,Health & Beauty
+Health & Beauty Item 024,2000000004730,Health & Beauty product 24 - generated seed data.,5.25,2,Health & Beauty
+Health & Beauty Item 025,2000000004747,Health & Beauty product 25 - generated seed data.,10.56,0,Health & Beauty
+Health & Beauty Item 026,2000000004754,Health & Beauty product 26 - generated seed data.,22.63,1,Health & Beauty
+Health & Beauty Item 027,2000000004761,Health & Beauty product 27 - generated seed data.,14.64,2,Health & Beauty
+Health & Beauty Item 028,2000000004778,Health & Beauty product 28 - generated seed data.,17.42,0,Health & Beauty
+Health & Beauty Item 029,2000000004785,Health & Beauty product 29 - generated seed data.,21.43,1,Health & Beauty
+Health & Beauty Item 030,2000000004792,Health & Beauty product 30 - generated seed data.,19.16,2,Health & Beauty
+Health & Beauty Item 031,2000000004808,Health & Beauty product 31 - generated seed data.,9.57,0,Health & Beauty
+Health & Beauty Item 032,2000000004815,Health & Beauty product 32 - generated seed data.,0.25,1,Health & Beauty
+Health & Beauty Item 033,2000000004822,Health & Beauty product 33 - generated seed data.,8.86,2,Health & Beauty
+Health & Beauty Item 034,2000000004839,Health & Beauty product 34 - generated seed data.,18.86,0,Health & Beauty
+Health & Beauty Item 035,2000000004846,Health & Beauty product 35 - generated seed data.,21.35,1,Health & Beauty
+Health & Beauty Item 036,2000000004853,Health & Beauty product 36 - generated seed data.,23.84,2,Health & Beauty
+Health & Beauty Item 037,2000000004860,Health & Beauty product 37 - generated seed data.,10.53,0,Health & Beauty
+Health & Beauty Item 038,2000000004877,Health & Beauty product 38 - generated seed data.,18.71,1,Health & Beauty
+Health & Beauty Item 039,2000000004884,Health & Beauty product 39 - generated seed data.,13.7,2,Health & Beauty
+Health & Beauty Item 040,2000000004891,Health & Beauty product 40 - generated seed data.,15.12,0,Health & Beauty
+Health & Beauty Item 041,2000000004907,Health & Beauty product 41 - generated seed data.,5.59,1,Health & Beauty
+Health & Beauty Item 042,2000000004914,Health & Beauty product 42 - generated seed data.,5.56,2,Health & Beauty
+Health & Beauty Item 043,2000000004921,Health & Beauty product 43 - generated seed data.,10.95,0,Health & Beauty
+Health & Beauty Item 044,2000000004938,Health & Beauty product 44 - generated seed data.,0.82,1,Health & Beauty
+Health & Beauty Item 045,2000000004945,Health & Beauty product 45 - generated seed data.,8.47,2,Health & Beauty
+Health & Beauty Item 046,2000000004952,Health & Beauty product 46 - generated seed data.,17.01,0,Health & Beauty
+Health & Beauty Item 047,2000000004969,Health & Beauty product 47 - generated seed data.,10.17,1,Health & Beauty
+Health & Beauty Item 048,2000000004976,Health & Beauty product 48 - generated seed data.,4.21,2,Health & Beauty
+Health & Beauty Item 049,2000000004983,Health & Beauty product 49 - generated seed data.,11.74,0,Health & Beauty
+Health & Beauty Item 050,2000000004990,Health & Beauty product 50 - generated seed data.,3.28,1,Health & Beauty
+Health & Beauty Item 051,2000000005003,Health & Beauty product 51 - generated seed data.,15.59,2,Health & Beauty
+Health & Beauty Item 052,2000000005010,Health & Beauty product 52 - generated seed data.,0.77,0,Health & Beauty
+Health & Beauty Item 053,2000000005027,Health & Beauty product 53 - generated seed data.,9.91,1,Health & Beauty
+Health & Beauty Item 054,2000000005034,Health & Beauty product 54 - generated seed data.,14.15,2,Health & Beauty
+Health & Beauty Item 055,2000000005041,Health & Beauty product 55 - generated seed data.,0.77,0,Health & Beauty
+Health & Beauty Item 056,2000000005058,Health & Beauty product 56 - generated seed data.,16.1,1,Health & Beauty
+Health & Beauty Item 057,2000000005065,Health & Beauty product 57 - generated seed data.,3.48,2,Health & Beauty
+Health & Beauty Item 058,2000000005072,Health & Beauty product 58 - generated seed data.,11.6,0,Health & Beauty
+Health & Beauty Item 059,2000000005089,Health & Beauty product 59 - generated seed data.,1.35,1,Health & Beauty
+Health & Beauty Item 060,2000000005096,Health & Beauty product 60 - generated seed data.,9.54,2,Health & Beauty
+Health & Beauty Item 061,2000000005102,Health & Beauty product 61 - generated seed data.,5.37,0,Health & Beauty
+Health & Beauty Item 062,2000000005119,Health & Beauty product 62 - generated seed data.,8.24,1,Health & Beauty
+Health & Beauty Item 063,2000000005126,Health & Beauty product 63 - generated seed data.,19.05,2,Health & Beauty
+Health & Beauty Item 064,2000000005133,Health & Beauty product 64 - generated seed data.,9.54,0,Health & Beauty
+Health & Beauty Item 065,2000000005140,Health & Beauty product 65 - generated seed data.,18.83,1,Health & Beauty
+Health & Beauty Item 066,2000000005157,Health & Beauty product 66 - generated seed data.,20.81,2,Health & Beauty
+Health & Beauty Item 067,2000000005164,Health & Beauty product 67 - generated seed data.,6.38,0,Health & Beauty
+Health & Beauty Item 068,2000000005171,Health & Beauty product 68 - generated seed data.,2.14,1,Health & Beauty
+Health & Beauty Item 069,2000000005188,Health & Beauty product 69 - generated seed data.,0.58,2,Health & Beauty
+Health & Beauty Item 070,2000000005195,Health & Beauty product 70 - generated seed data.,13.53,0,Health & Beauty
+Health & Beauty Item 071,2000000005201,Health & Beauty product 71 - generated seed data.,25.0,1,Health & Beauty
+Health & Beauty Item 072,2000000005218,Health & Beauty product 72 - generated seed data.,8.81,2,Health & Beauty
+Health & Beauty Item 073,2000000005225,Health & Beauty product 73 - generated seed data.,16.29,0,Health & Beauty
+Health & Beauty Item 074,2000000005232,Health & Beauty product 74 - generated seed data.,19.55,1,Health & Beauty
+Health & Beauty Item 075,2000000005249,Health & Beauty product 75 - generated seed data.,16.33,2,Health & Beauty
+Health & Beauty Item 076,2000000005256,Health & Beauty product 76 - generated seed data.,18.88,0,Health & Beauty
+Health & Beauty Item 077,2000000005263,Health & Beauty product 77 - generated seed data.,23.75,1,Health & Beauty
+Health & Beauty Item 078,2000000005270,Health & Beauty product 78 - generated seed data.,5.06,2,Health & Beauty
+Health & Beauty Item 079,2000000005287,Health & Beauty product 79 - generated seed data.,0.61,0,Health & Beauty
+Health & Beauty Item 080,2000000005294,Health & Beauty product 80 - generated seed data.,3.89,1,Health & Beauty
+Health & Beauty Item 081,2000000005300,Health & Beauty product 81 - generated seed data.,3.24,2,Health & Beauty
+Health & Beauty Item 082,2000000005317,Health & Beauty product 82 - generated seed data.,16.77,0,Health & Beauty
+Health & Beauty Item 083,2000000005324,Health & Beauty product 83 - generated seed data.,14.14,1,Health & Beauty
+Health & Beauty Item 084,2000000005331,Health & Beauty product 84 - generated seed data.,5.53,2,Health & Beauty
+Health & Beauty Item 085,2000000005348,Health & Beauty product 85 - generated seed data.,17.52,0,Health & Beauty
+Health & Beauty Item 086,2000000005355,Health & Beauty product 86 - generated seed data.,19.2,1,Health & Beauty
+Health & Beauty Item 087,2000000005362,Health & Beauty product 87 - generated seed data.,4.28,2,Health & Beauty
+Health & Beauty Item 088,2000000005379,Health & Beauty product 88 - generated seed data.,15.22,0,Health & Beauty
+Health & Beauty Item 089,2000000005386,Health & Beauty product 89 - generated seed data.,18.72,1,Health & Beauty
+Health & Beauty Item 090,2000000005393,Health & Beauty product 90 - generated seed data.,2.95,2,Health & Beauty
+Health & Beauty Item 091,2000000005409,Health & Beauty product 91 - generated seed data.,20.5,0,Health & Beauty
+Health & Beauty Item 092,2000000005416,Health & Beauty product 92 - generated seed data.,24.12,1,Health & Beauty
+Health & Beauty Item 093,2000000005423,Health & Beauty product 93 - generated seed data.,2.79,2,Health & Beauty
+Health & Beauty Item 094,2000000005430,Health & Beauty product 94 - generated seed data.,0.74,0,Health & Beauty
+Health & Beauty Item 095,2000000005447,Health & Beauty product 95 - generated seed data.,7.87,1,Health & Beauty
+Health & Beauty Item 096,2000000005454,Health & Beauty product 96 - generated seed data.,16.97,2,Health & Beauty
+Health & Beauty Item 097,2000000005461,Health & Beauty product 97 - generated seed data.,23.96,0,Health & Beauty
+Health & Beauty Item 098,2000000005478,Health & Beauty product 98 - generated seed data.,9.98,1,Health & Beauty
+Health & Beauty Item 099,2000000005485,Health & Beauty product 99 - generated seed data.,17.9,2,Health & Beauty
+Health & Beauty Item 100,2000000005492,Health & Beauty product 100 - generated seed data.,1.99,0,Health & Beauty
+Health & Beauty Item 101,2000000005508,Health & Beauty product 101 - generated seed data.,17.3,1,Health & Beauty
+Health & Beauty Item 102,2000000005515,Health & Beauty product 102 - generated seed data.,15.72,2,Health & Beauty
+Health & Beauty Item 103,2000000005522,Health & Beauty product 103 - generated seed data.,2.64,0,Health & Beauty
+Health & Beauty Item 104,2000000005539,Health & Beauty product 104 - generated seed data.,19.33,1,Health & Beauty
+Health & Beauty Item 105,2000000005546,Health & Beauty product 105 - generated seed data.,21.27,2,Health & Beauty
+Health & Beauty Item 106,2000000005553,Health & Beauty product 106 - generated seed data.,15.05,0,Health & Beauty
+Health & Beauty Item 107,2000000005560,Health & Beauty product 107 - generated seed data.,3.11,1,Health & Beauty
+Health & Beauty Item 108,2000000005577,Health & Beauty product 108 - generated seed data.,24.6,2,Health & Beauty
+Health & Beauty Item 109,2000000005584,Health & Beauty product 109 - generated seed data.,19.59,0,Health & Beauty
+Health & Beauty Item 110,2000000005591,Health & Beauty product 110 - generated seed data.,8.75,1,Health & Beauty
+Health & Beauty Item 111,2000000005607,Health & Beauty product 111 - generated seed data.,10.77,2,Health & Beauty
+Health & Beauty Item 112,2000000005614,Health & Beauty product 112 - generated seed data.,9.33,0,Health & Beauty
+Health & Beauty Item 113,2000000005621,Health & Beauty product 113 - generated seed data.,12.7,1,Health & Beauty
+Health & Beauty Item 114,2000000005638,Health & Beauty product 114 - generated seed data.,8.6,2,Health & Beauty
+Health & Beauty Item 115,2000000005645,Health & Beauty product 115 - generated seed data.,21.25,0,Health & Beauty
+Health & Beauty Item 116,2000000005652,Health & Beauty product 116 - generated seed data.,20.58,1,Health & Beauty
+Health & Beauty Item 117,2000000005669,Health & Beauty product 117 - generated seed data.,2.73,2,Health & Beauty
+Health & Beauty Item 118,2000000005676,Health & Beauty product 118 - generated seed data.,24.02,0,Health & Beauty
+Health & Beauty Item 119,2000000005683,Health & Beauty product 119 - generated seed data.,15.93,1,Health & Beauty
+Health & Beauty Item 120,2000000005690,Health & Beauty product 120 - generated seed data.,20.73,2,Health & Beauty
+Health & Beauty Item 121,2000000005706,Health & Beauty product 121 - generated seed data.,17.71,0,Health & Beauty
+Health & Beauty Item 122,2000000005713,Health & Beauty product 122 - generated seed data.,10.94,1,Health & Beauty
+Health & Beauty Item 123,2000000005720,Health & Beauty product 123 - generated seed data.,18.37,2,Health & Beauty
+Health & Beauty Item 124,2000000005737,Health & Beauty product 124 - generated seed data.,24.14,0,Health & Beauty
+Health & Beauty Item 125,2000000005744,Health & Beauty product 125 - generated seed data.,6.83,1,Health & Beauty
+Health & Beauty Item 126,2000000005751,Health & Beauty product 126 - generated seed data.,20.22,2,Health & Beauty
+Health & Beauty Item 127,2000000005768,Health & Beauty product 127 - generated seed data.,13.5,0,Health & Beauty
+Health & Beauty Item 128,2000000005775,Health & Beauty product 128 - generated seed data.,12.14,1,Health & Beauty
+Health & Beauty Item 129,2000000005782,Health & Beauty product 129 - generated seed data.,10.95,2,Health & Beauty
+Health & Beauty Item 130,2000000005799,Health & Beauty product 130 - generated seed data.,18.3,0,Health & Beauty
+Health & Beauty Item 131,2000000005805,Health & Beauty product 131 - generated seed data.,6.78,1,Health & Beauty
+Health & Beauty Item 132,2000000005812,Health & Beauty product 132 - generated seed data.,21.31,2,Health & Beauty
+Health & Beauty Item 133,2000000005829,Health & Beauty product 133 - generated seed data.,20.79,0,Health & Beauty
+Health & Beauty Item 134,2000000005836,Health & Beauty product 134 - generated seed data.,2.26,1,Health & Beauty
+Health & Beauty Item 135,2000000005843,Health & Beauty product 135 - generated seed data.,22.05,2,Health & Beauty
+Health & Beauty Item 136,2000000005850,Health & Beauty product 136 - generated seed data.,6.17,0,Health & Beauty
+Health & Beauty Item 137,2000000005867,Health & Beauty product 137 - generated seed data.,11.67,1,Health & Beauty
+Health & Beauty Item 138,2000000005874,Health & Beauty product 138 - generated seed data.,15.3,2,Health & Beauty
+Health & Beauty Item 139,2000000005881,Health & Beauty product 139 - generated seed data.,9.54,0,Health & Beauty
+Health & Beauty Item 140,2000000005898,Health & Beauty product 140 - generated seed data.,0.81,1,Health & Beauty
+Health & Beauty Item 141,2000000005904,Health & Beauty product 141 - generated seed data.,21.29,2,Health & Beauty
+Health & Beauty Item 142,2000000005911,Health & Beauty product 142 - generated seed data.,4.63,0,Health & Beauty
+Health & Beauty Item 143,2000000005928,Health & Beauty product 143 - generated seed data.,5.38,1,Health & Beauty
+Health & Beauty Item 144,2000000005935,Health & Beauty product 144 - generated seed data.,19.97,2,Health & Beauty
+Health & Beauty Item 145,2000000005942,Health & Beauty product 145 - generated seed data.,8.57,0,Health & Beauty
+Health & Beauty Item 146,2000000005959,Health & Beauty product 146 - generated seed data.,22.02,1,Health & Beauty
+Health & Beauty Item 147,2000000005966,Health & Beauty product 147 - generated seed data.,17.56,2,Health & Beauty
+Health & Beauty Item 148,2000000005973,Health & Beauty product 148 - generated seed data.,6.98,0,Health & Beauty
+Health & Beauty Item 149,2000000005980,Health & Beauty product 149 - generated seed data.,0.35,1,Health & Beauty
+Health & Beauty Item 150,2000000005997,Health & Beauty product 150 - generated seed data.,23.71,2,Health & Beauty
+Books Item 001,2000000006000,Books product 1 - generated seed data.,2.23,0,Books
+Books Item 002,2000000006017,Books product 2 - generated seed data.,18.03,1,Books
+Books Item 003,2000000006024,Books product 3 - generated seed data.,12.27,2,Books
+Books Item 004,2000000006031,Books product 4 - generated seed data.,18.98,0,Books
+Books Item 005,2000000006048,Books product 5 - generated seed data.,17.3,1,Books
+Books Item 006,2000000006055,Books product 6 - generated seed data.,16.18,2,Books
+Books Item 007,2000000006062,Books product 7 - generated seed data.,12.32,0,Books
+Books Item 008,2000000006079,Books product 8 - generated seed data.,19.84,1,Books
+Books Item 009,2000000006086,Books product 9 - generated seed data.,2.42,2,Books
+Books Item 010,2000000006093,Books product 10 - generated seed data.,5.62,0,Books
+Books Item 011,2000000006109,Books product 11 - generated seed data.,17.33,1,Books
+Books Item 012,2000000006116,Books product 12 - generated seed data.,7.72,2,Books
+Books Item 013,2000000006123,Books product 13 - generated seed data.,14.58,0,Books
+Books Item 014,2000000006130,Books product 14 - generated seed data.,11.88,1,Books
+Books Item 015,2000000006147,Books product 15 - generated seed data.,13.32,2,Books
+Books Item 016,2000000006154,Books product 16 - generated seed data.,10.7,0,Books
+Books Item 017,2000000006161,Books product 17 - generated seed data.,18.67,1,Books
+Books Item 018,2000000006178,Books product 18 - generated seed data.,8.34,2,Books
+Books Item 019,2000000006185,Books product 19 - generated seed data.,17.6,0,Books
+Books Item 020,2000000006192,Books product 20 - generated seed data.,6.85,1,Books
+Books Item 021,2000000006208,Books product 21 - generated seed data.,6.36,2,Books
+Books Item 022,2000000006215,Books product 22 - generated seed data.,3.1,0,Books
+Books Item 023,2000000006222,Books product 23 - generated seed data.,4.9,1,Books
+Books Item 024,2000000006239,Books product 24 - generated seed data.,3.08,2,Books
+Books Item 025,2000000006246,Books product 25 - generated seed data.,13.44,0,Books
+Books Item 026,2000000006253,Books product 26 - generated seed data.,19.08,1,Books
+Books Item 027,2000000006260,Books product 27 - generated seed data.,4.71,2,Books
+Books Item 028,2000000006277,Books product 28 - generated seed data.,5.49,0,Books
+Books Item 029,2000000006284,Books product 29 - generated seed data.,12.16,1,Books
+Books Item 030,2000000006291,Books product 30 - generated seed data.,18.14,2,Books
+Books Item 031,2000000006307,Books product 31 - generated seed data.,24.42,0,Books
+Books Item 032,2000000006314,Books product 32 - generated seed data.,13.16,1,Books
+Books Item 033,2000000006321,Books product 33 - generated seed data.,7.15,2,Books
+Books Item 034,2000000006338,Books product 34 - generated seed data.,2.6,0,Books
+Books Item 035,2000000006345,Books product 35 - generated seed data.,4.93,1,Books
+Books Item 036,2000000006352,Books product 36 - generated seed data.,5.76,2,Books
+Books Item 037,2000000006369,Books product 37 - generated seed data.,4.57,0,Books
+Books Item 038,2000000006376,Books product 38 - generated seed data.,0.45,1,Books
+Books Item 039,2000000006383,Books product 39 - generated seed data.,13.4,2,Books
+Books Item 040,2000000006390,Books product 40 - generated seed data.,6.93,0,Books
+Books Item 041,2000000006406,Books product 41 - generated seed data.,24.36,1,Books
+Books Item 042,2000000006413,Books product 42 - generated seed data.,13.88,2,Books
+Books Item 043,2000000006420,Books product 43 - generated seed data.,17.47,0,Books
+Books Item 044,2000000006437,Books product 44 - generated seed data.,3.24,1,Books
+Books Item 045,2000000006444,Books product 45 - generated seed data.,21.72,2,Books
+Books Item 046,2000000006451,Books product 46 - generated seed data.,12.32,0,Books
+Books Item 047,2000000006468,Books product 47 - generated seed data.,21.83,1,Books
+Books Item 048,2000000006475,Books product 48 - generated seed data.,14.39,2,Books
+Books Item 049,2000000006482,Books product 49 - generated seed data.,11.79,0,Books
+Books Item 050,2000000006499,Books product 50 - generated seed data.,11.07,1,Books
+Books Item 051,2000000006505,Books product 51 - generated seed data.,4.69,2,Books
+Books Item 052,2000000006512,Books product 52 - generated seed data.,1.38,0,Books
+Books Item 053,2000000006529,Books product 53 - generated seed data.,23.53,1,Books
+Books Item 054,2000000006536,Books product 54 - generated seed data.,12.0,2,Books
+Books Item 055,2000000006543,Books product 55 - generated seed data.,20.57,0,Books
+Books Item 056,2000000006550,Books product 56 - generated seed data.,10.08,1,Books
+Books Item 057,2000000006567,Books product 57 - generated seed data.,1.94,2,Books
+Books Item 058,2000000006574,Books product 58 - generated seed data.,15.77,0,Books
+Books Item 059,2000000006581,Books product 59 - generated seed data.,1.43,1,Books
+Books Item 060,2000000006598,Books product 60 - generated seed data.,3.82,2,Books
+Books Item 061,2000000006604,Books product 61 - generated seed data.,14.11,0,Books
+Books Item 062,2000000006611,Books product 62 - generated seed data.,7.67,1,Books
+Books Item 063,2000000006628,Books product 63 - generated seed data.,24.85,2,Books
+Books Item 064,2000000006635,Books product 64 - generated seed data.,3.05,0,Books
+Books Item 065,2000000006642,Books product 65 - generated seed data.,19.13,1,Books
+Books Item 066,2000000006659,Books product 66 - generated seed data.,15.2,2,Books
+Books Item 067,2000000006666,Books product 67 - generated seed data.,19.79,0,Books
+Books Item 068,2000000006673,Books product 68 - generated seed data.,5.72,1,Books
+Books Item 069,2000000006680,Books product 69 - generated seed data.,13.11,2,Books
+Books Item 070,2000000006697,Books product 70 - generated seed data.,11.32,0,Books
+Books Item 071,2000000006703,Books product 71 - generated seed data.,11.12,1,Books
+Books Item 072,2000000006710,Books product 72 - generated seed data.,21.52,2,Books
+Books Item 073,2000000006727,Books product 73 - generated seed data.,24.75,0,Books
+Books Item 074,2000000006734,Books product 74 - generated seed data.,7.7,1,Books
+Books Item 075,2000000006741,Books product 75 - generated seed data.,15.56,2,Books
+Books Item 076,2000000006758,Books product 76 - generated seed data.,15.28,0,Books
+Books Item 077,2000000006765,Books product 77 - generated seed data.,18.53,1,Books
+Books Item 078,2000000006772,Books product 78 - generated seed data.,23.69,2,Books
+Books Item 079,2000000006789,Books product 79 - generated seed data.,5.27,0,Books
+Books Item 080,2000000006796,Books product 80 - generated seed data.,5.35,1,Books
+Books Item 081,2000000006802,Books product 81 - generated seed data.,16.54,2,Books
+Books Item 082,2000000006819,Books product 82 - generated seed data.,4.01,0,Books
+Books Item 083,2000000006826,Books product 83 - generated seed data.,4.43,1,Books
+Books Item 084,2000000006833,Books product 84 - generated seed data.,1.97,2,Books
+Books Item 085,2000000006840,Books product 85 - generated seed data.,0.17,0,Books
+Books Item 086,2000000006857,Books product 86 - generated seed data.,11.32,1,Books
+Books Item 087,2000000006864,Books product 87 - generated seed data.,14.89,2,Books
+Books Item 088,2000000006871,Books product 88 - generated seed data.,7.35,0,Books
+Books Item 089,2000000006888,Books product 89 - generated seed data.,5.86,1,Books
+Books Item 090,2000000006895,Books product 90 - generated seed data.,17.7,2,Books
+Books Item 091,2000000006901,Books product 91 - generated seed data.,17.6,0,Books
+Books Item 092,2000000006918,Books product 92 - generated seed data.,11.41,1,Books
+Books Item 093,2000000006925,Books product 93 - generated seed data.,17.22,2,Books
+Books Item 094,2000000006932,Books product 94 - generated seed data.,23.11,0,Books
+Books Item 095,2000000006949,Books product 95 - generated seed data.,19.72,1,Books
+Books Item 096,2000000006956,Books product 96 - generated seed data.,15.66,2,Books
+Books Item 097,2000000006963,Books product 97 - generated seed data.,16.56,0,Books
+Books Item 098,2000000006970,Books product 98 - generated seed data.,23.35,1,Books
+Books Item 099,2000000006987,Books product 99 - generated seed data.,10.69,2,Books
+Books Item 100,2000000006994,Books product 100 - generated seed data.,13.66,0,Books
+Books Item 101,2000000007007,Books product 101 - generated seed data.,16.23,1,Books
+Books Item 102,2000000007014,Books product 102 - generated seed data.,22.72,2,Books
+Books Item 103,2000000007021,Books product 103 - generated seed data.,20.68,0,Books
+Books Item 104,2000000007038,Books product 104 - generated seed data.,1.88,1,Books
+Books Item 105,2000000007045,Books product 105 - generated seed data.,4.23,2,Books
+Books Item 106,2000000007052,Books product 106 - generated seed data.,7.76,0,Books
+Books Item 107,2000000007069,Books product 107 - generated seed data.,18.75,1,Books
+Books Item 108,2000000007076,Books product 108 - generated seed data.,14.27,2,Books
+Books Item 109,2000000007083,Books product 109 - generated seed data.,7.29,0,Books
+Books Item 110,2000000007090,Books product 110 - generated seed data.,3.2,1,Books
+Books Item 111,2000000007106,Books product 111 - generated seed data.,17.25,2,Books
+Books Item 112,2000000007113,Books product 112 - generated seed data.,17.52,0,Books
+Books Item 113,2000000007120,Books product 113 - generated seed data.,23.57,1,Books
+Books Item 114,2000000007137,Books product 114 - generated seed data.,12.56,2,Books
+Books Item 115,2000000007144,Books product 115 - generated seed data.,12.4,0,Books
+Books Item 116,2000000007151,Books product 116 - generated seed data.,2.1,1,Books
+Books Item 117,2000000007168,Books product 117 - generated seed data.,1.09,2,Books
+Books Item 118,2000000007175,Books product 118 - generated seed data.,10.86,0,Books
+Books Item 119,2000000007182,Books product 119 - generated seed data.,8.13,1,Books
+Books Item 120,2000000007199,Books product 120 - generated seed data.,6.33,2,Books
+Books Item 121,2000000007205,Books product 121 - generated seed data.,2.37,0,Books
+Books Item 122,2000000007212,Books product 122 - generated seed data.,24.05,1,Books
+Books Item 123,2000000007229,Books product 123 - generated seed data.,20.92,2,Books
+Books Item 124,2000000007236,Books product 124 - generated seed data.,14.42,0,Books
+Books Item 125,2000000007243,Books product 125 - generated seed data.,23.77,1,Books
+Books Item 126,2000000007250,Books product 126 - generated seed data.,24.99,2,Books
+Books Item 127,2000000007267,Books product 127 - generated seed data.,16.84,0,Books
+Books Item 128,2000000007274,Books product 128 - generated seed data.,6.81,1,Books
+Books Item 129,2000000007281,Books product 129 - generated seed data.,1.1,2,Books
+Books Item 130,2000000007298,Books product 130 - generated seed data.,18.93,0,Books
+Books Item 131,2000000007304,Books product 131 - generated seed data.,11.82,1,Books
+Books Item 132,2000000007311,Books product 132 - generated seed data.,16.32,2,Books
+Books Item 133,2000000007328,Books product 133 - generated seed data.,22.91,0,Books
+Books Item 134,2000000007335,Books product 134 - generated seed data.,4.62,1,Books
+Books Item 135,2000000007342,Books product 135 - generated seed data.,14.67,2,Books
+Books Item 136,2000000007359,Books product 136 - generated seed data.,15.91,0,Books
+Books Item 137,2000000007366,Books product 137 - generated seed data.,12.34,1,Books
+Books Item 138,2000000007373,Books product 138 - generated seed data.,2.37,2,Books
+Books Item 139,2000000007380,Books product 139 - generated seed data.,8.76,0,Books
+Books Item 140,2000000007397,Books product 140 - generated seed data.,8.4,1,Books
+Books Item 141,2000000007403,Books product 141 - generated seed data.,16.79,2,Books
+Books Item 142,2000000007410,Books product 142 - generated seed data.,21.46,0,Books
+Books Item 143,2000000007427,Books product 143 - generated seed data.,8.31,1,Books
+Books Item 144,2000000007434,Books product 144 - generated seed data.,17.37,2,Books
+Books Item 145,2000000007441,Books product 145 - generated seed data.,7.28,0,Books
+Books Item 146,2000000007458,Books product 146 - generated seed data.,23.64,1,Books
+Books Item 147,2000000007465,Books product 147 - generated seed data.,20.36,2,Books
+Books Item 148,2000000007472,Books product 148 - generated seed data.,13.8,0,Books
+Books Item 149,2000000007489,Books product 149 - generated seed data.,11.43,1,Books
+Books Item 150,2000000007496,Books product 150 - generated seed data.,7.93,2,Books
+Office Supplies Item 001,2000000007502,Office Supplies product 1 - generated seed data.,8.15,0,Office Supplies
+Office Supplies Item 002,2000000007519,Office Supplies product 2 - generated seed data.,24.26,1,Office Supplies
+Office Supplies Item 003,2000000007526,Office Supplies product 3 - generated seed data.,10.16,2,Office Supplies
+Office Supplies Item 004,2000000007533,Office Supplies product 4 - generated seed data.,12.91,0,Office Supplies
+Office Supplies Item 005,2000000007540,Office Supplies product 5 - generated seed data.,24.7,1,Office Supplies
+Office Supplies Item 006,2000000007557,Office Supplies product 6 - generated seed data.,16.48,2,Office Supplies
+Office Supplies Item 007,2000000007564,Office Supplies product 7 - generated seed data.,13.61,0,Office Supplies
+Office Supplies Item 008,2000000007571,Office Supplies product 8 - generated seed data.,10.39,1,Office Supplies
+Office Supplies Item 009,2000000007588,Office Supplies product 9 - generated seed data.,4.77,2,Office Supplies
+Office Supplies Item 010,2000000007595,Office Supplies product 10 - generated seed data.,9.11,0,Office Supplies
+Office Supplies Item 011,2000000007601,Office Supplies product 11 - generated seed data.,18.94,1,Office Supplies
+Office Supplies Item 012,2000000007618,Office Supplies product 12 - generated seed data.,15.67,2,Office Supplies
+Office Supplies Item 013,2000000007625,Office Supplies product 13 - generated seed data.,19.02,0,Office Supplies
+Office Supplies Item 014,2000000007632,Office Supplies product 14 - generated seed data.,5.17,1,Office Supplies
+Office Supplies Item 015,2000000007649,Office Supplies product 15 - generated seed data.,13.78,2,Office Supplies
+Office Supplies Item 016,2000000007656,Office Supplies product 16 - generated seed data.,23.2,0,Office Supplies
+Office Supplies Item 017,2000000007663,Office Supplies product 17 - generated seed data.,11.01,1,Office Supplies
+Office Supplies Item 018,2000000007670,Office Supplies product 18 - generated seed data.,17.49,2,Office Supplies
+Office Supplies Item 019,2000000007687,Office Supplies product 19 - generated seed data.,3.12,0,Office Supplies
+Office Supplies Item 020,2000000007694,Office Supplies product 20 - generated seed data.,24.33,1,Office Supplies
+Office Supplies Item 021,2000000007700,Office Supplies product 21 - generated seed data.,15.26,2,Office Supplies
+Office Supplies Item 022,2000000007717,Office Supplies product 22 - generated seed data.,6.06,0,Office Supplies
+Office Supplies Item 023,2000000007724,Office Supplies product 23 - generated seed data.,4.04,1,Office Supplies
+Office Supplies Item 024,2000000007731,Office Supplies product 24 - generated seed data.,13.82,2,Office Supplies
+Office Supplies Item 025,2000000007748,Office Supplies product 25 - generated seed data.,13.85,0,Office Supplies
+Office Supplies Item 026,2000000007755,Office Supplies product 26 - generated seed data.,2.42,1,Office Supplies
+Office Supplies Item 027,2000000007762,Office Supplies product 27 - generated seed data.,24.81,2,Office Supplies
+Office Supplies Item 028,2000000007779,Office Supplies product 28 - generated seed data.,22.83,0,Office Supplies
+Office Supplies Item 029,2000000007786,Office Supplies product 29 - generated seed data.,11.59,1,Office Supplies
+Office Supplies Item 030,2000000007793,Office Supplies product 30 - generated seed data.,3.02,2,Office Supplies
+Office Supplies Item 031,2000000007809,Office Supplies product 31 - generated seed data.,20.82,0,Office Supplies
+Office Supplies Item 032,2000000007816,Office Supplies product 32 - generated seed data.,12.51,1,Office Supplies
+Office Supplies Item 033,2000000007823,Office Supplies product 33 - generated seed data.,17.94,2,Office Supplies
+Office Supplies Item 034,2000000007830,Office Supplies product 34 - generated seed data.,12.77,0,Office Supplies
+Office Supplies Item 035,2000000007847,Office Supplies product 35 - generated seed data.,6.91,1,Office Supplies
+Office Supplies Item 036,2000000007854,Office Supplies product 36 - generated seed data.,20.88,2,Office Supplies
+Office Supplies Item 037,2000000007861,Office Supplies product 37 - generated seed data.,24.51,0,Office Supplies
+Office Supplies Item 038,2000000007878,Office Supplies product 38 - generated seed data.,6.17,1,Office Supplies
+Office Supplies Item 039,2000000007885,Office Supplies product 39 - generated seed data.,13.83,2,Office Supplies
+Office Supplies Item 040,2000000007892,Office Supplies product 40 - generated seed data.,9.65,0,Office Supplies
+Office Supplies Item 041,2000000007908,Office Supplies product 41 - generated seed data.,23.05,1,Office Supplies
+Office Supplies Item 042,2000000007915,Office Supplies product 42 - generated seed data.,12.76,2,Office Supplies
+Office Supplies Item 043,2000000007922,Office Supplies product 43 - generated seed data.,22.0,0,Office Supplies
+Office Supplies Item 044,2000000007939,Office Supplies product 44 - generated seed data.,21.61,1,Office Supplies
+Office Supplies Item 045,2000000007946,Office Supplies product 45 - generated seed data.,6.98,2,Office Supplies
+Office Supplies Item 046,2000000007953,Office Supplies product 46 - generated seed data.,19.77,0,Office Supplies
+Office Supplies Item 047,2000000007960,Office Supplies product 47 - generated seed data.,10.43,1,Office Supplies
+Office Supplies Item 048,2000000007977,Office Supplies product 48 - generated seed data.,23.36,2,Office Supplies
+Office Supplies Item 049,2000000007984,Office Supplies product 49 - generated seed data.,12.74,0,Office Supplies
+Office Supplies Item 050,2000000007991,Office Supplies product 50 - generated seed data.,20.53,1,Office Supplies
+Office Supplies Item 051,2000000008004,Office Supplies product 51 - generated seed data.,7.14,2,Office Supplies
+Office Supplies Item 052,2000000008011,Office Supplies product 52 - generated seed data.,7.53,0,Office Supplies
+Office Supplies Item 053,2000000008028,Office Supplies product 53 - generated seed data.,14.71,1,Office Supplies
+Office Supplies Item 054,2000000008035,Office Supplies product 54 - generated seed data.,24.97,2,Office Supplies
+Office Supplies Item 055,2000000008042,Office Supplies product 55 - generated seed data.,12.29,0,Office Supplies
+Office Supplies Item 056,2000000008059,Office Supplies product 56 - generated seed data.,3.8,1,Office Supplies
+Office Supplies Item 057,2000000008066,Office Supplies product 57 - generated seed data.,13.51,2,Office Supplies
+Office Supplies Item 058,2000000008073,Office Supplies product 58 - generated seed data.,8.69,0,Office Supplies
+Office Supplies Item 059,2000000008080,Office Supplies product 59 - generated seed data.,13.84,1,Office Supplies
+Office Supplies Item 060,2000000008097,Office Supplies product 60 - generated seed data.,13.63,2,Office Supplies
+Office Supplies Item 061,2000000008103,Office Supplies product 61 - generated seed data.,11.44,0,Office Supplies
+Office Supplies Item 062,2000000008110,Office Supplies product 62 - generated seed data.,8.11,1,Office Supplies
+Office Supplies Item 063,2000000008127,Office Supplies product 63 - generated seed data.,4.8,2,Office Supplies
+Office Supplies Item 064,2000000008134,Office Supplies product 64 - generated seed data.,17.47,0,Office Supplies
+Office Supplies Item 065,2000000008141,Office Supplies product 65 - generated seed data.,14.34,1,Office Supplies
+Office Supplies Item 066,2000000008158,Office Supplies product 66 - generated seed data.,5.92,2,Office Supplies
+Office Supplies Item 067,2000000008165,Office Supplies product 67 - generated seed data.,19.41,0,Office Supplies
+Office Supplies Item 068,2000000008172,Office Supplies product 68 - generated seed data.,1.19,1,Office Supplies
+Office Supplies Item 069,2000000008189,Office Supplies product 69 - generated seed data.,18.64,2,Office Supplies
+Office Supplies Item 070,2000000008196,Office Supplies product 70 - generated seed data.,17.66,0,Office Supplies
+Office Supplies Item 071,2000000008202,Office Supplies product 71 - generated seed data.,20.3,1,Office Supplies
+Office Supplies Item 072,2000000008219,Office Supplies product 72 - generated seed data.,9.71,2,Office Supplies
+Office Supplies Item 073,2000000008226,Office Supplies product 73 - generated seed data.,16.63,0,Office Supplies
+Office Supplies Item 074,2000000008233,Office Supplies product 74 - generated seed data.,20.54,1,Office Supplies
+Office Supplies Item 075,2000000008240,Office Supplies product 75 - generated seed data.,24.52,2,Office Supplies
+Office Supplies Item 076,2000000008257,Office Supplies product 76 - generated seed data.,12.43,0,Office Supplies
+Office Supplies Item 077,2000000008264,Office Supplies product 77 - generated seed data.,1.02,1,Office Supplies
+Office Supplies Item 078,2000000008271,Office Supplies product 78 - generated seed data.,12.61,2,Office Supplies
+Office Supplies Item 079,2000000008288,Office Supplies product 79 - generated seed data.,14.8,0,Office Supplies
+Office Supplies Item 080,2000000008295,Office Supplies product 80 - generated seed data.,21.76,1,Office Supplies
+Office Supplies Item 081,2000000008301,Office Supplies product 81 - generated seed data.,21.87,2,Office Supplies
+Office Supplies Item 082,2000000008318,Office Supplies product 82 - generated seed data.,11.06,0,Office Supplies
+Office Supplies Item 083,2000000008325,Office Supplies product 83 - generated seed data.,13.2,1,Office Supplies
+Office Supplies Item 084,2000000008332,Office Supplies product 84 - generated seed data.,11.48,2,Office Supplies
+Office Supplies Item 085,2000000008349,Office Supplies product 85 - generated seed data.,18.09,0,Office Supplies
+Office Supplies Item 086,2000000008356,Office Supplies product 86 - generated seed data.,10.31,1,Office Supplies
+Office Supplies Item 087,2000000008363,Office Supplies product 87 - generated seed data.,16.4,2,Office Supplies
+Office Supplies Item 088,2000000008370,Office Supplies product 88 - generated seed data.,3.94,0,Office Supplies
+Office Supplies Item 089,2000000008387,Office Supplies product 89 - generated seed data.,11.79,1,Office Supplies
+Office Supplies Item 090,2000000008394,Office Supplies product 90 - generated seed data.,24.23,2,Office Supplies
+Office Supplies Item 091,2000000008400,Office Supplies product 91 - generated seed data.,8.53,0,Office Supplies
+Office Supplies Item 092,2000000008417,Office Supplies product 92 - generated seed data.,17.35,1,Office Supplies
+Office Supplies Item 093,2000000008424,Office Supplies product 93 - generated seed data.,16.28,2,Office Supplies
+Office Supplies Item 094,2000000008431,Office Supplies product 94 - generated seed data.,21.31,0,Office Supplies
+Office Supplies Item 095,2000000008448,Office Supplies product 95 - generated seed data.,21.32,1,Office Supplies
+Office Supplies Item 096,2000000008455,Office Supplies product 96 - generated seed data.,21.5,2,Office Supplies
+Office Supplies Item 097,2000000008462,Office Supplies product 97 - generated seed data.,9.56,0,Office Supplies
+Office Supplies Item 098,2000000008479,Office Supplies product 98 - generated seed data.,7.98,1,Office Supplies
+Office Supplies Item 099,2000000008486,Office Supplies product 99 - generated seed data.,18.0,2,Office Supplies
+Office Supplies Item 100,2000000008493,Office Supplies product 100 - generated seed data.,19.01,0,Office Supplies
+Office Supplies Item 101,2000000008509,Office Supplies product 101 - generated seed data.,21.82,1,Office Supplies
+Office Supplies Item 102,2000000008516,Office Supplies product 102 - generated seed data.,0.99,2,Office Supplies
+Office Supplies Item 103,2000000008523,Office Supplies product 103 - generated seed data.,1.8,0,Office Supplies
+Office Supplies Item 104,2000000008530,Office Supplies product 104 - generated seed data.,15.82,1,Office Supplies
+Office Supplies Item 105,2000000008547,Office Supplies product 105 - generated seed data.,23.03,2,Office Supplies
+Office Supplies Item 106,2000000008554,Office Supplies product 106 - generated seed data.,24.94,0,Office Supplies
+Office Supplies Item 107,2000000008561,Office Supplies product 107 - generated seed data.,18.69,1,Office Supplies
+Office Supplies Item 108,2000000008578,Office Supplies product 108 - generated seed data.,10.91,2,Office Supplies
+Office Supplies Item 109,2000000008585,Office Supplies product 109 - generated seed data.,2.55,0,Office Supplies
+Office Supplies Item 110,2000000008592,Office Supplies product 110 - generated seed data.,15.88,1,Office Supplies
+Office Supplies Item 111,2000000008608,Office Supplies product 111 - generated seed data.,21.83,2,Office Supplies
+Office Supplies Item 112,2000000008615,Office Supplies product 112 - generated seed data.,11.15,0,Office Supplies
+Office Supplies Item 113,2000000008622,Office Supplies product 113 - generated seed data.,17.38,1,Office Supplies
+Office Supplies Item 114,2000000008639,Office Supplies product 114 - generated seed data.,22.6,2,Office Supplies
+Office Supplies Item 115,2000000008646,Office Supplies product 115 - generated seed data.,1.25,0,Office Supplies
+Office Supplies Item 116,2000000008653,Office Supplies product 116 - generated seed data.,19.92,1,Office Supplies
+Office Supplies Item 117,2000000008660,Office Supplies product 117 - generated seed data.,7.4,2,Office Supplies
+Office Supplies Item 118,2000000008677,Office Supplies product 118 - generated seed data.,9.43,0,Office Supplies
+Office Supplies Item 119,2000000008684,Office Supplies product 119 - generated seed data.,3.72,1,Office Supplies
+Office Supplies Item 120,2000000008691,Office Supplies product 120 - generated seed data.,13.33,2,Office Supplies
+Office Supplies Item 121,2000000008707,Office Supplies product 121 - generated seed data.,14.19,0,Office Supplies
+Office Supplies Item 122,2000000008714,Office Supplies product 122 - generated seed data.,19.83,1,Office Supplies
+Office Supplies Item 123,2000000008721,Office Supplies product 123 - generated seed data.,4.33,2,Office Supplies
+Office Supplies Item 124,2000000008738,Office Supplies product 124 - generated seed data.,2.07,0,Office Supplies
+Office Supplies Item 125,2000000008745,Office Supplies product 125 - generated seed data.,21.78,1,Office Supplies
+Office Supplies Item 126,2000000008752,Office Supplies product 126 - generated seed data.,15.53,2,Office Supplies
+Office Supplies Item 127,2000000008769,Office Supplies product 127 - generated seed data.,6.1,0,Office Supplies
+Office Supplies Item 128,2000000008776,Office Supplies product 128 - generated seed data.,22.83,1,Office Supplies
+Office Supplies Item 129,2000000008783,Office Supplies product 129 - generated seed data.,3.66,2,Office Supplies
+Office Supplies Item 130,2000000008790,Office Supplies product 130 - generated seed data.,11.58,0,Office Supplies
+Office Supplies Item 131,2000000008806,Office Supplies product 131 - generated seed data.,6.42,1,Office Supplies
+Office Supplies Item 132,2000000008813,Office Supplies product 132 - generated seed data.,6.46,2,Office Supplies
+Office Supplies Item 133,2000000008820,Office Supplies product 133 - generated seed data.,0.33,0,Office Supplies
+Office Supplies Item 134,2000000008837,Office Supplies product 134 - generated seed data.,20.14,1,Office Supplies
+Office Supplies Item 135,2000000008844,Office Supplies product 135 - generated seed data.,22.54,2,Office Supplies
+Office Supplies Item 136,2000000008851,Office Supplies product 136 - generated seed data.,16.97,0,Office Supplies
+Office Supplies Item 137,2000000008868,Office Supplies product 137 - generated seed data.,4.03,1,Office Supplies
+Office Supplies Item 138,2000000008875,Office Supplies product 138 - generated seed data.,11.1,2,Office Supplies
+Office Supplies Item 139,2000000008882,Office Supplies product 139 - generated seed data.,8.7,0,Office Supplies
+Office Supplies Item 140,2000000008899,Office Supplies product 140 - generated seed data.,14.73,1,Office Supplies
+Office Supplies Item 141,2000000008905,Office Supplies product 141 - generated seed data.,16.01,2,Office Supplies
+Office Supplies Item 142,2000000008912,Office Supplies product 142 - generated seed data.,10.67,0,Office Supplies
+Office Supplies Item 143,2000000008929,Office Supplies product 143 - generated seed data.,6.33,1,Office Supplies
+Office Supplies Item 144,2000000008936,Office Supplies product 144 - generated seed data.,21.15,2,Office Supplies
+Office Supplies Item 145,2000000008943,Office Supplies product 145 - generated seed data.,5.06,0,Office Supplies
+Office Supplies Item 146,2000000008950,Office Supplies product 146 - generated seed data.,9.68,1,Office Supplies
+Office Supplies Item 147,2000000008967,Office Supplies product 147 - generated seed data.,12.13,2,Office Supplies
+Office Supplies Item 148,2000000008974,Office Supplies product 148 - generated seed data.,6.01,0,Office Supplies
+Office Supplies Item 149,2000000008981,Office Supplies product 149 - generated seed data.,14.34,1,Office Supplies
+Office Supplies Item 150,2000000008998,Office Supplies product 150 - generated seed data.,14.41,2,Office Supplies
+Toys & Games Item 001,2000000009001,Toys & Games product 1 - generated seed data.,24.82,0,Toys & Games
+Toys & Games Item 002,2000000009018,Toys & Games product 2 - generated seed data.,7.45,1,Toys & Games
+Toys & Games Item 003,2000000009025,Toys & Games product 3 - generated seed data.,24.45,2,Toys & Games
+Toys & Games Item 004,2000000009032,Toys & Games product 4 - generated seed data.,16.49,0,Toys & Games
+Toys & Games Item 005,2000000009049,Toys & Games product 5 - generated seed data.,6.93,1,Toys & Games
+Toys & Games Item 006,2000000009056,Toys & Games product 6 - generated seed data.,14.19,2,Toys & Games
+Toys & Games Item 007,2000000009063,Toys & Games product 7 - generated seed data.,17.18,0,Toys & Games
+Toys & Games Item 008,2000000009070,Toys & Games product 8 - generated seed data.,18.64,1,Toys & Games
+Toys & Games Item 009,2000000009087,Toys & Games product 9 - generated seed data.,1.32,2,Toys & Games
+Toys & Games Item 010,2000000009094,Toys & Games product 10 - generated seed data.,15.2,0,Toys & Games
+Toys & Games Item 011,2000000009100,Toys & Games product 11 - generated seed data.,12.47,1,Toys & Games
+Toys & Games Item 012,2000000009117,Toys & Games product 12 - generated seed data.,22.61,2,Toys & Games
+Toys & Games Item 013,2000000009124,Toys & Games product 13 - generated seed data.,7.23,0,Toys & Games
+Toys & Games Item 014,2000000009131,Toys & Games product 14 - generated seed data.,19.99,1,Toys & Games
+Toys & Games Item 015,2000000009148,Toys & Games product 15 - generated seed data.,15.22,2,Toys & Games
+Toys & Games Item 016,2000000009155,Toys & Games product 16 - generated seed data.,8.87,0,Toys & Games
+Toys & Games Item 017,2000000009162,Toys & Games product 17 - generated seed data.,15.95,1,Toys & Games
+Toys & Games Item 018,2000000009179,Toys & Games product 18 - generated seed data.,15.56,2,Toys & Games
+Toys & Games Item 019,2000000009186,Toys & Games product 19 - generated seed data.,16.98,0,Toys & Games
+Toys & Games Item 020,2000000009193,Toys & Games product 20 - generated seed data.,18.05,1,Toys & Games
+Toys & Games Item 021,2000000009209,Toys & Games product 21 - generated seed data.,16.51,2,Toys & Games
+Toys & Games Item 022,2000000009216,Toys & Games product 22 - generated seed data.,20.97,0,Toys & Games
+Toys & Games Item 023,2000000009223,Toys & Games product 23 - generated seed data.,15.74,1,Toys & Games
+Toys & Games Item 024,2000000009230,Toys & Games product 24 - generated seed data.,22.59,2,Toys & Games
+Toys & Games Item 025,2000000009247,Toys & Games product 25 - generated seed data.,16.19,0,Toys & Games
+Toys & Games Item 026,2000000009254,Toys & Games product 26 - generated seed data.,7.79,1,Toys & Games
+Toys & Games Item 027,2000000009261,Toys & Games product 27 - generated seed data.,11.08,2,Toys & Games
+Toys & Games Item 028,2000000009278,Toys & Games product 28 - generated seed data.,14.53,0,Toys & Games
+Toys & Games Item 029,2000000009285,Toys & Games product 29 - generated seed data.,18.34,1,Toys & Games
+Toys & Games Item 030,2000000009292,Toys & Games product 30 - generated seed data.,2.34,2,Toys & Games
+Toys & Games Item 031,2000000009308,Toys & Games product 31 - generated seed data.,7.45,0,Toys & Games
+Toys & Games Item 032,2000000009315,Toys & Games product 32 - generated seed data.,18.71,1,Toys & Games
+Toys & Games Item 033,2000000009322,Toys & Games product 33 - generated seed data.,4.47,2,Toys & Games
+Toys & Games Item 034,2000000009339,Toys & Games product 34 - generated seed data.,3.39,0,Toys & Games
+Toys & Games Item 035,2000000009346,Toys & Games product 35 - generated seed data.,13.53,1,Toys & Games
+Toys & Games Item 036,2000000009353,Toys & Games product 36 - generated seed data.,24.29,2,Toys & Games
+Toys & Games Item 037,2000000009360,Toys & Games product 37 - generated seed data.,13.32,0,Toys & Games
+Toys & Games Item 038,2000000009377,Toys & Games product 38 - generated seed data.,22.85,1,Toys & Games
+Toys & Games Item 039,2000000009384,Toys & Games product 39 - generated seed data.,20.78,2,Toys & Games
+Toys & Games Item 040,2000000009391,Toys & Games product 40 - generated seed data.,6.5,0,Toys & Games
+Toys & Games Item 041,2000000009407,Toys & Games product 41 - generated seed data.,20.63,1,Toys & Games
+Toys & Games Item 042,2000000009414,Toys & Games product 42 - generated seed data.,12.1,2,Toys & Games
+Toys & Games Item 043,2000000009421,Toys & Games product 43 - generated seed data.,20.18,0,Toys & Games
+Toys & Games Item 044,2000000009438,Toys & Games product 44 - generated seed data.,18.69,1,Toys & Games
+Toys & Games Item 045,2000000009445,Toys & Games product 45 - generated seed data.,8.53,2,Toys & Games
+Toys & Games Item 046,2000000009452,Toys & Games product 46 - generated seed data.,2.97,0,Toys & Games
+Toys & Games Item 047,2000000009469,Toys & Games product 47 - generated seed data.,24.08,1,Toys & Games
+Toys & Games Item 048,2000000009476,Toys & Games product 48 - generated seed data.,3.6,2,Toys & Games
+Toys & Games Item 049,2000000009483,Toys & Games product 49 - generated seed data.,24.17,0,Toys & Games
+Toys & Games Item 050,2000000009490,Toys & Games product 50 - generated seed data.,21.52,1,Toys & Games
+Toys & Games Item 051,2000000009506,Toys & Games product 51 - generated seed data.,18.13,2,Toys & Games
+Toys & Games Item 052,2000000009513,Toys & Games product 52 - generated seed data.,24.5,0,Toys & Games
+Toys & Games Item 053,2000000009520,Toys & Games product 53 - generated seed data.,24.19,1,Toys & Games
+Toys & Games Item 054,2000000009537,Toys & Games product 54 - generated seed data.,20.13,2,Toys & Games
+Toys & Games Item 055,2000000009544,Toys & Games product 55 - generated seed data.,9.21,0,Toys & Games
+Toys & Games Item 056,2000000009551,Toys & Games product 56 - generated seed data.,19.79,1,Toys & Games
+Toys & Games Item 057,2000000009568,Toys & Games product 57 - generated seed data.,0.45,2,Toys & Games
+Toys & Games Item 058,2000000009575,Toys & Games product 58 - generated seed data.,13.46,0,Toys & Games
+Toys & Games Item 059,2000000009582,Toys & Games product 59 - generated seed data.,11.42,1,Toys & Games
+Toys & Games Item 060,2000000009599,Toys & Games product 60 - generated seed data.,16.85,2,Toys & Games
+Toys & Games Item 061,2000000009605,Toys & Games product 61 - generated seed data.,16.84,0,Toys & Games
+Toys & Games Item 062,2000000009612,Toys & Games product 62 - generated seed data.,14.66,1,Toys & Games
+Toys & Games Item 063,2000000009629,Toys & Games product 63 - generated seed data.,20.58,2,Toys & Games
+Toys & Games Item 064,2000000009636,Toys & Games product 64 - generated seed data.,23.51,0,Toys & Games
+Toys & Games Item 065,2000000009643,Toys & Games product 65 - generated seed data.,2.8,1,Toys & Games
+Toys & Games Item 066,2000000009650,Toys & Games product 66 - generated seed data.,5.92,2,Toys & Games
+Toys & Games Item 067,2000000009667,Toys & Games product 67 - generated seed data.,0.72,0,Toys & Games
+Toys & Games Item 068,2000000009674,Toys & Games product 68 - generated seed data.,22.12,1,Toys & Games
+Toys & Games Item 069,2000000009681,Toys & Games product 69 - generated seed data.,14.08,2,Toys & Games
+Toys & Games Item 070,2000000009698,Toys & Games product 70 - generated seed data.,22.89,0,Toys & Games
+Toys & Games Item 071,2000000009704,Toys & Games product 71 - generated seed data.,5.61,1,Toys & Games
+Toys & Games Item 072,2000000009711,Toys & Games product 72 - generated seed data.,1.67,2,Toys & Games
+Toys & Games Item 073,2000000009728,Toys & Games product 73 - generated seed data.,20.61,0,Toys & Games
+Toys & Games Item 074,2000000009735,Toys & Games product 74 - generated seed data.,22.74,1,Toys & Games
+Toys & Games Item 075,2000000009742,Toys & Games product 75 - generated seed data.,7.62,2,Toys & Games
+Toys & Games Item 076,2000000009759,Toys & Games product 76 - generated seed data.,10.27,0,Toys & Games
+Toys & Games Item 077,2000000009766,Toys & Games product 77 - generated seed data.,3.58,1,Toys & Games
+Toys & Games Item 078,2000000009773,Toys & Games product 78 - generated seed data.,23.66,2,Toys & Games
+Toys & Games Item 079,2000000009780,Toys & Games product 79 - generated seed data.,7.68,0,Toys & Games
+Toys & Games Item 080,2000000009797,Toys & Games product 80 - generated seed data.,12.37,1,Toys & Games
+Toys & Games Item 081,2000000009803,Toys & Games product 81 - generated seed data.,2.52,2,Toys & Games
+Toys & Games Item 082,2000000009810,Toys & Games product 82 - generated seed data.,22.19,0,Toys & Games
+Toys & Games Item 083,2000000009827,Toys & Games product 83 - generated seed data.,3.48,1,Toys & Games
+Toys & Games Item 084,2000000009834,Toys & Games product 84 - generated seed data.,11.4,2,Toys & Games
+Toys & Games Item 085,2000000009841,Toys & Games product 85 - generated seed data.,16.8,0,Toys & Games
+Toys & Games Item 086,2000000009858,Toys & Games product 86 - generated seed data.,18.6,1,Toys & Games
+Toys & Games Item 087,2000000009865,Toys & Games product 87 - generated seed data.,23.65,2,Toys & Games
+Toys & Games Item 088,2000000009872,Toys & Games product 88 - generated seed data.,10.54,0,Toys & Games
+Toys & Games Item 089,2000000009889,Toys & Games product 89 - generated seed data.,18.58,1,Toys & Games
+Toys & Games Item 090,2000000009896,Toys & Games product 90 - generated seed data.,3.95,2,Toys & Games
+Toys & Games Item 091,2000000009902,Toys & Games product 91 - generated seed data.,10.43,0,Toys & Games
+Toys & Games Item 092,2000000009919,Toys & Games product 92 - generated seed data.,2.57,1,Toys & Games
+Toys & Games Item 093,2000000009926,Toys & Games product 93 - generated seed data.,12.28,2,Toys & Games
+Toys & Games Item 094,2000000009933,Toys & Games product 94 - generated seed data.,10.26,0,Toys & Games
+Toys & Games Item 095,2000000009940,Toys & Games product 95 - generated seed data.,23.79,1,Toys & Games
+Toys & Games Item 096,2000000009957,Toys & Games product 96 - generated seed data.,0.91,2,Toys & Games
+Toys & Games Item 097,2000000009964,Toys & Games product 97 - generated seed data.,9.33,0,Toys & Games
+Toys & Games Item 098,2000000009971,Toys & Games product 98 - generated seed data.,11.14,1,Toys & Games
+Toys & Games Item 099,2000000009988,Toys & Games product 99 - generated seed data.,23.77,2,Toys & Games
+Toys & Games Item 100,2000000009995,Toys & Games product 100 - generated seed data.,21.4,0,Toys & Games
+Toys & Games Item 101,2000000010007,Toys & Games product 101 - generated seed data.,2.57,1,Toys & Games
+Toys & Games Item 102,2000000010014,Toys & Games product 102 - generated seed data.,17.17,2,Toys & Games
+Toys & Games Item 103,2000000010021,Toys & Games product 103 - generated seed data.,13.66,0,Toys & Games
+Toys & Games Item 104,2000000010038,Toys & Games product 104 - generated seed data.,24.45,1,Toys & Games
+Toys & Games Item 105,2000000010045,Toys & Games product 105 - generated seed data.,9.03,2,Toys & Games
+Toys & Games Item 106,2000000010052,Toys & Games product 106 - generated seed data.,10.01,0,Toys & Games
+Toys & Games Item 107,2000000010069,Toys & Games product 107 - generated seed data.,4.83,1,Toys & Games
+Toys & Games Item 108,2000000010076,Toys & Games product 108 - generated seed data.,3.14,2,Toys & Games
+Toys & Games Item 109,2000000010083,Toys & Games product 109 - generated seed data.,21.22,0,Toys & Games
+Toys & Games Item 110,2000000010090,Toys & Games product 110 - generated seed data.,11.42,1,Toys & Games
+Toys & Games Item 111,2000000010106,Toys & Games product 111 - generated seed data.,16.6,2,Toys & Games
+Toys & Games Item 112,2000000010113,Toys & Games product 112 - generated seed data.,16.08,0,Toys & Games
+Toys & Games Item 113,2000000010120,Toys & Games product 113 - generated seed data.,14.97,1,Toys & Games
+Toys & Games Item 114,2000000010137,Toys & Games product 114 - generated seed data.,0.63,2,Toys & Games
+Toys & Games Item 115,2000000010144,Toys & Games product 115 - generated seed data.,19.69,0,Toys & Games
+Toys & Games Item 116,2000000010151,Toys & Games product 116 - generated seed data.,6.16,1,Toys & Games
+Toys & Games Item 117,2000000010168,Toys & Games product 117 - generated seed data.,3.24,2,Toys & Games
+Toys & Games Item 118,2000000010175,Toys & Games product 118 - generated seed data.,14.16,0,Toys & Games
+Toys & Games Item 119,2000000010182,Toys & Games product 119 - generated seed data.,1.81,1,Toys & Games
+Toys & Games Item 120,2000000010199,Toys & Games product 120 - generated seed data.,19.15,2,Toys & Games
+Toys & Games Item 121,2000000010205,Toys & Games product 121 - generated seed data.,5.26,0,Toys & Games
+Toys & Games Item 122,2000000010212,Toys & Games product 122 - generated seed data.,5.48,1,Toys & Games
+Toys & Games Item 123,2000000010229,Toys & Games product 123 - generated seed data.,21.76,2,Toys & Games
+Toys & Games Item 124,2000000010236,Toys & Games product 124 - generated seed data.,8.28,0,Toys & Games
+Toys & Games Item 125,2000000010243,Toys & Games product 125 - generated seed data.,3.77,1,Toys & Games
+Toys & Games Item 126,2000000010250,Toys & Games product 126 - generated seed data.,22.52,2,Toys & Games
+Toys & Games Item 127,2000000010267,Toys & Games product 127 - generated seed data.,0.17,0,Toys & Games
+Toys & Games Item 128,2000000010274,Toys & Games product 128 - generated seed data.,21.47,1,Toys & Games
+Toys & Games Item 129,2000000010281,Toys & Games product 129 - generated seed data.,3.7,2,Toys & Games
+Toys & Games Item 130,2000000010298,Toys & Games product 130 - generated seed data.,3.34,0,Toys & Games
+Toys & Games Item 131,2000000010304,Toys & Games product 131 - generated seed data.,6.34,1,Toys & Games
+Toys & Games Item 132,2000000010311,Toys & Games product 132 - generated seed data.,4.44,2,Toys & Games
+Toys & Games Item 133,2000000010328,Toys & Games product 133 - generated seed data.,16.56,0,Toys & Games
+Toys & Games Item 134,2000000010335,Toys & Games product 134 - generated seed data.,0.74,1,Toys & Games
+Toys & Games Item 135,2000000010342,Toys & Games product 135 - generated seed data.,0.47,2,Toys & Games
+Toys & Games Item 136,2000000010359,Toys & Games product 136 - generated seed data.,19.77,0,Toys & Games
+Toys & Games Item 137,2000000010366,Toys & Games product 137 - generated seed data.,6.02,1,Toys & Games
+Toys & Games Item 138,2000000010373,Toys & Games product 138 - generated seed data.,8.16,2,Toys & Games
+Toys & Games Item 139,2000000010380,Toys & Games product 139 - generated seed data.,4.44,0,Toys & Games
+Toys & Games Item 140,2000000010397,Toys & Games product 140 - generated seed data.,1.4,1,Toys & Games
+Toys & Games Item 141,2000000010403,Toys & Games product 141 - generated seed data.,18.57,2,Toys & Games
+Toys & Games Item 142,2000000010410,Toys & Games product 142 - generated seed data.,13.2,0,Toys & Games
+Toys & Games Item 143,2000000010427,Toys & Games product 143 - generated seed data.,18.67,1,Toys & Games
+Toys & Games Item 144,2000000010434,Toys & Games product 144 - generated seed data.,11.96,2,Toys & Games
+Toys & Games Item 145,2000000010441,Toys & Games product 145 - generated seed data.,19.47,0,Toys & Games
+Toys & Games Item 146,2000000010458,Toys & Games product 146 - generated seed data.,12.88,1,Toys & Games
+Toys & Games Item 147,2000000010465,Toys & Games product 147 - generated seed data.,2.82,2,Toys & Games
+Toys & Games Item 148,2000000010472,Toys & Games product 148 - generated seed data.,12.65,0,Toys & Games
+Toys & Games Item 149,2000000010489,Toys & Games product 149 - generated seed data.,23.64,1,Toys & Games
+Toys & Games Item 150,2000000010496,Toys & Games product 150 - generated seed data.,1.18,2,Toys & Games
+Clothing Item 001,2000000010502,Clothing product 1 - generated seed data.,19.6,0,Clothing
+Clothing Item 002,2000000010519,Clothing product 2 - generated seed data.,21.69,1,Clothing
+Clothing Item 003,2000000010526,Clothing product 3 - generated seed data.,13.08,2,Clothing
+Clothing Item 004,2000000010533,Clothing product 4 - generated seed data.,11.51,0,Clothing
+Clothing Item 005,2000000010540,Clothing product 5 - generated seed data.,24.1,1,Clothing
+Clothing Item 006,2000000010557,Clothing product 6 - generated seed data.,1.61,2,Clothing
+Clothing Item 007,2000000010564,Clothing product 7 - generated seed data.,12.03,0,Clothing
+Clothing Item 008,2000000010571,Clothing product 8 - generated seed data.,10.1,1,Clothing
+Clothing Item 009,2000000010588,Clothing product 9 - generated seed data.,17.18,2,Clothing
+Clothing Item 010,2000000010595,Clothing product 10 - generated seed data.,12.31,0,Clothing
+Clothing Item 011,2000000010601,Clothing product 11 - generated seed data.,22.75,1,Clothing
+Clothing Item 012,2000000010618,Clothing product 12 - generated seed data.,1.93,2,Clothing
+Clothing Item 013,2000000010625,Clothing product 13 - generated seed data.,2.11,0,Clothing
+Clothing Item 014,2000000010632,Clothing product 14 - generated seed data.,15.25,1,Clothing
+Clothing Item 015,2000000010649,Clothing product 15 - generated seed data.,1.74,2,Clothing
+Clothing Item 016,2000000010656,Clothing product 16 - generated seed data.,6.95,0,Clothing
+Clothing Item 017,2000000010663,Clothing product 17 - generated seed data.,15.86,1,Clothing
+Clothing Item 018,2000000010670,Clothing product 18 - generated seed data.,13.75,2,Clothing
+Clothing Item 019,2000000010687,Clothing product 19 - generated seed data.,8.2,0,Clothing
+Clothing Item 020,2000000010694,Clothing product 20 - generated seed data.,24.87,1,Clothing
+Clothing Item 021,2000000010700,Clothing product 21 - generated seed data.,13.31,2,Clothing
+Clothing Item 022,2000000010717,Clothing product 22 - generated seed data.,11.4,0,Clothing
+Clothing Item 023,2000000010724,Clothing product 23 - generated seed data.,15.18,1,Clothing
+Clothing Item 024,2000000010731,Clothing product 24 - generated seed data.,2.57,2,Clothing
+Clothing Item 025,2000000010748,Clothing product 25 - generated seed data.,17.57,0,Clothing
+Clothing Item 026,2000000010755,Clothing product 26 - generated seed data.,21.33,1,Clothing
+Clothing Item 027,2000000010762,Clothing product 27 - generated seed data.,16.31,2,Clothing
+Clothing Item 028,2000000010779,Clothing product 28 - generated seed data.,19.25,0,Clothing
+Clothing Item 029,2000000010786,Clothing product 29 - generated seed data.,18.05,1,Clothing
+Clothing Item 030,2000000010793,Clothing product 30 - generated seed data.,5.45,2,Clothing
+Clothing Item 031,2000000010809,Clothing product 31 - generated seed data.,11.34,0,Clothing
+Clothing Item 032,2000000010816,Clothing product 32 - generated seed data.,5.79,1,Clothing
+Clothing Item 033,2000000010823,Clothing product 33 - generated seed data.,8.54,2,Clothing
+Clothing Item 034,2000000010830,Clothing product 34 - generated seed data.,11.39,0,Clothing
+Clothing Item 035,2000000010847,Clothing product 35 - generated seed data.,10.46,1,Clothing
+Clothing Item 036,2000000010854,Clothing product 36 - generated seed data.,2.47,2,Clothing
+Clothing Item 037,2000000010861,Clothing product 37 - generated seed data.,10.73,0,Clothing
+Clothing Item 038,2000000010878,Clothing product 38 - generated seed data.,16.66,1,Clothing
+Clothing Item 039,2000000010885,Clothing product 39 - generated seed data.,9.42,2,Clothing
+Clothing Item 040,2000000010892,Clothing product 40 - generated seed data.,3.9,0,Clothing
+Clothing Item 041,2000000010908,Clothing product 41 - generated seed data.,23.08,1,Clothing
+Clothing Item 042,2000000010915,Clothing product 42 - generated seed data.,1.77,2,Clothing
+Clothing Item 043,2000000010922,Clothing product 43 - generated seed data.,20.81,0,Clothing
+Clothing Item 044,2000000010939,Clothing product 44 - generated seed data.,2.42,1,Clothing
+Clothing Item 045,2000000010946,Clothing product 45 - generated seed data.,2.5,2,Clothing
+Clothing Item 046,2000000010953,Clothing product 46 - generated seed data.,18.5,0,Clothing
+Clothing Item 047,2000000010960,Clothing product 47 - generated seed data.,20.31,1,Clothing
+Clothing Item 048,2000000010977,Clothing product 48 - generated seed data.,13.95,2,Clothing
+Clothing Item 049,2000000010984,Clothing product 49 - generated seed data.,14.7,0,Clothing
+Clothing Item 050,2000000010991,Clothing product 50 - generated seed data.,14.08,1,Clothing
+Clothing Item 051,2000000011004,Clothing product 51 - generated seed data.,8.31,2,Clothing
+Clothing Item 052,2000000011011,Clothing product 52 - generated seed data.,3.14,0,Clothing
+Clothing Item 053,2000000011028,Clothing product 53 - generated seed data.,8.9,1,Clothing
+Clothing Item 054,2000000011035,Clothing product 54 - generated seed data.,16.67,2,Clothing
+Clothing Item 055,2000000011042,Clothing product 55 - generated seed data.,18.78,0,Clothing
+Clothing Item 056,2000000011059,Clothing product 56 - generated seed data.,21.72,1,Clothing
+Clothing Item 057,2000000011066,Clothing product 57 - generated seed data.,18.05,2,Clothing
+Clothing Item 058,2000000011073,Clothing product 58 - generated seed data.,24.21,0,Clothing
+Clothing Item 059,2000000011080,Clothing product 59 - generated seed data.,15.05,1,Clothing
+Clothing Item 060,2000000011097,Clothing product 60 - generated seed data.,8.86,2,Clothing
+Clothing Item 061,2000000011103,Clothing product 61 - generated seed data.,14.49,0,Clothing
+Clothing Item 062,2000000011110,Clothing product 62 - generated seed data.,5.4,1,Clothing
+Clothing Item 063,2000000011127,Clothing product 63 - generated seed data.,16.45,2,Clothing
+Clothing Item 064,2000000011134,Clothing product 64 - generated seed data.,5.68,0,Clothing
+Clothing Item 065,2000000011141,Clothing product 65 - generated seed data.,2.79,1,Clothing
+Clothing Item 066,2000000011158,Clothing product 66 - generated seed data.,21.15,2,Clothing
+Clothing Item 067,2000000011165,Clothing product 67 - generated seed data.,9.25,0,Clothing
+Clothing Item 068,2000000011172,Clothing product 68 - generated seed data.,19.09,1,Clothing
+Clothing Item 069,2000000011189,Clothing product 69 - generated seed data.,14.4,2,Clothing
+Clothing Item 070,2000000011196,Clothing product 70 - generated seed data.,20.2,0,Clothing
+Clothing Item 071,2000000011202,Clothing product 71 - generated seed data.,21.14,1,Clothing
+Clothing Item 072,2000000011219,Clothing product 72 - generated seed data.,24.37,2,Clothing
+Clothing Item 073,2000000011226,Clothing product 73 - generated seed data.,20.48,0,Clothing
+Clothing Item 074,2000000011233,Clothing product 74 - generated seed data.,15.38,1,Clothing
+Clothing Item 075,2000000011240,Clothing product 75 - generated seed data.,16.1,2,Clothing
+Clothing Item 076,2000000011257,Clothing product 76 - generated seed data.,0.75,0,Clothing
+Clothing Item 077,2000000011264,Clothing product 77 - generated seed data.,23.23,1,Clothing
+Clothing Item 078,2000000011271,Clothing product 78 - generated seed data.,20.75,2,Clothing
+Clothing Item 079,2000000011288,Clothing product 79 - generated seed data.,6.76,0,Clothing
+Clothing Item 080,2000000011295,Clothing product 80 - generated seed data.,4.59,1,Clothing
+Clothing Item 081,2000000011301,Clothing product 81 - generated seed data.,17.6,2,Clothing
+Clothing Item 082,2000000011318,Clothing product 82 - generated seed data.,7.79,0,Clothing
+Clothing Item 083,2000000011325,Clothing product 83 - generated seed data.,8.56,1,Clothing
+Clothing Item 084,2000000011332,Clothing product 84 - generated seed data.,0.25,2,Clothing
+Clothing Item 085,2000000011349,Clothing product 85 - generated seed data.,21.76,0,Clothing
+Clothing Item 086,2000000011356,Clothing product 86 - generated seed data.,14.2,1,Clothing
+Clothing Item 087,2000000011363,Clothing product 87 - generated seed data.,10.08,2,Clothing
+Clothing Item 088,2000000011370,Clothing product 88 - generated seed data.,3.63,0,Clothing
+Clothing Item 089,2000000011387,Clothing product 89 - generated seed data.,15.87,1,Clothing
+Clothing Item 090,2000000011394,Clothing product 90 - generated seed data.,0.86,2,Clothing
+Clothing Item 091,2000000011400,Clothing product 91 - generated seed data.,18.68,0,Clothing
+Clothing Item 092,2000000011417,Clothing product 92 - generated seed data.,5.46,1,Clothing
+Clothing Item 093,2000000011424,Clothing product 93 - generated seed data.,10.55,2,Clothing
+Clothing Item 094,2000000011431,Clothing product 94 - generated seed data.,8.59,0,Clothing
+Clothing Item 095,2000000011448,Clothing product 95 - generated seed data.,9.31,1,Clothing
+Clothing Item 096,2000000011455,Clothing product 96 - generated seed data.,18.07,2,Clothing
+Clothing Item 097,2000000011462,Clothing product 97 - generated seed data.,19.44,0,Clothing
+Clothing Item 098,2000000011479,Clothing product 98 - generated seed data.,14.23,1,Clothing
+Clothing Item 099,2000000011486,Clothing product 99 - generated seed data.,2.22,2,Clothing
+Clothing Item 100,2000000011493,Clothing product 100 - generated seed data.,1.41,0,Clothing
+Clothing Item 101,2000000011509,Clothing product 101 - generated seed data.,4.02,1,Clothing
+Clothing Item 102,2000000011516,Clothing product 102 - generated seed data.,15.48,2,Clothing
+Clothing Item 103,2000000011523,Clothing product 103 - generated seed data.,16.88,0,Clothing
+Clothing Item 104,2000000011530,Clothing product 104 - generated seed data.,6.88,1,Clothing
+Clothing Item 105,2000000011547,Clothing product 105 - generated seed data.,16.58,2,Clothing
+Clothing Item 106,2000000011554,Clothing product 106 - generated seed data.,12.19,0,Clothing
+Clothing Item 107,2000000011561,Clothing product 107 - generated seed data.,11.11,1,Clothing
+Clothing Item 108,2000000011578,Clothing product 108 - generated seed data.,6.9,2,Clothing
+Clothing Item 109,2000000011585,Clothing product 109 - generated seed data.,18.9,0,Clothing
+Clothing Item 110,2000000011592,Clothing product 110 - generated seed data.,2.93,1,Clothing
+Clothing Item 111,2000000011608,Clothing product 111 - generated seed data.,10.8,2,Clothing
+Clothing Item 112,2000000011615,Clothing product 112 - generated seed data.,7.15,0,Clothing
+Clothing Item 113,2000000011622,Clothing product 113 - generated seed data.,16.99,1,Clothing
+Clothing Item 114,2000000011639,Clothing product 114 - generated seed data.,12.22,2,Clothing
+Clothing Item 115,2000000011646,Clothing product 115 - generated seed data.,16.71,0,Clothing
+Clothing Item 116,2000000011653,Clothing product 116 - generated seed data.,1.23,1,Clothing
+Clothing Item 117,2000000011660,Clothing product 117 - generated seed data.,9.94,2,Clothing
+Clothing Item 118,2000000011677,Clothing product 118 - generated seed data.,15.02,0,Clothing
+Clothing Item 119,2000000011684,Clothing product 119 - generated seed data.,0.29,1,Clothing
+Clothing Item 120,2000000011691,Clothing product 120 - generated seed data.,7.61,2,Clothing
+Clothing Item 121,2000000011707,Clothing product 121 - generated seed data.,5.36,0,Clothing
+Clothing Item 122,2000000011714,Clothing product 122 - generated seed data.,3.52,1,Clothing
+Clothing Item 123,2000000011721,Clothing product 123 - generated seed data.,6.46,2,Clothing
+Clothing Item 124,2000000011738,Clothing product 124 - generated seed data.,8.27,0,Clothing
+Clothing Item 125,2000000011745,Clothing product 125 - generated seed data.,0.29,1,Clothing
+Clothing Item 126,2000000011752,Clothing product 126 - generated seed data.,18.7,2,Clothing
+Clothing Item 127,2000000011769,Clothing product 127 - generated seed data.,4.47,0,Clothing
+Clothing Item 128,2000000011776,Clothing product 128 - generated seed data.,9.57,1,Clothing
+Clothing Item 129,2000000011783,Clothing product 129 - generated seed data.,17.62,2,Clothing
+Clothing Item 130,2000000011790,Clothing product 130 - generated seed data.,12.56,0,Clothing
+Clothing Item 131,2000000011806,Clothing product 131 - generated seed data.,20.85,1,Clothing
+Clothing Item 132,2000000011813,Clothing product 132 - generated seed data.,20.17,2,Clothing
+Clothing Item 133,2000000011820,Clothing product 133 - generated seed data.,1.89,0,Clothing
+Clothing Item 134,2000000011837,Clothing product 134 - generated seed data.,21.56,1,Clothing
+Clothing Item 135,2000000011844,Clothing product 135 - generated seed data.,1.15,2,Clothing
+Clothing Item 136,2000000011851,Clothing product 136 - generated seed data.,0.57,0,Clothing
+Clothing Item 137,2000000011868,Clothing product 137 - generated seed data.,23.04,1,Clothing
+Clothing Item 138,2000000011875,Clothing product 138 - generated seed data.,21.57,2,Clothing
+Clothing Item 139,2000000011882,Clothing product 139 - generated seed data.,14.44,0,Clothing
+Clothing Item 140,2000000011899,Clothing product 140 - generated seed data.,14.38,1,Clothing
+Clothing Item 141,2000000011905,Clothing product 141 - generated seed data.,17.77,2,Clothing
+Clothing Item 142,2000000011912,Clothing product 142 - generated seed data.,10.5,0,Clothing
+Clothing Item 143,2000000011929,Clothing product 143 - generated seed data.,2.97,1,Clothing
+Clothing Item 144,2000000011936,Clothing product 144 - generated seed data.,0.62,2,Clothing
+Clothing Item 145,2000000011943,Clothing product 145 - generated seed data.,8.19,0,Clothing
+Clothing Item 146,2000000011950,Clothing product 146 - generated seed data.,20.05,1,Clothing
+Clothing Item 147,2000000011967,Clothing product 147 - generated seed data.,15.49,2,Clothing
+Clothing Item 148,2000000011974,Clothing product 148 - generated seed data.,20.82,0,Clothing
+Clothing Item 149,2000000011981,Clothing product 149 - generated seed data.,23.0,1,Clothing
+Clothing Item 150,2000000011998,Clothing product 150 - generated seed data.,2.29,2,Clothing
+Automotive Item 001,2000000012001,Automotive product 1 - generated seed data.,21.13,0,Automotive
+Automotive Item 002,2000000012018,Automotive product 2 - generated seed data.,6.16,1,Automotive
+Automotive Item 003,2000000012025,Automotive product 3 - generated seed data.,14.76,2,Automotive
+Automotive Item 004,2000000012032,Automotive product 4 - generated seed data.,13.15,0,Automotive
+Automotive Item 005,2000000012049,Automotive product 5 - generated seed data.,9.95,1,Automotive
+Automotive Item 006,2000000012056,Automotive product 6 - generated seed data.,7.83,2,Automotive
+Automotive Item 007,2000000012063,Automotive product 7 - generated seed data.,8.55,0,Automotive
+Automotive Item 008,2000000012070,Automotive product 8 - generated seed data.,8.39,1,Automotive
+Automotive Item 009,2000000012087,Automotive product 9 - generated seed data.,4.29,2,Automotive
+Automotive Item 010,2000000012094,Automotive product 10 - generated seed data.,12.81,0,Automotive
+Automotive Item 011,2000000012100,Automotive product 11 - generated seed data.,2.94,1,Automotive
+Automotive Item 012,2000000012117,Automotive product 12 - generated seed data.,12.8,2,Automotive
+Automotive Item 013,2000000012124,Automotive product 13 - generated seed data.,22.66,0,Automotive
+Automotive Item 014,2000000012131,Automotive product 14 - generated seed data.,8.8,1,Automotive
+Automotive Item 015,2000000012148,Automotive product 15 - generated seed data.,18.21,2,Automotive
+Automotive Item 016,2000000012155,Automotive product 16 - generated seed data.,20.49,0,Automotive
+Automotive Item 017,2000000012162,Automotive product 17 - generated seed data.,20.39,1,Automotive
+Automotive Item 018,2000000012179,Automotive product 18 - generated seed data.,5.98,2,Automotive
+Automotive Item 019,2000000012186,Automotive product 19 - generated seed data.,3.75,0,Automotive
+Automotive Item 020,2000000012193,Automotive product 20 - generated seed data.,5.01,1,Automotive
+Automotive Item 021,2000000012209,Automotive product 21 - generated seed data.,15.1,2,Automotive
+Automotive Item 022,2000000012216,Automotive product 22 - generated seed data.,19.03,0,Automotive
+Automotive Item 023,2000000012223,Automotive product 23 - generated seed data.,16.42,1,Automotive
+Automotive Item 024,2000000012230,Automotive product 24 - generated seed data.,4.51,2,Automotive
+Automotive Item 025,2000000012247,Automotive product 25 - generated seed data.,19.34,0,Automotive
+Automotive Item 026,2000000012254,Automotive product 26 - generated seed data.,12.4,1,Automotive
+Automotive Item 027,2000000012261,Automotive product 27 - generated seed data.,18.89,2,Automotive
+Automotive Item 028,2000000012278,Automotive product 28 - generated seed data.,19.02,0,Automotive
+Automotive Item 029,2000000012285,Automotive product 29 - generated seed data.,11.28,1,Automotive
+Automotive Item 030,2000000012292,Automotive product 30 - generated seed data.,23.11,2,Automotive
+Automotive Item 031,2000000012308,Automotive product 31 - generated seed data.,14.16,0,Automotive
+Automotive Item 032,2000000012315,Automotive product 32 - generated seed data.,15.92,1,Automotive
+Automotive Item 033,2000000012322,Automotive product 33 - generated seed data.,15.65,2,Automotive
+Automotive Item 034,2000000012339,Automotive product 34 - generated seed data.,21.62,0,Automotive
+Automotive Item 035,2000000012346,Automotive product 35 - generated seed data.,15.72,1,Automotive
+Automotive Item 036,2000000012353,Automotive product 36 - generated seed data.,3.86,2,Automotive
+Automotive Item 037,2000000012360,Automotive product 37 - generated seed data.,1.8,0,Automotive
+Automotive Item 038,2000000012377,Automotive product 38 - generated seed data.,11.11,1,Automotive
+Automotive Item 039,2000000012384,Automotive product 39 - generated seed data.,7.64,2,Automotive
+Automotive Item 040,2000000012391,Automotive product 40 - generated seed data.,6.94,0,Automotive
+Automotive Item 041,2000000012407,Automotive product 41 - generated seed data.,1.5,1,Automotive
+Automotive Item 042,2000000012414,Automotive product 42 - generated seed data.,12.73,2,Automotive
+Automotive Item 043,2000000012421,Automotive product 43 - generated seed data.,7.83,0,Automotive
+Automotive Item 044,2000000012438,Automotive product 44 - generated seed data.,11.35,1,Automotive
+Automotive Item 045,2000000012445,Automotive product 45 - generated seed data.,1.52,2,Automotive
+Automotive Item 046,2000000012452,Automotive product 46 - generated seed data.,20.81,0,Automotive
+Automotive Item 047,2000000012469,Automotive product 47 - generated seed data.,2.01,1,Automotive
+Automotive Item 048,2000000012476,Automotive product 48 - generated seed data.,21.62,2,Automotive
+Automotive Item 049,2000000012483,Automotive product 49 - generated seed data.,21.4,0,Automotive
+Automotive Item 050,2000000012490,Automotive product 50 - generated seed data.,15.41,1,Automotive
+Automotive Item 051,2000000012506,Automotive product 51 - generated seed data.,12.73,2,Automotive
+Automotive Item 052,2000000012513,Automotive product 52 - generated seed data.,11.62,0,Automotive
+Automotive Item 053,2000000012520,Automotive product 53 - generated seed data.,13.9,1,Automotive
+Automotive Item 054,2000000012537,Automotive product 54 - generated seed data.,19.82,2,Automotive
+Automotive Item 055,2000000012544,Automotive product 55 - generated seed data.,22.41,0,Automotive
+Automotive Item 056,2000000012551,Automotive product 56 - generated seed data.,11.3,1,Automotive
+Automotive Item 057,2000000012568,Automotive product 57 - generated seed data.,20.26,2,Automotive
+Automotive Item 058,2000000012575,Automotive product 58 - generated seed data.,16.33,0,Automotive
+Automotive Item 059,2000000012582,Automotive product 59 - generated seed data.,8.11,1,Automotive
+Automotive Item 060,2000000012599,Automotive product 60 - generated seed data.,11.94,2,Automotive
+Automotive Item 061,2000000012605,Automotive product 61 - generated seed data.,3.86,0,Automotive
+Automotive Item 062,2000000012612,Automotive product 62 - generated seed data.,1.64,1,Automotive
+Automotive Item 063,2000000012629,Automotive product 63 - generated seed data.,2.68,2,Automotive
+Automotive Item 064,2000000012636,Automotive product 64 - generated seed data.,22.49,0,Automotive
+Automotive Item 065,2000000012643,Automotive product 65 - generated seed data.,8.65,1,Automotive
+Automotive Item 066,2000000012650,Automotive product 66 - generated seed data.,17.89,2,Automotive
+Automotive Item 067,2000000012667,Automotive product 67 - generated seed data.,12.66,0,Automotive
+Automotive Item 068,2000000012674,Automotive product 68 - generated seed data.,4.4,1,Automotive
+Automotive Item 069,2000000012681,Automotive product 69 - generated seed data.,6.27,2,Automotive
+Automotive Item 070,2000000012698,Automotive product 70 - generated seed data.,11.0,0,Automotive
+Automotive Item 071,2000000012704,Automotive product 71 - generated seed data.,11.04,1,Automotive
+Automotive Item 072,2000000012711,Automotive product 72 - generated seed data.,13.12,2,Automotive
+Automotive Item 073,2000000012728,Automotive product 73 - generated seed data.,4.05,0,Automotive
+Automotive Item 074,2000000012735,Automotive product 74 - generated seed data.,9.38,1,Automotive
+Automotive Item 075,2000000012742,Automotive product 75 - generated seed data.,7.14,2,Automotive
+Automotive Item 076,2000000012759,Automotive product 76 - generated seed data.,10.28,0,Automotive
+Automotive Item 077,2000000012766,Automotive product 77 - generated seed data.,8.53,1,Automotive
+Automotive Item 078,2000000012773,Automotive product 78 - generated seed data.,14.99,2,Automotive
+Automotive Item 079,2000000012780,Automotive product 79 - generated seed data.,19.75,0,Automotive
+Automotive Item 080,2000000012797,Automotive product 80 - generated seed data.,16.22,1,Automotive
+Automotive Item 081,2000000012803,Automotive product 81 - generated seed data.,1.74,2,Automotive
+Automotive Item 082,2000000012810,Automotive product 82 - generated seed data.,2.45,0,Automotive
+Automotive Item 083,2000000012827,Automotive product 83 - generated seed data.,16.99,1,Automotive
+Automotive Item 084,2000000012834,Automotive product 84 - generated seed data.,7.18,2,Automotive
+Automotive Item 085,2000000012841,Automotive product 85 - generated seed data.,18.12,0,Automotive
+Automotive Item 086,2000000012858,Automotive product 86 - generated seed data.,16.45,1,Automotive
+Automotive Item 087,2000000012865,Automotive product 87 - generated seed data.,22.67,2,Automotive
+Automotive Item 088,2000000012872,Automotive product 88 - generated seed data.,21.84,0,Automotive
+Automotive Item 089,2000000012889,Automotive product 89 - generated seed data.,8.4,1,Automotive
+Automotive Item 090,2000000012896,Automotive product 90 - generated seed data.,14.61,2,Automotive
+Automotive Item 091,2000000012902,Automotive product 91 - generated seed data.,3.62,0,Automotive
+Automotive Item 092,2000000012919,Automotive product 92 - generated seed data.,8.81,1,Automotive
+Automotive Item 093,2000000012926,Automotive product 93 - generated seed data.,24.2,2,Automotive
+Automotive Item 094,2000000012933,Automotive product 94 - generated seed data.,17.49,0,Automotive
+Automotive Item 095,2000000012940,Automotive product 95 - generated seed data.,9.86,1,Automotive
+Automotive Item 096,2000000012957,Automotive product 96 - generated seed data.,14.92,2,Automotive
+Automotive Item 097,2000000012964,Automotive product 97 - generated seed data.,23.46,0,Automotive
+Automotive Item 098,2000000012971,Automotive product 98 - generated seed data.,7.81,1,Automotive
+Automotive Item 099,2000000012988,Automotive product 99 - generated seed data.,9.48,2,Automotive
+Automotive Item 100,2000000012995,Automotive product 100 - generated seed data.,19.81,0,Automotive
+Automotive Item 101,2000000013008,Automotive product 101 - generated seed data.,20.35,1,Automotive
+Automotive Item 102,2000000013015,Automotive product 102 - generated seed data.,16.79,2,Automotive
+Automotive Item 103,2000000013022,Automotive product 103 - generated seed data.,20.74,0,Automotive
+Automotive Item 104,2000000013039,Automotive product 104 - generated seed data.,18.5,1,Automotive
+Automotive Item 105,2000000013046,Automotive product 105 - generated seed data.,17.17,2,Automotive
+Automotive Item 106,2000000013053,Automotive product 106 - generated seed data.,13.21,0,Automotive
+Automotive Item 107,2000000013060,Automotive product 107 - generated seed data.,16.19,1,Automotive
+Automotive Item 108,2000000013077,Automotive product 108 - generated seed data.,10.64,2,Automotive
+Automotive Item 109,2000000013084,Automotive product 109 - generated seed data.,9.11,0,Automotive
+Automotive Item 110,2000000013091,Automotive product 110 - generated seed data.,9.13,1,Automotive
+Automotive Item 111,2000000013107,Automotive product 111 - generated seed data.,4.59,2,Automotive
+Automotive Item 112,2000000013114,Automotive product 112 - generated seed data.,5.43,0,Automotive
+Automotive Item 113,2000000013121,Automotive product 113 - generated seed data.,23.7,1,Automotive
+Automotive Item 114,2000000013138,Automotive product 114 - generated seed data.,12.21,2,Automotive
+Automotive Item 115,2000000013145,Automotive product 115 - generated seed data.,5.74,0,Automotive
+Automotive Item 116,2000000013152,Automotive product 116 - generated seed data.,3.53,1,Automotive
+Automotive Item 117,2000000013169,Automotive product 117 - generated seed data.,2.02,2,Automotive
+Automotive Item 118,2000000013176,Automotive product 118 - generated seed data.,21.13,0,Automotive
+Automotive Item 119,2000000013183,Automotive product 119 - generated seed data.,2.62,1,Automotive
+Automotive Item 120,2000000013190,Automotive product 120 - generated seed data.,19.29,2,Automotive
+Automotive Item 121,2000000013206,Automotive product 121 - generated seed data.,20.89,0,Automotive
+Automotive Item 122,2000000013213,Automotive product 122 - generated seed data.,22.1,1,Automotive
+Automotive Item 123,2000000013220,Automotive product 123 - generated seed data.,1.04,2,Automotive
+Automotive Item 124,2000000013237,Automotive product 124 - generated seed data.,8.49,0,Automotive
+Automotive Item 125,2000000013244,Automotive product 125 - generated seed data.,19.18,1,Automotive
+Automotive Item 126,2000000013251,Automotive product 126 - generated seed data.,3.36,2,Automotive
+Automotive Item 127,2000000013268,Automotive product 127 - generated seed data.,9.48,0,Automotive
+Automotive Item 128,2000000013275,Automotive product 128 - generated seed data.,4.14,1,Automotive
+Automotive Item 129,2000000013282,Automotive product 129 - generated seed data.,20.8,2,Automotive
+Automotive Item 130,2000000013299,Automotive product 130 - generated seed data.,19.3,0,Automotive
+Automotive Item 131,2000000013305,Automotive product 131 - generated seed data.,20.25,1,Automotive
+Automotive Item 132,2000000013312,Automotive product 132 - generated seed data.,4.22,2,Automotive
+Automotive Item 133,2000000013329,Automotive product 133 - generated seed data.,11.0,0,Automotive
+Automotive Item 134,2000000013336,Automotive product 134 - generated seed data.,10.33,1,Automotive
+Automotive Item 135,2000000013343,Automotive product 135 - generated seed data.,16.94,2,Automotive
+Automotive Item 136,2000000013350,Automotive product 136 - generated seed data.,6.01,0,Automotive
+Automotive Item 137,2000000013367,Automotive product 137 - generated seed data.,11.16,1,Automotive
+Automotive Item 138,2000000013374,Automotive product 138 - generated seed data.,7.19,2,Automotive
+Automotive Item 139,2000000013381,Automotive product 139 - generated seed data.,18.74,0,Automotive
+Automotive Item 140,2000000013398,Automotive product 140 - generated seed data.,11.28,1,Automotive
+Automotive Item 141,2000000013404,Automotive product 141 - generated seed data.,13.4,2,Automotive
+Automotive Item 142,2000000013411,Automotive product 142 - generated seed data.,7.81,0,Automotive
+Automotive Item 143,2000000013428,Automotive product 143 - generated seed data.,20.23,1,Automotive
+Automotive Item 144,2000000013435,Automotive product 144 - generated seed data.,11.78,2,Automotive
+Automotive Item 145,2000000013442,Automotive product 145 - generated seed data.,20.89,0,Automotive
+Automotive Item 146,2000000013459,Automotive product 146 - generated seed data.,9.26,1,Automotive
+Automotive Item 147,2000000013466,Automotive product 147 - generated seed data.,23.68,2,Automotive
+Automotive Item 148,2000000013473,Automotive product 148 - generated seed data.,24.61,0,Automotive
+Automotive Item 149,2000000013480,Automotive product 149 - generated seed data.,11.6,1,Automotive
+Automotive Item 150,2000000013497,Automotive product 150 - generated seed data.,7.12,2,Automotive
+Grocery Item 001,2000000013503,Grocery product 1 - generated seed data.,9.61,0,Grocery
+Grocery Item 002,2000000013510,Grocery product 2 - generated seed data.,13.23,1,Grocery
+Grocery Item 003,2000000013527,Grocery product 3 - generated seed data.,24.16,2,Grocery
+Grocery Item 004,2000000013534,Grocery product 4 - generated seed data.,20.44,0,Grocery
+Grocery Item 005,2000000013541,Grocery product 5 - generated seed data.,20.05,1,Grocery
+Grocery Item 006,2000000013558,Grocery product 6 - generated seed data.,3.55,2,Grocery
+Grocery Item 007,2000000013565,Grocery product 7 - generated seed data.,6.33,0,Grocery
+Grocery Item 008,2000000013572,Grocery product 8 - generated seed data.,16.07,1,Grocery
+Grocery Item 009,2000000013589,Grocery product 9 - generated seed data.,21.87,2,Grocery
+Grocery Item 010,2000000013596,Grocery product 10 - generated seed data.,13.91,0,Grocery
+Grocery Item 011,2000000013602,Grocery product 11 - generated seed data.,2.65,1,Grocery
+Grocery Item 012,2000000013619,Grocery product 12 - generated seed data.,21.16,2,Grocery
+Grocery Item 013,2000000013626,Grocery product 13 - generated seed data.,21.29,0,Grocery
+Grocery Item 014,2000000013633,Grocery product 14 - generated seed data.,7.2,1,Grocery
+Grocery Item 015,2000000013640,Grocery product 15 - generated seed data.,19.1,2,Grocery
+Grocery Item 016,2000000013657,Grocery product 16 - generated seed data.,6.89,0,Grocery
+Grocery Item 017,2000000013664,Grocery product 17 - generated seed data.,22.64,1,Grocery
+Grocery Item 018,2000000013671,Grocery product 18 - generated seed data.,3.77,2,Grocery
+Grocery Item 019,2000000013688,Grocery product 19 - generated seed data.,10.99,0,Grocery
+Grocery Item 020,2000000013695,Grocery product 20 - generated seed data.,23.67,1,Grocery
+Grocery Item 021,2000000013701,Grocery product 21 - generated seed data.,5.63,2,Grocery
+Grocery Item 022,2000000013718,Grocery product 22 - generated seed data.,11.33,0,Grocery
+Grocery Item 023,2000000013725,Grocery product 23 - generated seed data.,8.8,1,Grocery
+Grocery Item 024,2000000013732,Grocery product 24 - generated seed data.,0.76,2,Grocery
+Grocery Item 025,2000000013749,Grocery product 25 - generated seed data.,1.43,0,Grocery
+Grocery Item 026,2000000013756,Grocery product 26 - generated seed data.,12.6,1,Grocery
+Grocery Item 027,2000000013763,Grocery product 27 - generated seed data.,5.97,2,Grocery
+Grocery Item 028,2000000013770,Grocery product 28 - generated seed data.,24.86,0,Grocery
+Grocery Item 029,2000000013787,Grocery product 29 - generated seed data.,9.44,1,Grocery
+Grocery Item 030,2000000013794,Grocery product 30 - generated seed data.,0.8,2,Grocery
+Grocery Item 031,2000000013800,Grocery product 31 - generated seed data.,23.28,0,Grocery
+Grocery Item 032,2000000013817,Grocery product 32 - generated seed data.,21.0,1,Grocery
+Grocery Item 033,2000000013824,Grocery product 33 - generated seed data.,16.28,2,Grocery
+Grocery Item 034,2000000013831,Grocery product 34 - generated seed data.,19.81,0,Grocery
+Grocery Item 035,2000000013848,Grocery product 35 - generated seed data.,3.53,1,Grocery
+Grocery Item 036,2000000013855,Grocery product 36 - generated seed data.,7.24,2,Grocery
+Grocery Item 037,2000000013862,Grocery product 37 - generated seed data.,20.76,0,Grocery
+Grocery Item 038,2000000013879,Grocery product 38 - generated seed data.,17.43,1,Grocery
+Grocery Item 039,2000000013886,Grocery product 39 - generated seed data.,3.56,2,Grocery
+Grocery Item 040,2000000013893,Grocery product 40 - generated seed data.,17.67,0,Grocery
+Grocery Item 041,2000000013909,Grocery product 41 - generated seed data.,11.27,1,Grocery
+Grocery Item 042,2000000013916,Grocery product 42 - generated seed data.,0.23,2,Grocery
+Grocery Item 043,2000000013923,Grocery product 43 - generated seed data.,2.07,0,Grocery
+Grocery Item 044,2000000013930,Grocery product 44 - generated seed data.,6.47,1,Grocery
+Grocery Item 045,2000000013947,Grocery product 45 - generated seed data.,20.89,2,Grocery
+Grocery Item 046,2000000013954,Grocery product 46 - generated seed data.,13.77,0,Grocery
+Grocery Item 047,2000000013961,Grocery product 47 - generated seed data.,18.21,1,Grocery
+Grocery Item 048,2000000013978,Grocery product 48 - generated seed data.,13.24,2,Grocery
+Grocery Item 049,2000000013985,Grocery product 49 - generated seed data.,2.87,0,Grocery
+Grocery Item 050,2000000013992,Grocery product 50 - generated seed data.,7.27,1,Grocery
+Grocery Item 051,2000000014005,Grocery product 51 - generated seed data.,7.6,2,Grocery
+Grocery Item 052,2000000014012,Grocery product 52 - generated seed data.,1.29,0,Grocery
+Grocery Item 053,2000000014029,Grocery product 53 - generated seed data.,10.55,1,Grocery
+Grocery Item 054,2000000014036,Grocery product 54 - generated seed data.,19.87,2,Grocery
+Grocery Item 055,2000000014043,Grocery product 55 - generated seed data.,11.48,0,Grocery
+Grocery Item 056,2000000014050,Grocery product 56 - generated seed data.,2.86,1,Grocery
+Grocery Item 057,2000000014067,Grocery product 57 - generated seed data.,22.64,2,Grocery
+Grocery Item 058,2000000014074,Grocery product 58 - generated seed data.,14.96,0,Grocery
+Grocery Item 059,2000000014081,Grocery product 59 - generated seed data.,0.51,1,Grocery
+Grocery Item 060,2000000014098,Grocery product 60 - generated seed data.,12.93,2,Grocery
+Grocery Item 061,2000000014104,Grocery product 61 - generated seed data.,6.12,0,Grocery
+Grocery Item 062,2000000014111,Grocery product 62 - generated seed data.,3.68,1,Grocery
+Grocery Item 063,2000000014128,Grocery product 63 - generated seed data.,10.79,2,Grocery
+Grocery Item 064,2000000014135,Grocery product 64 - generated seed data.,15.41,0,Grocery
+Grocery Item 065,2000000014142,Grocery product 65 - generated seed data.,6.09,1,Grocery
+Grocery Item 066,2000000014159,Grocery product 66 - generated seed data.,10.47,2,Grocery
+Grocery Item 067,2000000014166,Grocery product 67 - generated seed data.,16.64,0,Grocery
+Grocery Item 068,2000000014173,Grocery product 68 - generated seed data.,2.23,1,Grocery
+Grocery Item 069,2000000014180,Grocery product 69 - generated seed data.,24.37,2,Grocery
+Grocery Item 070,2000000014197,Grocery product 70 - generated seed data.,1.79,0,Grocery
+Grocery Item 071,2000000014203,Grocery product 71 - generated seed data.,13.2,1,Grocery
+Grocery Item 072,2000000014210,Grocery product 72 - generated seed data.,12.73,2,Grocery
+Grocery Item 073,2000000014227,Grocery product 73 - generated seed data.,24.71,0,Grocery
+Grocery Item 074,2000000014234,Grocery product 74 - generated seed data.,13.9,1,Grocery
+Grocery Item 075,2000000014241,Grocery product 75 - generated seed data.,9.82,2,Grocery
+Grocery Item 076,2000000014258,Grocery product 76 - generated seed data.,11.81,0,Grocery
+Grocery Item 077,2000000014265,Grocery product 77 - generated seed data.,15.93,1,Grocery
+Grocery Item 078,2000000014272,Grocery product 78 - generated seed data.,24.53,2,Grocery
+Grocery Item 079,2000000014289,Grocery product 79 - generated seed data.,6.42,0,Grocery
+Grocery Item 080,2000000014296,Grocery product 80 - generated seed data.,0.5,1,Grocery
+Grocery Item 081,2000000014302,Grocery product 81 - generated seed data.,19.73,2,Grocery
+Grocery Item 082,2000000014319,Grocery product 82 - generated seed data.,8.69,0,Grocery
+Grocery Item 083,2000000014326,Grocery product 83 - generated seed data.,18.35,1,Grocery
+Grocery Item 084,2000000014333,Grocery product 84 - generated seed data.,15.74,2,Grocery
+Grocery Item 085,2000000014340,Grocery product 85 - generated seed data.,19.31,0,Grocery
+Grocery Item 086,2000000014357,Grocery product 86 - generated seed data.,18.41,1,Grocery
+Grocery Item 087,2000000014364,Grocery product 87 - generated seed data.,8.38,2,Grocery
+Grocery Item 088,2000000014371,Grocery product 88 - generated seed data.,1.2,0,Grocery
+Grocery Item 089,2000000014388,Grocery product 89 - generated seed data.,13.7,1,Grocery
+Grocery Item 090,2000000014395,Grocery product 90 - generated seed data.,20.36,2,Grocery
+Grocery Item 091,2000000014401,Grocery product 91 - generated seed data.,4.46,0,Grocery
+Grocery Item 092,2000000014418,Grocery product 92 - generated seed data.,19.5,1,Grocery
+Grocery Item 093,2000000014425,Grocery product 93 - generated seed data.,11.67,2,Grocery
+Grocery Item 094,2000000014432,Grocery product 94 - generated seed data.,17.42,0,Grocery
+Grocery Item 095,2000000014449,Grocery product 95 - generated seed data.,15.83,1,Grocery
+Grocery Item 096,2000000014456,Grocery product 96 - generated seed data.,20.31,2,Grocery
+Grocery Item 097,2000000014463,Grocery product 97 - generated seed data.,1.67,0,Grocery
+Grocery Item 098,2000000014470,Grocery product 98 - generated seed data.,19.43,1,Grocery
+Grocery Item 099,2000000014487,Grocery product 99 - generated seed data.,11.5,2,Grocery
+Grocery Item 100,2000000014494,Grocery product 100 - generated seed data.,7.41,0,Grocery
+Grocery Item 101,2000000014500,Grocery product 101 - generated seed data.,1.19,1,Grocery
+Grocery Item 102,2000000014517,Grocery product 102 - generated seed data.,5.07,2,Grocery
+Grocery Item 103,2000000014524,Grocery product 103 - generated seed data.,1.14,0,Grocery
+Grocery Item 104,2000000014531,Grocery product 104 - generated seed data.,23.34,1,Grocery
+Grocery Item 105,2000000014548,Grocery product 105 - generated seed data.,12.93,2,Grocery
+Grocery Item 106,2000000014555,Grocery product 106 - generated seed data.,24.73,0,Grocery
+Grocery Item 107,2000000014562,Grocery product 107 - generated seed data.,13.62,1,Grocery
+Grocery Item 108,2000000014579,Grocery product 108 - generated seed data.,6.41,2,Grocery
+Grocery Item 109,2000000014586,Grocery product 109 - generated seed data.,18.86,0,Grocery
+Grocery Item 110,2000000014593,Grocery product 110 - generated seed data.,4.86,1,Grocery
+Grocery Item 111,2000000014609,Grocery product 111 - generated seed data.,8.99,2,Grocery
+Grocery Item 112,2000000014616,Grocery product 112 - generated seed data.,19.54,0,Grocery
+Grocery Item 113,2000000014623,Grocery product 113 - generated seed data.,21.66,1,Grocery
+Grocery Item 114,2000000014630,Grocery product 114 - generated seed data.,8.36,2,Grocery
+Grocery Item 115,2000000014647,Grocery product 115 - generated seed data.,3.2,0,Grocery
+Grocery Item 116,2000000014654,Grocery product 116 - generated seed data.,9.26,1,Grocery
+Grocery Item 117,2000000014661,Grocery product 117 - generated seed data.,22.25,2,Grocery
+Grocery Item 118,2000000014678,Grocery product 118 - generated seed data.,18.61,0,Grocery
+Grocery Item 119,2000000014685,Grocery product 119 - generated seed data.,22.38,1,Grocery
+Grocery Item 120,2000000014692,Grocery product 120 - generated seed data.,9.73,2,Grocery
+Grocery Item 121,2000000014708,Grocery product 121 - generated seed data.,24.35,0,Grocery
+Grocery Item 122,2000000014715,Grocery product 122 - generated seed data.,12.46,1,Grocery
+Grocery Item 123,2000000014722,Grocery product 123 - generated seed data.,12.49,2,Grocery
+Grocery Item 124,2000000014739,Grocery product 124 - generated seed data.,23.12,0,Grocery
+Grocery Item 125,2000000014746,Grocery product 125 - generated seed data.,13.03,1,Grocery
+Grocery Item 126,2000000014753,Grocery product 126 - generated seed data.,20.05,2,Grocery
+Grocery Item 127,2000000014760,Grocery product 127 - generated seed data.,18.2,0,Grocery
+Grocery Item 128,2000000014777,Grocery product 128 - generated seed data.,2.07,1,Grocery
+Grocery Item 129,2000000014784,Grocery product 129 - generated seed data.,15.1,2,Grocery
+Grocery Item 130,2000000014791,Grocery product 130 - generated seed data.,20.58,0,Grocery
+Grocery Item 131,2000000014807,Grocery product 131 - generated seed data.,13.68,1,Grocery
+Grocery Item 132,2000000014814,Grocery product 132 - generated seed data.,8.1,2,Grocery
+Grocery Item 133,2000000014821,Grocery product 133 - generated seed data.,2.09,0,Grocery
+Grocery Item 134,2000000014838,Grocery product 134 - generated seed data.,16.56,1,Grocery
+Grocery Item 135,2000000014845,Grocery product 135 - generated seed data.,7.73,2,Grocery
+Grocery Item 136,2000000014852,Grocery product 136 - generated seed data.,15.11,0,Grocery
+Grocery Item 137,2000000014869,Grocery product 137 - generated seed data.,10.71,1,Grocery
+Grocery Item 138,2000000014876,Grocery product 138 - generated seed data.,17.28,2,Grocery
+Grocery Item 139,2000000014883,Grocery product 139 - generated seed data.,8.85,0,Grocery
+Grocery Item 140,2000000014890,Grocery product 140 - generated seed data.,1.15,1,Grocery
+Grocery Item 141,2000000014906,Grocery product 141 - generated seed data.,21.76,2,Grocery
+Grocery Item 142,2000000014913,Grocery product 142 - generated seed data.,8.88,0,Grocery
+Grocery Item 143,2000000014920,Grocery product 143 - generated seed data.,24.95,1,Grocery
+Grocery Item 144,2000000014937,Grocery product 144 - generated seed data.,6.94,2,Grocery
+Grocery Item 145,2000000014944,Grocery product 145 - generated seed data.,24.5,0,Grocery
+Grocery Item 146,2000000014951,Grocery product 146 - generated seed data.,23.7,1,Grocery
+Grocery Item 147,2000000014968,Grocery product 147 - generated seed data.,1.97,2,Grocery
+Grocery Item 148,2000000014975,Grocery product 148 - generated seed data.,15.97,0,Grocery
+Grocery Item 149,2000000014982,Grocery product 149 - generated seed data.,9.15,1,Grocery
+Grocery Item 150,2000000014999,Grocery product 150 - generated seed data.,20.05,2,Grocery
