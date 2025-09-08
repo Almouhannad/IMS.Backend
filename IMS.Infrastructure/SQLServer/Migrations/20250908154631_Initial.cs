@@ -42,7 +42,7 @@ namespace IMS.Infrastructure.SQLServer.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Barcode = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Weight = table.Column<double>(type: "float", nullable: false),
@@ -98,6 +98,11 @@ namespace IMS.Infrastructure.SQLServer.Migrations
                 table: "Products",
                 column: "Id",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_Name",
+                table: "Products",
+                column: "Name");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_StatusId",

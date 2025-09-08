@@ -59,8 +59,10 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
         query = query
             .Include(product => product.Category)
             .Include(product => product.Status)
+            .OrderBy(product => product.Name)
             .Skip((page - 1) * pageSize)
             .Take(pageSize);
+
         List<ProductDao> daoList = [];
         List<Product> domainList = [];
         try
