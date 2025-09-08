@@ -4,6 +4,7 @@ using IMS.Infrastructure.SQLServer.DAOs;
 using IMS.SharedKernel.ResultPattern;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System.Collections.ObjectModel;
 
 namespace IMS.Infrastructure.SQLServer;
 
@@ -123,5 +124,30 @@ public sealed class ProductRepository(IMSDBContext context, ILogger<ProductRepos
             return Result.Failure(CommonErrors.OperationFailureError("Update", "Product"));
         }
         
+    }
+
+    public async Task<Result<IReadOnlyDictionary<ProductStatus, int>>> CountByStatusAsync(
+        CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            var counts = await _context.Products
+                .AsNoTracking()
+                .GroupBy(p => p.StatusId)
+                .Select(g => new { g.Key, Count = g.Count() })
+                .ToListAsync(cancellationToken);
+
+            var dictionary = counts.ToDictionary(
+                x => (ProductStatus)x.Key,
+                x => x.Count);
+
+            return new ReadOnlyDictionary<ProductStatus, int>(dictionary);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to count products by status");
+            return Result.Failure<IReadOnlyDictionary<ProductStatus, int>>(
+                CommonErrors.OperationFailureError("Count", "Products"));
+        }
     }
 }

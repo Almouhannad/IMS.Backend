@@ -15,7 +15,8 @@ public interface IProductRepository
         int page = 1,
         int pageSize = 10,
         CancellationToken cancellationToken = default);
-
+    Task<Result<IReadOnlyDictionary<ProductStatus, int>>> CountByStatusAsync(
+        CancellationToken cancellationToken = default);
     Result Update(Product product);
     Result Delete(Product product);
 }

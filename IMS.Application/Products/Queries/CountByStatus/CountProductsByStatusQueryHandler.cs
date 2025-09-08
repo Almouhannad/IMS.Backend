@@ -11,19 +11,22 @@ public sealed class CountProductsByStatusQueryHandler(IUnitOfWork unitOfWork) : 
 
     public async Task<Result<CountProductsByStatusQueryResponse>> Handle(CountProductsByStatusQuery query, CancellationToken cancellationToken)
     {
-        // TODO: fix with aggregation from DB to enhance performance
-        var getAllResult = await _unitOfWork.Products.GetAllAsync(null, 1, int.MaxValue, cancellationToken);
-        if (getAllResult.IsFailure)
+        var countResult = await _unitOfWork.Products.CountByStatusAsync(cancellationToken);
+        if (countResult.IsFailure)
         {
-            return Result.Failure<CountProductsByStatusQueryResponse>(getAllResult.Error);
+            return Result.Failure<CountProductsByStatusQueryResponse>(countResult.Error);
         }
-        var products = getAllResult.Value;
+
+        var counts = countResult.Value;
+        counts.TryGetValue(ProductStatus.InStock, out var inStock);
+        counts.TryGetValue(ProductStatus.Sold, out var sold);
+        counts.TryGetValue(ProductStatus.Damaged, out var damaged);
 
         return new CountProductsByStatusQueryResponse
         {
-            InStock = products.Count(p => p.Status == ProductStatus.InStock),
-            Sold = products.Count(p => p.Status == ProductStatus.Sold),
-            Damaged = products.Count(p => p.Status == ProductStatus.Damaged)
+            InStock = inStock,
+            Sold = sold,
+            Damaged = damaged
         };
     }
 }
