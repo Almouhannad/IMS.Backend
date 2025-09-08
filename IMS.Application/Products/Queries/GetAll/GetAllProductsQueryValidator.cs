@@ -11,6 +11,12 @@ public sealed class GetAllProductsQueryValidator : AbstractValidator<GetAllProdu
             .Must(BeValidStatus)
             .When(q => !string.IsNullOrWhiteSpace(q.StatusFilter))
             .WithMessage("StatusFilter must be one of the allowed product statuses (InStock, Sold, Damaged).");
+
+        RuleFor(q => q.Page)
+            .GreaterThan(0);
+
+        RuleFor(q => q.PageSize)
+            .GreaterThan(0);
     }
 
     private static bool BeValidStatus(string? statusFilter)

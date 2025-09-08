@@ -21,7 +21,7 @@ public sealed class GetAllProductsQueryHandler(IUnitOfWork unitOfWork)
             : null;
 
         var getAllResult = await _unitOfWork.Products
-            .GetAllAsync(statusFilter, cancellationToken)
+            .GetAllAsync(statusFilter, query.Page, query.PageSize, cancellationToken)
             .ConfigureAwait(false);
 
         if (getAllResult.IsFailure)

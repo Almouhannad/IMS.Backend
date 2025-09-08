@@ -16,10 +16,12 @@ public class GetAll : IEndpoint
     {
         app.MapGet("products", async
             ([FromQuery] string? statusFilter,
+            [FromQuery] int? page,
+            [FromQuery] int? pageSize,
             IQueryHandler<GetAllProductsQuery, IReadOnlyList<GetProductByIdQueryResponse>> handler,
             CancellationToken cancellationToken) =>
         {
-            var query = new GetAllProductsQuery(statusFilter);
+            var query = new GetAllProductsQuery(statusFilter, page ?? 1, pageSize ?? 10);
             var result = await handler.Handle(query, cancellationToken);
             return result.Match(Results.Ok, ResultToResponseMapper.MapProblem);
         })

@@ -11,7 +11,8 @@ public sealed class CountProductsByStatusQueryHandler(IUnitOfWork unitOfWork) : 
 
     public async Task<Result<CountProductsByStatusQueryResponse>> Handle(CountProductsByStatusQuery query, CancellationToken cancellationToken)
     {
-        var getAllResult = await _unitOfWork.Products.GetAllAsync(null, cancellationToken);
+        // TODO: fix with aggregation from DB to enhance performance
+        var getAllResult = await _unitOfWork.Products.GetAllAsync(null, 1, int.MaxValue, cancellationToken);
         if (getAllResult.IsFailure)
         {
             return Result.Failure<CountProductsByStatusQueryResponse>(getAllResult.Error);
