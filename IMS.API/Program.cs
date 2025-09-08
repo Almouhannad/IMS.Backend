@@ -1,8 +1,15 @@
 using IMS.Application;
+using IMS.Config;
 using IMS.Infrastructure;
 using IMS.Presentation;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((ctx, lc) => lc
+    .WriteTo.Console()
+    .WriteTo.Seq(CONFIG.SeqServerUrl.ToString())
+    .Enrich.FromLogContext());
 
 builder.Services
     .RegisterSQLServerPersistenceFromInfrastructure()
