@@ -16,7 +16,8 @@ public sealed class GetAllProductsQueryValidator : AbstractValidator<GetAllProdu
             .GreaterThan(0);
 
         RuleFor(q => q.PageSize)
-            .GreaterThan(0);
+            .GreaterThan(0)
+            .LessThan(20);
     }
 
     private static bool BeValidStatus(string? statusFilter)

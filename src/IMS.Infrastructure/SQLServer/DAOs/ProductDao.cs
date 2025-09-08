@@ -8,8 +8,9 @@ namespace IMS.Infrastructure.SQLServer.DAOs;
 
 [Table("Products")]
 [Index(nameof(Id), IsUnique = true)]
-[Index(nameof(Barcode), IsUnique = true)]
-[Index(nameof(StatusId))]
+[Index(nameof(Barcode), IsUnique = true)] // To ensure uniqiness
+[Index(nameof(Name), IsUnique = false)] // For order by
+[Index(nameof(StatusId), IsUnique = false)] // For filtering by status
 public sealed class ProductDao
 {
     [Key]

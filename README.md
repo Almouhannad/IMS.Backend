@@ -9,6 +9,8 @@ Inventory Management System (IMS) backend built with **.NET 8** and minimal APIs
 - Change or sell product status with domain validation.
 - Count products by status.
 - Automatic database migration and CSV-based seeding.
+- Structured logging with Serilog and optional Seq sink for centralized storage.
+
 
 ## Clean Architecture
 | Layer | Project | Responsibility |
@@ -32,6 +34,19 @@ Inventory Management System (IMS) backend built with **.NET 8** and minimal APIs
 - Uses EF Core `AsNoTracking` for read queries to avoid tracking overhead.
 - Bulk seeding persists changes with a single `SaveChanges` call.
 - Query endpoints support pagination and server-side filtering.
+
+### Structured Logging
+Logs are written in a structured form using **Serilog** and can be shipped to a
+[Seq](https://datalust.co/seq) server for aggregation and search. Configure the
+`SEQ_SERVER_URL` environment variable to point at your Seq instance and run it,
+for example, via Docker:
+
+```bash
+docker run -d --name seq -e ACCEPT_EULA=Y -p 5341:5341 datalust/seq
+```
+
+With the variable set, the API will emit structured logs both to the console and
+to the Seq sink.
 
 ## Running with Docker Compose
 1. Copy environment template and adjust as needed:
@@ -114,3 +129,42 @@ PATCH /products/<guid>/sell HTTP/1.1
 Host: localhost:8000
 ```
 Response: `204 No Content`
+
+### Validation Errors
+Validation failures are aggregated and returned as a single
+[RFC 7807](https://datatracker.ietf.org/doc/html/rfc7807) problem details
+response. Each field error includes a code, description and type. The following
+request shows all parameters of `GET /products` failing validation:
+
+```http
+GET /products?statusFilter=Invalid&page=-5&pageSize=200 HTTP/1.1
+Host: localhost:8000
+```
+
+Response:
+
+```json
+{
+  "type": "https://httpwg.org/specs/rfc9110.html#status.422",
+  "title": "Validation.General",
+  "status": 422,
+  "detail": "One or more validation errors occurred",
+  "errors": [
+    {
+      "code": "PredicateValidator",
+      "description": "StatusFilter must be one of the allowed product statuses (InStock, Sold, Damaged).",
+      "type": 1
+    },
+    {
+      "code": "GreaterThanValidator",
+      "description": "Page must be greater than '0'.",
+      "type": 1
+    },
+    {
+      "code": "GreaterThanValidator",
+      "description": "'Page Size' must be less than '20'.",
+      "type": 1
+    }
+  ]
+}
+```

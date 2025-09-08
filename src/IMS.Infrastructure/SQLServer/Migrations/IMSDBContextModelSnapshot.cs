@@ -58,7 +58,7 @@ namespace IMS.Infrastructure.SQLServer.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
@@ -75,6 +75,8 @@ namespace IMS.Infrastructure.SQLServer.Migrations
 
                     b.HasIndex("Id")
                         .IsUnique();
+
+                    b.HasIndex("Name");
 
                     b.HasIndex("StatusId");
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IMS.Infrastructure.SQLServer.Migrations
 {
     [DbContext(typeof(IMSDBContext))]
-    [Migration("20250907192408_Initial")]
+    [Migration("20250908154631_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -61,7 +61,7 @@ namespace IMS.Infrastructure.SQLServer.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
@@ -78,6 +78,8 @@ namespace IMS.Infrastructure.SQLServer.Migrations
 
                     b.HasIndex("Id")
                         .IsUnique();
+
+                    b.HasIndex("Name");
 
                     b.HasIndex("StatusId");
 
