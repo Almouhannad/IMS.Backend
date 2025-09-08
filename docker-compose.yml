@@ -6,7 +6,7 @@ services:
     container_name: ims.api
     build:
       context: .
-      dockerfile: IMS.API/Dockerfile
+      dockerfile: src/IMS.API/Dockerfile
     ports:
       - "8000:8080"
     depends_on:

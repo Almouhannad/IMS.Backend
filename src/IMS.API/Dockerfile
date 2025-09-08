@@ -11,12 +11,12 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["IMS.API/IMS.API.csproj", "IMS.API/"]
-COPY ["IMS.Application/IMS.Application.csproj", "IMS.Application/"]
-COPY ["IMS.Domain/IMS.Domain.csproj", "IMS.Domain/"]
-COPY ["IMS.SharedKernel/IMS.SharedKernel.csproj", "IMS.SharedKernel/"]
-COPY ["IMS.Infrastructure/IMS.Infrastructure.csproj", "IMS.Infrastructure/"]
-COPY ["IMS.Presentation/IMS.Presentation.csproj", "IMS.Presentation/"]
+COPY ["src/IMS.API/IMS.API.csproj", "IMS.API/"]
+COPY ["src/IMS.Application/IMS.Application.csproj", "IMS.Application/"]
+COPY ["src/IMS.Domain/IMS.Domain.csproj", "IMS.Domain/"]
+COPY ["src/IMS.SharedKernel/IMS.SharedKernel.csproj", "IMS.SharedKernel/"]
+COPY ["src/IMS.Infrastructure/IMS.Infrastructure.csproj", "IMS.Infrastructure/"]
+COPY ["src/IMS.Presentation/IMS.Presentation.csproj", "IMS.Presentation/"]
 RUN dotnet restore "./IMS.API/IMS.API.csproj"
 COPY . .
 WORKDIR "/src/IMS.API"
