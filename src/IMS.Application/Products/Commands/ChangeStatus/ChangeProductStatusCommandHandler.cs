@@ -48,6 +48,9 @@ public sealed class ChangeProductStatusCommandHandler(IUnitOfWork unitOfWork) : 
         #region Persist changes
         var persistResult = await _unitOfWork.SaveChangesAsync(cancellationToken)
             .ConfigureAwait(false);
+
+        await _unitOfWork.Dispose(cancellationToken);
+
         return persistResult;
         #endregion
 

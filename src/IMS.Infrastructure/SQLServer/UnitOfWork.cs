@@ -11,12 +11,17 @@ public sealed class UnitOfWork(IMSDBContext context, ILoggerFactory loggerFactor
     public IProductRepository Products { get; } = new ProductRepository(context, loggerFactory.CreateLogger<ProductRepository>());
     public ICategoryRepository Categories { get; } = new CategoryRepository(context, loggerFactory.CreateLogger<CategoryRepository>());
 
+    public async Task Dispose(CancellationToken cancellationToken = default)
+    {
+        await _context.DisposeAsync();
+    }
+
     public async Task<Result> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
         try
         {
             await _context.SaveChangesAsync(cancellationToken);
-            await _context.DisposeAsync();
+            //await _context.DisposeAsync(); // To reduce overhead in requests with multiple DB actions
         }
         catch (Exception ex)
         {

@@ -14,6 +14,9 @@ public sealed class GetProductByIdQueryHandler(IUnitOfWork unitOfWork) : IQueryH
         var getProductResult = await _unitOfWork.Products
             .GetByIdAsync(query.Id, cancellationToken)
             .ConfigureAwait(false);
+
+        await _unitOfWork.Dispose(cancellationToken);
+
         if (getProductResult.IsFailure)
         {
             return Result.Failure<GetProductByIdQueryResponse>(getProductResult.Error);
