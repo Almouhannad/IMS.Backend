@@ -24,7 +24,7 @@ public class ProductRepositoryTests
         await context.SaveChangesAsync();
 
         var repository = new ProductRepository(context, NullLogger<ProductRepository>.Instance);
-        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
 
         // Act
         var createResult = await repository.CreateAsync(product);
@@ -78,8 +78,8 @@ public class ProductRepositoryTests
         await categoryRepo.CreateAsync(category);
 
         var productRepo = new ProductRepository(context, NullLogger<ProductRepository>.Instance);
-        var product1 = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
-        var product2 = Product.Create(Guid.NewGuid(), "Ball", "456", null, 2.0, ProductStatus.InStock, category).Value;
+        var product1 = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
+        var product2 = Product.Create(Guid.NewGuid(), "Ball", "456", null, 2.0m, ProductStatus.InStock, category).Value;
 
         await productRepo.CreateAsync(product1);
         await productRepo.CreateAsync(product2);

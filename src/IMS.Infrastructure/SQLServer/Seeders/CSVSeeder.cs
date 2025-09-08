@@ -107,7 +107,8 @@ public sealed class CSVSeeder(IMSDBContext context, ILoggerFactory loggerFactory
 
             var product = Product.Create(Guid.NewGuid(), r.Name?.Trim() ?? string.Empty, barcode,
                 string.IsNullOrWhiteSpace(r.Description) ? null : r.Description!.Trim(),
-                (double)r.Weight, statusEnum, category).Value;
+                r.Weight, statusEnum, category).Value;
+
 
             var createProdResult = await unitOfWork.Products.CreateAsync(product, cancellationToken);
             if (createProdResult.IsFailure)

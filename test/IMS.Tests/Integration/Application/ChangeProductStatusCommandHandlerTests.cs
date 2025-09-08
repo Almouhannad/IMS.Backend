@@ -12,7 +12,7 @@ public class ChangeProductStatusCommandHandlerTests
     {
         // Arrange
         var category = Category.Create(Guid.NewGuid(), "Toys").Value;
-        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
         var repository = new FakeProductRepository(product);
         var unitOfWork = new FakeUnitOfWork(repository);
 

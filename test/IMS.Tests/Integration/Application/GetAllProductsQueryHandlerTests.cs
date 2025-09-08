@@ -26,8 +26,8 @@ public class GetAllProductsQueryHandlerTests
             var category = Category.Create(Guid.NewGuid(), "Toys").Value;
             await unitOfWork.Categories.CreateAsync(category);
 
-            var inStockProduct = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
-            var soldProduct = Product.Create(Guid.NewGuid(), "Ball", "456", null, 2.0, ProductStatus.Sold, category).Value;
+            var inStockProduct = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
+            var soldProduct = Product.Create(Guid.NewGuid(), "Ball", "456", null, 2.0m, ProductStatus.Sold, category).Value;
             await unitOfWork.Products.CreateAsync(inStockProduct);
             await unitOfWork.Products.CreateAsync(soldProduct);
             await unitOfWork.SaveChangesAsync();

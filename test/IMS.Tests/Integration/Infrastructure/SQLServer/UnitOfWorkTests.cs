@@ -25,7 +25,7 @@ public class UnitOfWorkTests
         var category = Category.Create(Guid.NewGuid(), "Gadgets").Value;
         await unitOfWork.Categories.CreateAsync(category);
 
-        var product = Product.Create(Guid.NewGuid(), "Phone", "001", null, 0.5, ProductStatus.InStock, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Phone", "001", null, 0.5m, ProductStatus.InStock, category).Value;
         await unitOfWork.Products.CreateAsync(product);
 
         // Act

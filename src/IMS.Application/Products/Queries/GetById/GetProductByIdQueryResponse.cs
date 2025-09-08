@@ -9,7 +9,7 @@ public sealed class GetProductByIdQueryResponse
     public required string Name { get; set; }
     public required string Barcode { get; set; }
     public string? Description { get; set; }
-    public double Weight { get; set; }
+    public decimal Weight { get; set; }
     public required string Status { get; set; }
     public required string Category { get; set; }
 

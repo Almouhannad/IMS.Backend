@@ -10,7 +10,7 @@ public class ProductWorkflowTests
     {
         // Arrange
         var category = Category.Create(Guid.NewGuid(), "Toys").Value;
-        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
 
         // Act
         var firstSell = product.Sell();
@@ -28,7 +28,7 @@ public class ProductWorkflowTests
     {
         // Arrange
         var category = Category.Create(Guid.NewGuid(), "Toys").Value;
-        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.Damaged, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.Damaged, category).Value;
 
         // Act
         var result = product.Sell();
@@ -43,7 +43,7 @@ public class ProductWorkflowTests
     {
         // Arrange
         var category = Category.Create(Guid.NewGuid(), "Toys").Value;
-        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0, ProductStatus.InStock, category).Value;
+        var product = Product.Create(Guid.NewGuid(), "Car", "123", null, 1.0m, ProductStatus.InStock, category).Value;
         product.Sell();
 
         // Act

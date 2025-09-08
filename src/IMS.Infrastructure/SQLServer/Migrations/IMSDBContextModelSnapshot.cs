@@ -63,8 +63,9 @@ namespace IMS.Infrastructure.SQLServer.Migrations
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Weight")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Weight")
+                        .HasPrecision(18, 3)
+                        .HasColumnType("decimal(18,3)");
 
                     b.HasKey("Id");
 

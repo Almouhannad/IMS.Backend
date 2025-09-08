@@ -24,7 +24,8 @@ public sealed class ProductDao
 
     public string? Description { get; set; }
 
-    public double Weight { get; set; }
+    [Precision(18, 3)]
+    public decimal Weight { get; set; }
 
     [Required]
     public Guid CategoryId { get; set; }

@@ -45,7 +45,7 @@ namespace IMS.Infrastructure.SQLServer.Migrations
                     Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Barcode = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Weight = table.Column<double>(type: "float", nullable: false),
+                    Weight = table.Column<decimal>(type: "decimal(18,3)", precision: 18, scale: 3, nullable: false),
                     CategoryId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     StatusId = table.Column<int>(type: "int", nullable: false)
                 },

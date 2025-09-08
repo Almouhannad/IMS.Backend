@@ -11,7 +11,7 @@ public sealed class Product
         string name,
         string barcode,
         string? description,
-        double weight,
+        decimal weight,
         ProductStatus status,
         Category category)
     {
@@ -28,7 +28,7 @@ public sealed class Product
     public string Name { get; private set; }
     public string Barcode { get; private set; }
     public string? Description { get; private set; }
-    public double Weight { get; private set; }
+    public decimal Weight { get; private set; }
     public ProductStatus Status { get; private set; }
     public Category Category { get; private set; }
 
@@ -37,7 +37,7 @@ public sealed class Product
         string name,
         string barcode,
         string? description,
-        double weight,
+        decimal weight,
         ProductStatus status,
         Category category)
     {

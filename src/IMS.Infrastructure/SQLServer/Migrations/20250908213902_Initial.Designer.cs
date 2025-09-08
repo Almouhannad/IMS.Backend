@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IMS.Infrastructure.SQLServer.Migrations
 {
     [DbContext(typeof(IMSDBContext))]
-    [Migration("20250908154631_Initial")]
+    [Migration("20250908213902_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -66,8 +66,9 @@ namespace IMS.Infrastructure.SQLServer.Migrations
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Weight")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Weight")
+                        .HasPrecision(18, 3)
+                        .HasColumnType("decimal(18,3)");
 
                     b.HasKey("Id");
 
