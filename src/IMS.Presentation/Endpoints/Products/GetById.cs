@@ -1,11 +1,9 @@
-﻿using IMS.Application.Products.Queries.GetAll;
-using IMS.Application.Products.Queries.GetById;
+﻿using IMS.Application.Products.Queries.GetById;
 using IMS.SharedKernel.API;
 using IMS.SharedKernel.CQRS;
 using IMS.SharedKernel.ResultPattern;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 
 namespace IMS.Presentation.Endpoints.Products;

@@ -1,6 +1,4 @@
 ﻿using IMS.Application.Products.Commands.ChangeStatus;
-using IMS.Application.Products.Queries.GetAll;
-using IMS.Application.Products.Queries.GetById;
 using IMS.SharedKernel.API;
 using IMS.SharedKernel.CQRS;
 using IMS.SharedKernel.ResultPattern;
