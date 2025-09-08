@@ -12,8 +12,12 @@ services:
     depends_on:
       sqlserver:
         condition: service_healthy
+    volumes:
+      - ./.docker/SeedData:/app/SeedData:ro  # host -> container (read-only)
     environment:
       SQL_SERVER_CONNECTION_STRING: "${SQL_SERVER_CONNECTION_STRING}"
+      CSV_SEED_PATH:                /app/SeedData/products_seed.csv
+
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
