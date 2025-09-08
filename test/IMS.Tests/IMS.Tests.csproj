@@ -23,13 +23,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\IMS.API\IMS.API.csproj" />
-		<ProjectReference Include="..\IMS.Application\IMS.Application.csproj" />
-		<ProjectReference Include="..\IMS.Config\IMS.Config.csproj" />
-		<ProjectReference Include="..\IMS.Domain\IMS.Domain.csproj" />
-		<ProjectReference Include="..\IMS.Infrastructure\IMS.Infrastructure.csproj" />
-		<ProjectReference Include="..\IMS.Presentation\IMS.Presentation.csproj" />
-		<ProjectReference Include="..\IMS.SharedKernel\IMS.SharedKernel.csproj" />
+		<ProjectReference Include="..\..\src\IMS.API\IMS.API.csproj" />
+		<ProjectReference Include="..\..\src\IMS.Application\IMS.Application.csproj" />
+		<ProjectReference Include="..\..\src\IMS.Config\IMS.Config.csproj" />
+		<ProjectReference Include="..\..\src\IMS.Domain\IMS.Domain.csproj" />
+		<ProjectReference Include="..\..\src\IMS.Infrastructure\IMS.Infrastructure.csproj" />
+		<ProjectReference Include="..\..\src\IMS.Presentation\IMS.Presentation.csproj" />
+		<ProjectReference Include="..\..\src\IMS.SharedKernel\IMS.SharedKernel.csproj" />
 	</ItemGroup>
 
 </Project>
