@@ -20,7 +20,7 @@ public class UnitOfWorkTests
         await context.Database.EnsureCreatedAsync();
 
         using var loggerFactory = LoggerFactory.Create(builder => { });
-        var unitOfWork = new UnitOfWork(context, loggerFactory);
+        await using var unitOfWork = new UnitOfWork(context, loggerFactory);
 
         var category = Category.Create(Guid.NewGuid(), "Gadgets").Value;
         await unitOfWork.Categories.CreateAsync(category);

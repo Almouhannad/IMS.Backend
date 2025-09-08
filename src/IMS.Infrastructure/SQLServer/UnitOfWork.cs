@@ -11,9 +11,9 @@ public sealed class UnitOfWork(IMSDBContext context, ILoggerFactory loggerFactor
     public IProductRepository Products { get; } = new ProductRepository(context, loggerFactory.CreateLogger<ProductRepository>());
     public ICategoryRepository Categories { get; } = new CategoryRepository(context, loggerFactory.CreateLogger<CategoryRepository>());
 
-    public async Task Dispose(CancellationToken cancellationToken = default)
+    public ValueTask DisposeAsync()
     {
-        await _context.DisposeAsync();
+        return _context.DisposeAsync();
     }
 
     public async Task<Result> SaveChangesAsync(CancellationToken cancellationToken = default)
@@ -28,7 +28,7 @@ public sealed class UnitOfWork(IMSDBContext context, ILoggerFactory loggerFactor
             _logger.LogError(ex, "Failed to save changes");
             return Result.Failure(new Error("Persistence.Failure", "Unable to persist data", ErrorType.Failure));
         }
-        
+
         return Result.Success();
     }
 }

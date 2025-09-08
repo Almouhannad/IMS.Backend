@@ -21,7 +21,7 @@ public class GetAllProductsQueryHandlerTests
         {
             await seedContext.Database.EnsureCreatedAsync();
             using var loggerFactory = LoggerFactory.Create(builder => { });
-            var unitOfWork = new UnitOfWork(seedContext, loggerFactory);
+            await using var unitOfWork = new UnitOfWork(seedContext, loggerFactory);
 
             var category = Category.Create(Guid.NewGuid(), "Toys").Value;
             await unitOfWork.Categories.CreateAsync(category);
@@ -35,7 +35,7 @@ public class GetAllProductsQueryHandlerTests
 
         await using var context = new IMSDBContext(options);
         using var factory = LoggerFactory.Create(builder => { });
-        var queryUnitOfWork = new UnitOfWork(context, factory);
+        await using var queryUnitOfWork = new UnitOfWork(context, factory);
         var handler = new GetAllProductsQueryHandler(queryUnitOfWork);
         var query = new GetAllProductsQuery("Sold");
 

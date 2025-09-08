@@ -11,10 +11,11 @@ namespace IMS.Infrastructure.SQLServer.Seeders;
 public sealed class CSVSeeder(IMSDBContext context, ILoggerFactory loggerFactory) : IDataSeeder
 {
     private readonly ILogger<CSVSeeder> _logger = loggerFactory.CreateLogger<CSVSeeder>();
-    private readonly UnitOfWork _unitOfWork = new(context, loggerFactory);
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
+        await using var unitOfWork = new UnitOfWork(context, loggerFactory);
+
         var csvPath = CONFIG.CSVSeedPath;
 
         if (!File.Exists(csvPath))
@@ -56,7 +57,7 @@ public sealed class CSVSeeder(IMSDBContext context, ILoggerFactory loggerFactory
             // Create domain entity (assign Guid now so we can reference it for products)
             var category = Category.Create(Guid.NewGuid(), name!).Value;
 
-            var createCatResult = await _unitOfWork.Categories.CreateAsync(category, cancellationToken);
+            var createCatResult = await unitOfWork.Categories.CreateAsync(category, cancellationToken);
             if (createCatResult.IsFailure)
             {
                 _logger.LogError("Unable to create category '{Name}': {Error}", name, createCatResult.Error);
@@ -108,7 +109,7 @@ public sealed class CSVSeeder(IMSDBContext context, ILoggerFactory loggerFactory
                 string.IsNullOrWhiteSpace(r.Description) ? null : r.Description!.Trim(),
                 (double)r.Weight, statusEnum, category).Value;
 
-            var createProdResult = await _unitOfWork.Products.CreateAsync(product, cancellationToken);
+            var createProdResult = await unitOfWork.Products.CreateAsync(product, cancellationToken);
             if (createProdResult.IsFailure)
             {
                 _logger.LogError("Unable to create product '{Name}': {Error}", product.Name, createProdResult.Error);
@@ -119,7 +120,7 @@ public sealed class CSVSeeder(IMSDBContext context, ILoggerFactory loggerFactory
         }
 
         // 3) Persist once (your UnitOfWork disposes the DbContext here)
-        var saveResult = await _unitOfWork.SaveChangesAsync(cancellationToken);
+        var saveResult = await unitOfWork.SaveChangesAsync(cancellationToken);
         if (saveResult.IsFailure)
         {
             _logger.LogError("Seeding save failed: {Error}", saveResult.Error);

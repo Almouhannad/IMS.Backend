@@ -24,7 +24,7 @@ public sealed class GetAllProductsQueryHandler(IUnitOfWork unitOfWork)
             .GetAllAsync(statusFilter, query.Page, query.PageSize, cancellationToken)
             .ConfigureAwait(false);
 
-        await _unitOfWork.Dispose(cancellationToken);
+        await _unitOfWork.DisposeAsync();
 
         if (getAllResult.IsFailure)
             return Result.Failure<IReadOnlyList<GetProductByIdQueryResponse>>(getAllResult.Error);
